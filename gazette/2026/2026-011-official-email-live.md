@@ -26,7 +26,7 @@ These are **office** mailboxes. They pass to the next officeholder; mail belongs
 - **Tests passed:** outbound to an external mailbox (delivered to inbox), inbound reply, and delivery via `assembly@`.
 - **Costs (to be recorded by the Treasurer):** domain US$8.50 first year (renews US$11.20); Purelymail US$10 credit (about one year). No budget is yet adopted; these were paid personally pending Treasurer record.
 
-## Still to do
+## Follow-up (reported complete later on 19 November 2026)
 
 - Officeholders receive their logins privately, change passwords and enable two-step sign-in.
 - Glenn to be added as an administrator on the Cloudflare account (joint admin rule, Gazette 2026-009).
