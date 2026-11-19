@@ -15,8 +15,8 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 5. [x] **Convene the founding assembly.** Organiser reports all five attended at 3:30 pm AEDT on 19 November 2026 and voting proceedings took place; [meeting report](docs/FOUNDING_ASSEMBLY_2026-11-19.md). Exact counts were subsequently supplied and entered in the [ratification return](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md).
 6. [x] **Publish constitutional ratification return:** **5 YES / 0 NO / 0 ABSTAIN**, effective **19 November 2026**, per founder-supplied minutes; [return](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md). **Remaining audit:** exact text/version and notice-delivery time.
 7. [x] **Prepare presidential election rules, election return and government activation pack.** Evidence: [elections](operations/ELECTION_AND_GOVERNMENT.md).
-8. [ ] **Hold the first actual election and record independently checked results, term dates and officeholders.**
-9. [ ] **Continue the constituted founding Assembly:** Glenn has accepted the unanimously approved Chief Digital Officer appointment; Secretary (Jane Carbunkle), Treasurer (Fred Carbunkle) and Registrar (Glenn Peterson) appointed 5–0 on 19 Nov (Gazette 2026-008); first President pending election 28 Nov – 1 Dec.
+8. [x] **Hold the first actual election and record results, term dates and officeholders** — Joshua Parris confirmed President, YES 5 / NO 0, 19 Nov 2026, term to 19 Nov 2028; [Gazette 2026-013](gazette/2026/2026-013-first-president-confirmed.md). Result as reported by the organiser; not independently audited.
+9. [ ] **Continue the constituted founding Assembly:** Glenn has accepted the unanimously approved Chief Digital Officer appointment; Secretary (Jane Carbunkle), Treasurer (Fred Carbunkle) and Registrar (Glenn Peterson) appointed 5–0 on 19 Nov (Gazette 2026-008); first President confirmed 19 Nov 2026 (Gazette 2026-013).
 
 ## 2. Citizenship administration
 
@@ -63,11 +63,12 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 
 36. [x] **Adopt the founders' encrypted Matrix room as the interim official channel** for notices, debate and votes — Motion 1 passed 5 YES / 0 NO / 0 ABSTAIN; [Gazette 2026-006](gazette/2026/2026-006-interim-official-channel.md).
 37. [x] **Appoint Matthew Walker Returning Officer**, not a presidential candidate — Motion 2 passed 5 YES / 0 NO / 0 ABSTAIN; Matthew accepted; [Gazette 2026-007](gazette/2026/2026-007-returning-officer-and-election-timetable.md).
-38. [x] **Announce first-election date ranges:** nominations 20–27 November; ballot 28 November – 1 December 2026, AEDT. Joshua Parris's intention to stand and candidate statement were shared; **no elected President**.
-39. [ ] **Returning Officer publishes nomination details and confidential ballot method**, verifies the eligible electoral roll and ensures candidates have fair access. Exact daily opening/closing times not in supplied transcript.
-40. [ ] **Hold, count and certify the first presidential election**, including a YES/NO confirmation ballot if there is only one valid candidate.
+38. [x] **Announce first-election date ranges:** nominations 20–27 November; ballot 28 November – 1 December 2026, AEDT. Timetable later replaced by Motion 6; **Joshua Parris confirmed President 19 Nov 2026**.
+39. [x] **Superseded by Motion 6 (5–0, [Gazette 2026-012](gazette/2026/2026-012-election-timetable-brought-forward.md)): same-day nominations and confidential email ballot.** Originally: Returning Officer publishes nomination details and confidential ballot method**, verifies the eligible electoral roll and ensures candidates have fair access. Exact daily opening/closing times not in supplied transcript.
+40. [x] **Hold, count and certify the first presidential election** — YES/NO confirmation held 19 Nov 2026, 5 YES / 0 NO, declared 5:51 pm AEDT, including a YES/NO confirmation ballot if there is only one valid candidate.
 41. [x] **Glenn presents permanent email and chat arrangements within 14 days** of Motion 1 — Purelymail email + Matrix adopted, reported unanimous, 19 Nov 2026; [Gazette 2026-010](gazette/2026/2026-010-permanent-email-adopted.md).
 42. [x] **Register the Parristan domain, set up Purelymail mailboxes, test and announce official addresses** — parristan.org live 19 Nov 2026; [Gazette 2026-011](gazette/2026/2026-011-official-email-live.md).
+44. [ ] **President brings draft mission and first-year goals to the Assembly by 3 December 2026** (Gazette 2026-008).
 43. [x] **Every officeholder changes their mailbox password and enables two-step sign-in; Glenn added as Cloudflare admin; Purelymail admin moved to admin@parristan.org** — reported complete by the organiser, 19 Nov 2026.
 
 ## Status meanings

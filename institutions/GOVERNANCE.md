@@ -36,7 +36,7 @@ The adopted constitution (consolidated v0.1 text awaiting source-version confirm
 
 | Office | Holder | Basis |
 | --- | --- | --- |
-| President | Vacant | No presidential election yet held |
+| President | Joshua Parris | Confirmed 5 YES / 0 NO, 19 Nov 2026; term to 19 Nov 2028 ([Gazette 2026-013](../gazette/2026/2026-013-first-president-confirmed.md)) |
 | Founding Assembly | Constituted for founding session | 5/5 present, 19 November 2026; regular meeting arrangements pending |
 | Interim convenor | Not formally appointed | Procedure pending |
 | Chief Digital Officer | Glenn Peterson | Unanimous 19 November founding-assembly appointment, accepted; [record](../docs/OSPO_CHARTER_2026-11-19.md) |

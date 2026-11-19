@@ -1,6 +1,6 @@
 # Ministries of the Republic of Parristan — proposed ceremonial/game-world roles
 
-**Status:** The humorous cabinet slate below is **not** an authenticated list of elected government officeholders. The 19 November Founding Assembly **only** recorded Glenn's appointment as Chief Digital Officer; no presidential or other ministerial elections are recorded. Article V requires an elected President.
+**Status:** The humorous cabinet slate below is **not** an authenticated list of elected government officeholders. The 19 November Founding Assembly **only** recorded Glenn's appointment as Chief Digital Officer; Joshua Parris was later confirmed as President on 19 November 2026 (Gazette 2026-013); no ministerial appointments are recorded. Article V requires an elected President.
 
 ## The proposed Founding Cabinet
 

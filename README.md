@@ -72,7 +72,7 @@ Practical kit for running Parristan day to day, in [`operational-pack/`](operati
 
 ## National operations and next steps
 
-The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) tracks what is implemented and what requires real founder decisions or external legal action. The supplied minutes record **unanimous constitutional ratification** and **Glenn's appointment as CDO**, effective 19 November 2026. The formal ratification return is published, but the exact circulated text and notice time still require matching against original records. **No President has been elected.** Official symbols, sovereignty and recognition remain unestablished.
+The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) tracks what is implemented and what requires real founder decisions or external legal action. The supplied minutes record **unanimous constitutional ratification** and **Glenn's appointment as CDO**, effective 19 November 2026. The formal ratification return is published, but the exact circulated text and notice time still require matching against original records. **Joshua Parris was confirmed as first President (5 YES / 0 NO) on 19 November 2026** ([Gazette 2026-013](gazette/2026/2026-013-first-president-confirmed.md)). Official symbols, sovereignty and recognition remain unestablished.
 
 - [Ratification and founding assembly pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md)
 - [Presidential election and government operations](operations/ELECTION_AND_GOVERNMENT.md)
@@ -96,8 +96,8 @@ Never post home addresses, IDs, birth dates, private contact details or sensitiv
 | Founding assembly | Held 19 November 2026, 3:30 pm AEDT, according to organiser; 5 founders present |
 | Constitutional ratification | 5 YES, 0 NO, 0 ABSTAIN; effective 19 November 2026; exact circulated text and notice timing unverified |
 | Office of Sovereign Systems | Charter activated; Glenn appointed CDO by unanimous consent |
-| First Presidential election | Not held; nominations/timetable not yet published |
-| Elected President or legislature | Not yet established |
+| First Presidential election | Held 19 Nov 2026 — Joshua Parris confirmed, 5 YES / 0 NO |
+| Elected President | Joshua Parris, term to 19 Nov 2028; no separate legislature beyond the Assembly |
 | Citizenship scheme | Proposed; applications not open |
 | Adopted national flag, arms or anthem | None; design proposals only |
 | Sovereign territory | None claimed |

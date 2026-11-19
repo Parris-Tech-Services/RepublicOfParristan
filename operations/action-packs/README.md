@@ -4,7 +4,7 @@ One file per officer, with ready-to-send messages and step-by-step instructions.
 
 | Owner | Action | Target | Pack | Status (19 Nov) |
 |---|---|---|---|---|
-| Matthew Walker | Publish nomination times, method and ballot arrangements | 20 Nov 2026 | [MATTHEW_RETURNING_OFFICER.md](MATTHEW_RETURNING_OFFICER.md) | Open |
+| Matthew Walker | Run the first presidential election | 20 Nov 2026 | [MATTHEW_RETURNING_OFFICER.md](MATTHEW_RETURNING_OFFICER.md) | **Done** — held same day under Motion 6; Joshua Parris confirmed 5–0 ([Gazette 2026-013](../../gazette/2026/2026-013-first-president-confirmed.md)) |
 | Glenn Peterson | Permanent email and chat | 3 Dec 2026 | — | **Done** — adopted and in service ([Gazette 2026-010](../../gazette/2026/2026-010-permanent-email-adopted.md), [2026-011](../../gazette/2026/2026-011-official-email-live.md)) |
 | Glenn Peterson | Private membership register; founding numbers from verified consent | 3 Dec 2026 (suggested) | [GLENN_REGISTRAR.md](GLENN_REGISTRAR.md) | Open |
 | Jane Carbunkle | First monthly meeting | Week of 7 Dec 2026 (suggested) | [JANE_SECRETARY.md](JANE_SECRETARY.md) | Open |

@@ -1,6 +1,6 @@
 # First Government and Election Operations
 
-**Status:** Voting procedures drafted; no President, Assembly leadership or cabinet is recorded as elected. The project organiser is not made President automatically.
+**Status:** First President, Joshua Parris, confirmed 5 YES / 0 NO on 19 November 2026 (term to 19 November 2028) under Motion 6 — see [Gazette 2026-013](../gazette/2026/2026-013-first-president-confirmed.md). Items below describe the original plan, superseded by Motion 6.
 
 ## Institutional structure under the proposed constitution
 

@@ -1,6 +1,6 @@
 # Official Records and Evidence Controls
 
-**Prepared:** 19 November 2026 · **Current state:** operational templates exist, and the founding organiser's minutes record a unanimous constitutional ratification, an open-source strategy vote and Glenn's CDO appointment. No elected President, adopted budget or international recognition is claimed.
+**Prepared:** 19 November 2026 · **Current state:** operational templates exist, and the founding organiser's minutes record a unanimous constitutional ratification, an open-source strategy vote and Glenn's CDO appointment. President confirmed 19 November 2026 (Gazette 2026-013). No adopted budget or international recognition is claimed.
 
 ## Records required for a functioning association
 

@@ -1,5 +1,7 @@
 # Matthew Walker — Returning Officer pack
 
+> **Superseded 19 Nov 2026:** the election was held the same day under Motion 6 (Gazette 2026-012). Kept for future elections.
+
 **Target:** send the notice of election on **Friday 20 November 2026**, before nominations open. Full kit with ballot papers and result form: [../drafts/ELECTION_KIT.md](../drafts/ELECTION_KIT.md).
 
 ## Step 1 — Decide three things (5 minutes)
