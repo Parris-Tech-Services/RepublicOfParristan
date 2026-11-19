@@ -14,3 +14,8 @@ An evidence-based ratification return and official decision-register entry can f
 
 **Primary event record:** [Founding assembly report](../../docs/FOUNDING_ASSEMBLY_2026-11-19.md)  
 **Further tracking:** [Founding milestone issue #5](https://github.com/Parris-Tech-Services/RepublicOfParristan/issues/5)
+
+
+## Later dated supplement — 19 November 2026
+
+**Do not read this earlier notice as the current ratification status.** The founding organiser subsequently supplied the exact minutes, recording a unanimous **5–0** amendment to the founding-assembly notice rule (14 days to 1 hour), and a unanimous **5–0** constitutional ratification effective 19 November 2026. The Assembly also unanimously adopted open-source strategy and appointed Glenn as Chief Digital Officer. See [Gazette 2026-005](2026-005-ratification-and-digital-appointments.md). This dated supplement preserves the sequence in which evidence became available.

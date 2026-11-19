@@ -15,7 +15,8 @@ winget install --id GitHub.cli --exact --source winget
 Close and reopen PowerShell to refresh PATH. Then:
 
 ~~~powershell
-npm.cmd install -g @mariozechner/pi-coding-agent
+npm.cmd uninstall -g @mariozechner/pi-coding-agent
+npm.cmd install -g @earendil-works/pi-coding-agent
 New-Item -ItemType Directory -Force "$HOME\source" | Out-Null
 Set-Location "$HOME\source"
 git clone https://github.com/Parris-Tech-Services/RepublicOfParristan.git
@@ -23,7 +24,7 @@ Set-Location .\RepublicOfParristan
 pi.cmd --provider openrouter --model qwen/qwen3-coder-30b-a3b-instruct
 ~~~
 
-When the repository already exists, go directly to its folder instead of cloning again. Inside Pi, run **/login openrouter** if authentication is needed, then **/model** to confirm the active OpenRouter/Qwen choice. Use an OpenRouter **inference** credential, not a management credential: our previous mistaken key type produced a 401 User not found error.
+When the repository already exists, go directly to its folder instead of cloning again. **Run the Set-Location command before Pi** (PowerShell executes pasted commands in the order received). If Pi displays only a helper-tool download and returns to the prompt, repeat Pi from the project folder after completing the maintained-package installation. Inside Pi, run **/login openrouter** if authentication is needed, then **/model** to confirm the active OpenRouter/Qwen choice. Use an OpenRouter **inference** credential, not a management credential: our previous mistaken key type produced a 401 User not found error.
 
 You can also run the repo's repeatable bootstrap script, once this repository is cloned:
 
@@ -62,4 +63,4 @@ No credentials, identities, citizen records or private data belong in this publi
 
 **Default model:** [Qwen3 Coder 30B A3B Instruct](https://openrouter.ai/qwen/qwen3-coder-30b-a3b-instruct), provider/model: qwen/qwen3-coder-30b-a3b-instruct. The earlier fast alternative was qwen/qwen3.7-flash; use /model to confirm availability before selecting it.
 
-Sources: [Pi coding agent](https://github.com/badlogic/pi-mono), [OpenRouter available models](https://openrouter.ai/models), [OpenRouter API key console](https://openrouter.ai/settings/keys).
+Sources: [Maintained Pi coding agent](https://github.com/earendil-works/pi), [official Pi package migration (7 May 2026)](https://pi.dev/changelog/2026/5/7/pi-has-a-new-home), [OpenRouter available models](https://openrouter.ai/models), [OpenRouter API key console](https://openrouter.ai/settings/keys).

@@ -8,31 +8,44 @@ This checklist translates the existing [roadmap](ROADMAP.md) into tasks that the
 
 - [x] Republic of Parristan name and founding initiative established.
 - [x] Separate internal Enterprise repository and public Gazette repository exist.
-- [x] Five founding members identified and, according to the organiser, agreed to participate. Five attended the 19 November assembly according to organiser; original signatures and motion counts are not stored here.
+- [x] Five founding members identified and, according to the organiser, agreed to participate. All five attended the 19 November assembly, per organiser-supplied minutes. The notice and ratification motions each passed **5–0**.
 - [x] Draft constitution, founding declaration, assembly procedures, member policy and roadmaps published.
 - [x] Public Gazette website source prepared. **Live hosting is not verified by this checklist.**
-- [x] Open-source direction unanimously adopted by founders; technical deployment is not yet verified.
+- [x] Open-source-first **strategic direction adopted unanimously**, modelled on GendBuntu and Schleswig-Holstein; individual services not yet deployed/verified.
 
-## Priority 1 — Founding assembly completed; reconcile primary records
+## Priority 1 — move from intention to a functioning association
 
-- [x] Five founders attended the 3:30 pm AEDT meeting on 19 November 2026.
-- [x] Adopt proposed one-hour founding assembly notice period: **5 YES / 0 NO / 0 ABSTAIN**.
-- [x] Ratify the Constitution: **5 YES / 0 NO / 0 ABSTAIN**, recorded in force **19 November 2026**.
-- [x] Unanimously adopt the open-source strategic direction modelled on GendBuntu and Schleswig-Holstein.
-- [x] Appoint Glenn Chief Digital Officer; he accepted, and the OSPO charter was activated.
-- [ ] Confirm the exact constitutional document/version voted upon and the actual timing and authority of the one-hour notice amendment.
-- [ ] Preserve reviewed or signed founding minutes if required by the founders' procedures.
-- [ ] Agree a documented first-year public-service mission and goals.
+### Before the first founding assembly
 
-[Actual organiser-supplied assembly minutes](FOUNDING_ASSEMBLY_2026-11-19.md), [ratification return](ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md) and [first election status](FIRST_ELECTION_STATUS_2026-11-19.md).
+- [x] **Confirm and record the five founders' participation** (organiser-reported); their permission for public naming and a secure contact route (do not store private contact details in public GitHub).
+- [ ] Agree a one-paragraph mission, public-service purpose and first-year goals.
+- [x] Agree founding assembly eligibility, notice, quorum and voting procedure before voting — organiser-reported; founding notice **1 hour**, passed **5–0**; exact notice-delivery time still pending. Use the existing ratification proposal as a starting point.
+- [x] Agree meeting date/format, accessibility, agenda and distribution of the draft — organiser-reported. The founding-assembly notice amendment to **1 hour** is recorded; actual notice time still pending.
+- [ ] Prepare agenda, chair/secretary for the meeting, attendance verification and private voting method. Temporary roles are not elected government offices.
+- [ ] Collect constitutional amendments and settle the text members will vote on.
 
-## Priority 2 — first 30 days of constitutional operations
+**Evidence gate:** notice, agenda, approved procedure and eligible voter count exist; no invented signatures or votes.
+
+### At the founding assembly
+
+- [x] Confirm attendance and quorum — organiser reports all five present. Conflict/teller record pending transcription.
+- [x] Debate and conduct constitutional vote — organiser reports completed. Minutes now record **5–0** adoption and an effective date.
+- [x] **Transcribe the organiser-supplied minutes**, including **5 YES / 0 NO / 0 ABSTAIN** on both the notice amendment and constitution, with an effective date of **19 November 2026**.
+- [ ] Match the published consolidated constitution to the copy actually circulated and record the actual notice-delivery time and signed approval.
+- [x] Publish the **founder-reported ratification**, a consolidated v0.1 text and an official decision entry, transparently noting the outstanding text and notice corroboration.
+- [ ] Publish the election arrangements the organiser reports were made: election officer, nominations, timetable and constitutional authority.
+
+**Evidence gate:** the supplied minutes support 5–0 internal ratification. Exact meeting text and notification time still need verification; repository commits do not themselves cast votes.
+
+## Priority 2 — first 30 days after the reported 19 November ratification
 
 - [ ] Schedule and conduct the first democratic election under adopted rules; record results, terms and the transfer of responsibilities.
 - [ ] Set up a private, opt-in membership process, privacy notice, retention/deletion rules and an appeal route.
-- [ ] Keep a public decision register and regular meeting minutes with private details redacted.
+- [x] Publish initial founding [decision register](../institutions/DECISION_REGISTER.md) and founding minutes.
+- [ ] Establish a routine for subsequent meetings, redaction and review.
 - [ ] Adopt a small annual budget, spending approval limits, a financial ledger and dual review of expenditure.
 - [ ] Evaluate an appropriate Australian legal structure. A **NSW incorporated association** is one possible route, not sovereignty; check the constitution, 5-member minimum, committee/public-officer rules and registration requirements before applying.
+- [x] Appoint Chief Digital Officer: Glenn, by unanimous founding-assembly consent.
 - [ ] Confirm who owns the domain, public site, account recovery and administrative access, with a second authorised backup administrator.
 
 **Evidence gate:** members know how decisions are made; money, access and membership are handled with real controls.

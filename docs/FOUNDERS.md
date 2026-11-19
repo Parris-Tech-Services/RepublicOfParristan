@@ -1,7 +1,7 @@
 # Founding Members of the Republic of Parristan
 
 **Updated:** 19 November 2026  
-**Status:** The founding organiser, Joshua Parris, has explicitly confirmed that all five named founding members **agreed to establish Parristan**. This records his report of their agreement; it is not an independent signature audit or a record of an actual constitutional vote.
+**Status:** The founding organiser, Joshua Parris, has explicitly confirmed that all five named founding members **agreed to establish Parristan**. This records his report of their agreement; it is not an independent signature audit. Subsequently supplied founding minutes **do** record unanimous constitutional ratification.
 
 | No. | Founding member | Participation |
 | --- | --- | --- |
@@ -14,12 +14,12 @@
 ## Different milestones
 
 1. **Founders agree to establish Parristan:** reported complete by the organiser on 19 November 2026.
-2. **Founding assembly formally adopts the constitution:** not recorded.
-3. **Members elect the first President and establish offices:** not recorded.
+2. **Founding assembly adopts the constitution:** recorded as **5 YES, 0 NO, 0 ABSTAIN**, effective 19 November 2026, according to the [minutes](FOUNDING_ASSEMBLY_2026-11-19.md).
+3. **Members elect the first President and establish offices:** Glenn appointed CDO unanimously and accepted; the first presidential election is not yet recorded.
 4. **A protected, active membership register is opened:** not recorded.
 5. **International recognition or sovereign territorial status:** not established.
 
-The organiser's confirmation does not mean a particular constitution was approved, a candidate elected, or sovereignty legally obtained. Future adopted decisions require dated votes and recorded evidence.
+The subsequent assembly minutes record constitutional adoption by a unanimous vote and Glenn's CDO appointment. They do not evidence a presidential election or recognised sovereignty. Future adopted decisions require dated votes and recorded evidence.
 
 The [numbered national operations checklist](../NATIONAL_OPERATIONS_TODO.md), [ratification pack](../operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md) and [government activation pack](../operations/ELECTION_AND_GOVERNMENT.md) now set out those next steps.
 

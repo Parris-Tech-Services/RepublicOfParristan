@@ -1,10 +1,10 @@
 # First Founding Assembly and Constitutional Ratification Pack
 
-**Prepared:** 19 November 2026. **Status:** HISTORICAL PREPARATION PACK. The organiser now reports a five-person assembly at 3:30 pm AEDT, 19 November 2026. See the [event record](../docs/FOUNDING_ASSEMBLY_2026-11-19.md); exact vote counts and notice particulars remain unrecorded.
+**Prepared:** 19 November 2026. **Status:** HISTORICAL PREPARATION PACK. The organiser now reports a five-person assembly at 3:30 pm AEDT, 19 November 2026. See the [event record](../docs/FOUNDING_ASSEMBLY_2026-11-19.md); founding minutes now record **5–0** notice amendment (14 days to 1 hour) and **5–0** ratification, effective 19 November. The exact voted-on text and notice-delivery time are not recorded.
 
 ## The five founders
 
-Joshua Parris; Glenn Peterson; Matthew John Lucas Walker; Fred Carbunkle; Jane Carbunkle. The organising founder reports all five have agreed to establish Parristan. Their first collective assembly was subsequently reported held; the original motion counts must still be transcribed.
+Joshua Parris; Glenn Peterson; Matthew John Lucas Walker; Fred Carbunkle; Jane Carbunkle. The organising founder reports all five have agreed to establish Parristan. Their first collective assembly was subsequently reported held; the motion counts have since been transcribed in the [ratification return](../docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md).
 
 ## Preparation
 
@@ -30,6 +30,10 @@ Joshua Parris; Glenn Peterson; Matthew John Lucas Walker; Fred Carbunkle; Jane C
 **Motion D — First election arrangements (after valid ratification):**
 "The Assembly appoints [teller/administrator] to conduct the first election in accordance with [authorised rules], with nominations opening [date] and voting on [date]."
 
+## Original blank ratification return (historical template only)
+
+**Completed 19 November decision:** [Actual assembly minutes](../docs/FOUNDING_ASSEMBLY_2026-11-19.md), [ratification return](../docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md) and [consolidated Constitution](../institutions/CONSTITUTION.md).
+
 ## Blank ratification return
 
 | Required fact | Actual value |
@@ -50,4 +54,4 @@ A GitHub PR, screenshot, model-generated text, approval to join Parristan or an 
 
 ## Next step
 
-Use the [blank meeting and election record](DECISION_AND_ELECTION_TEMPLATES.md). When verified minutes are supplied, update the official decision register and version the adopted constitution without erasing the earlier draft.
+Use the [blank meeting and election record](DECISION_AND_ELECTION_TEMPLATES.md). The organiser has supplied minutes with the vote totals. The [decision register](../institutions/DECISION_REGISTER.md) and consolidated Constitution now reflect them while preserving the historical draft. Still to corroborate: exact version and notice time.

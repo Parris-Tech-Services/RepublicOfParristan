@@ -30,8 +30,12 @@ if ($restart) {
 if (-not (Get-Command npm.cmd -ErrorAction SilentlyContinue)) {
     throw "npm.cmd missing. Reopen PowerShell after Node.js installation."
 }
-& npm.cmd install --global @mariozechner/pi-coding-agent
-if ($LASTEXITCODE -ne 0) { throw "npm failed installing Pi." }
+# Pi moved to @earendil-works in May 2026. The old scope is frozen at 0.73.1.
+# Uninstalling the obsolete global package avoids a conflicting pi.cmd executable.
+& npm.cmd uninstall --global @mariozechner/pi-coding-agent
+if ($LASTEXITCODE -ne 0) { throw "npm failed removing the deprecated Pi package." }
+& npm.cmd install --global @earendil-works/pi-coding-agent
+if ($LASTEXITCODE -ne 0) { throw "npm failed installing maintained Pi." }
 $prefix = (& npm.cmd prefix --global).Trim()
 $pi = Join-Path $prefix "pi.cmd"
 if (-not (Test-Path $pi)) {
