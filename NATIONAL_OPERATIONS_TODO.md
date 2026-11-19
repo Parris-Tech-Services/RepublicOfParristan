@@ -68,7 +68,7 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 40. [x] **Hold, count and certify the first presidential election** — YES/NO confirmation held 19 Nov 2026, 5 YES / 0 NO, declared 5:51 pm AEDT, including a YES/NO confirmation ballot if there is only one valid candidate.
 41. [x] **Glenn presents permanent email and chat arrangements within 14 days** of Motion 1 — Purelymail email + Matrix adopted, reported unanimous, 19 Nov 2026; [Gazette 2026-010](gazette/2026/2026-010-permanent-email-adopted.md).
 42. [x] **Register the Parristan domain, set up Purelymail mailboxes, test and announce official addresses** — parristan.org live 19 Nov 2026; [Gazette 2026-011](gazette/2026/2026-011-official-email-live.md).
-44. [ ] **President brings draft mission and first-year goals to the Assembly by 3 December 2026** (Gazette 2026-008).
+44. [ ] **President brings draft mission and first-year goals to the Assembly by 3 December 2026** (Gazette 2026-008). Draft ready: [operations/drafts/PRESIDENT_MISSION_AND_GOALS.md](operations/drafts/PRESIDENT_MISSION_AND_GOALS.md).
 43. [x] **Every officeholder changes their mailbox password and enables two-step sign-in; Glenn added as Cloudflare admin; Purelymail admin moved to admin@parristan.org** — reported complete by the organiser, 19 Nov 2026.
 
 ## Status meanings
