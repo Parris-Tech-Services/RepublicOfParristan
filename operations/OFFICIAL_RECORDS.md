@@ -1,6 +1,6 @@
 # Official Records and Evidence Controls
 
-**Prepared:** 19 November 2026 · **Current state:** operational templates exist, but no ratified constitution, elected offices, recorded budget or official recognition is claimed.
+**Prepared:** 19 November 2026 · **Current state:** operational templates exist, and the founding organiser's minutes record a unanimous constitutional ratification, an open-source strategy vote and Glenn's CDO appointment. No elected President, adopted budget or international recognition is claimed.
 
 ## Records required for a functioning association
 
@@ -32,4 +32,4 @@ GitHub merges are document edits; they cannot substitute for a real meeting, ele
 
 Use the [ratification pack](FOUNDING_ASSEMBLY_AND_RATIFICATION.md) and [decision/election templates](DECISION_AND_ELECTION_TEMPLATES.md). Before announcing anything as official, confirm the actual approving institution, exact motion, eligibility, tally, quorum, timestamp, effective date, conflicts and public evidence link.
 
-**Evidence missing as of 19 November 2026:** constitution vote; elected President and Assembly; active registrar; adopted symbols; national budget; sovereign territory; interstate recognition.
+**Now supplied in minutes:** attendance 5/5; notice amendment 5–0–0; constitution ratification 5–0–0, effective 19 November 2026; open-source policy direction; Glenn's accepted CDO appointment. **Outstanding evidence:** exact constitutional source/version, actual notice delivery time, any required approved minute signatures, presidential election, active registrar, adopted symbols, budget, territory and international recognition.
