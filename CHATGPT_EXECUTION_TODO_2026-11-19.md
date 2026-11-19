@@ -6,7 +6,7 @@
 
 ## A. Executable by ChatGPT from the connected repository — this work session
 
-**Execution record:** 19 November 2026 — A01–A12 were implemented and checked; A13's live-publishing check was performed and identified an outstanding administrator-controlled Pages setting. **No live website deployment is claimed.** [Engineering PR #23](https://github.com/Parris-Tech-Services/RepublicOfParristan/pull/23) · [Gazette CI](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470637435) · [national operations CI](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470559516).
+**Execution record:** 19 November 2026 — A01–A12 were implemented and checked; A13's live-publishing check was performed and identified an outstanding administrator-controlled Pages setting. The separately published [ChatGPT-hosted public snapshot](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) is now recorded in the repository. A second [Vercel production mirror](https://republic-of-parristan.vercel.app/) is deployed from `main/docs` with READY status and connected HTTP 200 checks, but independent anonymous-client reachability was not measured. GitHub Pages is not configured. [Engineering PR #23](https://github.com/Parris-Tech-Services/RepublicOfParristan/pull/23) · [Gazette CI](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470637435) · [national operations CI](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470559516).
 
 
 - [x] **A01 — Audit repo and open PRs.** Inventory the Gazette, election, operations, workflows and pending pull requests; preserve the original records.  
@@ -34,7 +34,7 @@
 - [x] **A12 — Run CI, review diff, merge and verify `main`.** Confirm the exact changed files, GitHub validation result, PR state and committed source.  
   **Outcome:** [PR #23](https://github.com/Parris-Tech-Services/RepublicOfParristan/pull/23) merged as `4927ad5`; [post-merge Gazette check](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470637435) passed.
 - [x] **A13 — Check live GitHub Pages publication.** Verify actual public access if possible; otherwise report as unverified and leave hosting configuration to an authorised administrator.  
-  **Outcome:** **CHECK COMPLETED; DEPLOYMENT BLOCKED.** [Pages workflow](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470637527) failed in `actions/configure-pages` with `Get Pages site failed: Not Found`; public URLs could not be verified. An authorised admin must enable **Settings → Pages → Source: GitHub Actions**. The token supplied to `configure-pages` cannot silently enable this via its `enablement` option.
+  **Outcome:** **PUBLISHING EXISTS VIA ALTERNATIVES, GITHUB PAGES BLOCKED.** The [public snapshot](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) was published separately; an additional [Vercel Git mirror](https://republic-of-parristan.vercel.app/) reached READY and returned HTTP 200 for three routes through the connected Vercel account, with production SSO disabled. Anonymous external verification of the mirror was not available. [Pages workflow](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470637527) remains blocked because repository Pages is not enabled; it is now manual-only to avoid repeat failures.
 
 ## B. Other repository work ChatGPT can prepare in later changes
 
