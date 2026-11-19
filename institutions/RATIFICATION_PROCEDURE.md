@@ -1,6 +1,6 @@
 # Proposed Constitutional Ratification Procedure
 
-**Draft only. No ratification has taken place.**
+**Historical proposal, superseded by founder-reported Assembly decisions on 19 November 2026.** The 5/5 founders unanimously amended the **founding-assembly** notice proposal from 14 days to 1 hour (5–0) *before* unanimously ratifying the Constitution (5–0), effective 19 November 2026. See [minutes](../docs/FOUNDING_ASSEMBLY_2026-11-19.md) and [return](../docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md). The wording below is preserved as the **original proposal**, not an assertion that the old 14-day draft rule was used. Exact notice delivery time is not recorded. The constitutional **Article XI** remains a separate 14-day requirement for future amendments.
 
 ## Notice and eligibility
 

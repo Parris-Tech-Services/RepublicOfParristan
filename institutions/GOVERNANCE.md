@@ -1,6 +1,6 @@
 # Governance and Official Records
 
-**Status:** Pre-ratification organising procedures. No government offices are asserted as filled.
+**Status (19 November 2026):** The founding assembly unanimously ratified the internal constitution and appointed Glenn as Chief Digital Officer, per the supplied minutes. The presidency and other elected offices remain unfilled.
 
 ## Founding phase
 
@@ -30,15 +30,16 @@ GitHub pull requests may document proposals but **merging code is not itself a v
 
 ## Separation of powers
 
-The draft constitution envisions an Assembly, an elected President and an independent internal appeals panel. The panel's power would extend only to lawful association matters.
+The adopted constitution (consolidated v0.1 text awaiting source-version confirmation) envisions an Assembly, an elected President and an independent internal appeals panel. The panel's power would extend only to lawful association matters.
 
 ## Current officeholder record
 
 | Office | Holder | Basis |
 | --- | --- | --- |
-| President | Vacant | No ratified election |
-| Assembly | Not established | Founding process pending |
+| President | Vacant | No presidential election yet held |
+| Founding Assembly | Constituted for founding session | 5/5 present, 19 November 2026; regular meeting arrangements pending |
 | Interim convenor | Not formally appointed | Procedure pending |
+| Chief Digital Officer | Glenn Peterson | Unanimous 19 November founding-assembly appointment, accepted; [record](../docs/OSPO_CHARTER_2026-11-19.md) |
 | Electoral officer | Vacant | First election pending |
 
 This record should be updated whenever an election or appointment is actually documented.

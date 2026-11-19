@@ -1,6 +1,8 @@
-# Ministries of the Republic of Parristan
+# Ministries of the Republic of Parristan — proposed ceremonial/game-world roles
 
-## The Founding Cabinet
+**Status:** The humorous cabinet slate below is **not** an authenticated list of elected government officeholders. The 19 November Founding Assembly **only** recorded Glenn's appointment as Chief Digital Officer; no presidential or other ministerial elections are recorded. Article V requires an elected President.
+
+## The proposed Founding Cabinet
 
 | Office | Holder |
 |---|---|
@@ -9,6 +11,12 @@
 | Chief of the Parristan Constabulary | Matthew Walker |
 | Minister for Agriculture & Weather Announcements | Fred Carbunkle |
 | Treasurer & Chief Justice | Jane Carbunkle |
+
+## Approved appointment from actual founding minutes
+
+| Office | Holder | Basis |
+| --- | --- | --- |
+| Chief Digital Officer, Office of Sovereign Systems | Glenn Peterson | Unanimously appointed and accepted, 19 November 2026; [record](../../docs/OSPO_CHARTER_2026-11-19.md) |
 
 ## Reserved Junior Ministries
 

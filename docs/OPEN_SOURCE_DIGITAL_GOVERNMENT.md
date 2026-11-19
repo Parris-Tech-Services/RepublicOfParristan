@@ -1,12 +1,12 @@
-# Open-Source Digital Government Strategy — Proposal v0.1
+# Open-Source Digital Government Strategy — Adopted Strategic Direction v0.1
 
-**Republic of Parristan · 19 November 2026 · Status: proposed organiser-led direction, not an adopted constitutional policy.**
+**Republic of Parristan · 19 November 2026 · Status: open-source strategic direction unanimously adopted by the founding assembly. Individual system rollouts remain proposed or unverified.**
 
 ## Purpose
 
 Build a small, useful, secure and independently maintainable digital administration. Parristan will **learn from the French National Gendarmerie's long-running Linux/GendBuntu deployment** and **Schleswig-Holstein's integrated programme to replace proprietary office, email, cloud, identity and desktop systems**. These are models to adapt, not products or policies endorsed by those governments.
 
-Here, **digital sovereignty** means practical control over data, configuration, formats, backups, infrastructure and vendor exit. It does **not** imply legal sovereignty, governmental recognition or exemption from Australian law. The proposed Assembly must consider this strategy under the constitution before it is represented as adopted policy.
+Here, **digital sovereignty** means practical control over data, configuration, formats, backups, infrastructure and vendor exit. It does **not** imply legal sovereignty, governmental recognition or exemption from Australian law. The Assembly unanimously adopted the strategic direction on 19 November 2026, per the [founding minutes](FOUNDING_ASSEMBLY_2026-11-19.md); this does not mean all equipment, services or bills are approved, funded or deployed.
 
 ## Design principles
 
@@ -73,7 +73,7 @@ Further reading: [European Commission Open Source Observatory on GendBuntu](http
 - [ ] Decide whether Open-Xchange, central SSO, a managed Linux image or independent code hosting is justified.
 - [ ] Create a tested software and configuration inventory, patch cadence and incident-response runbook.
 - [ ] Audit accessibility, open-format interoperability, privacy, recurring costs and exit capability.
-- [ ] Propose the final digital-governance policy for the ratified Assembly to adopt or amend.
+- [ ] Propose detailed implementation regulations and any separate Open Source Act bill for proper Assembly consideration; the open-source strategic direction is already adopted.
 
 **Pass:** every critical service has a named operator, alternate administrator, export path, backup/restore evidence and a documented proprietary exception if applicable.
 
@@ -87,8 +87,8 @@ Further reading: [European Commission Open Source Observatory on GendBuntu](http
 
 ## Phase 0 — governance draft
 
-The draft [Open Source Act, Sovereign Systems Office charter and hosting decision record](OPEN_SOURCE_ACT_DRAFT.md) are proposals only, pending a ratified constitution and Assembly.
+The [Open Source Act bill](OPEN_SOURCE_ACT_DRAFT.md) remains a draft, but the founding Assembly activated the [OSPO charter](OSPO_CHARTER_2026-11-19.md) and appointed Glenn as CDO by unanimous consent. Hosting options still require a real technical and governance decision.
 
 ## Tracking
 
-See [Founding Execution Checklist](FOUNDING_EXECUTION_CHECKLIST.md) for the civic priorities, first assembly, service pilots and measurable milestones. This strategy is a working proposal, not a claim that the systems described above are already deployed.
+See [Founding Execution Checklist](FOUNDING_EXECUTION_CHECKLIST.md) for the civic priorities, first assembly, service pilots and measurable milestones. The strategic direction was adopted 19 November 2026; this document does **not** claim that the systems described above are already deployed.

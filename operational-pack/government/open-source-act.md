@@ -1,7 +1,7 @@
 # Open Source Act 2026
 
 *An Act to secure the digital sovereignty of the Republic of Parristan.*
-**Status:** Bill, for passage at the First National Assembly
+**Status:** Draft bill — **not adopted in full**. The founding Assembly on 19 November 2026 unanimously adopted open-source strategy and activated the OSPO charter and Glenn's CDO appointment. See [minutes](../../docs/FOUNDING_ASSEMBLY_2026-11-19.md). No full-text bill vote is recorded; the presidential appointment clause here remains proposed and must be reconciled before enactment.
 
 ## 1. Short title
 This Act may be cited as the *Open Source Act 2026*.

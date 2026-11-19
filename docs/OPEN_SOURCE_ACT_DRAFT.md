@@ -1,13 +1,13 @@
 # Open Source Act — Draft Bill, Sovereign Systems Office and Hosting Decision (Phase 0)
 
-**Republic of Parristan · 19 November 2026 · Status: PROPOSED. This is a draft for the proposed Assembly. It has not been adopted, no office has been filled, and no hosting site has been confirmed.**
+**Republic of Parristan · 19 November 2026 · Status: the full Open Source Act remains a DRAFT bill. The founding Assembly unanimously adopted the open-source direction, activated the separately proposed OSPO charter, and appointed Glenn CDO by consent. No hosting site is confirmed.**
 
 This is the Phase 0 (governance, week 1) package of the [Open-Source Digital Government Strategy](OPEN_SOURCE_DIGITAL_GOVERNMENT.md). It uses the status vocabulary in [Official Records](../operations/OFFICIAL_RECORDS.md): nothing here is **ADOPTED** or **IN FORCE** until a real decision exists with dated evidence. A GitHub merge of this file is a document edit, not a vote.
 
 ## Phase 0 checklist
 
-- [ ] Assembly adopts the Open Source Act (draft below). *Needs a ratified constitution and a constituted Assembly first; see the [national operations checklist](../NATIONAL_OPERATIONS_TODO.md), items 4–9.*
-- [ ] Appoint the head of the Office of Sovereign Systems (Chief Digital Officer). *Proposed: Glenn Peterson, subject to his acceptance and lawful appointment.*
+- [ ] Assembly expressly adopts the **full text** of the Open Source Act (draft below). *The founding motion adopted an open-source strategy but did not expressly pass every section of this bill.*
+- [x] Founding Assembly appointed **Glenn** as Chief Digital Officer by unanimous consent; Glenn accepted. See [minutes](FOUNDING_ASSEMBLY_2026-11-19.md) and [activated OSPO charter](OSPO_CHARTER_2026-11-19.md).
 - [ ] Confirm the hosting site (The Shed, with ForgeGrid as build/test coordinator). *Needs a hardware and connectivity check; see the decision record below.*
 
 ## Part 1 — Open Source Act (draft)
@@ -44,7 +44,7 @@ This is the Phase 0 (governance, week 1) package of the [Open-Source Digital Gov
 
 **Role.** The Office runs the Republic's open source strategy, keeps the service inventory, grants and tracks exemptions, and reports on digital operations.
 
-**Head.** Chief Digital Officer (CDO). **Proposed holder: Glenn Peterson**, who would need to accept and be appointed under whatever process the adopted constitution sets. Until then this is a proposal only, and an interim role would not be an elected office (see the [founding execution checklist](FOUNDING_EXECUTION_CHECKLIST.md)).
+**Head.** Chief Digital Officer (CDO). **Founding holder: Glenn Peterson**, appointed by the unanimous founding Assembly on 19 November 2026; he accepted. This is an association administrative office, **not an elected presidency**. The activated charter is [recorded here](OSPO_CHARTER_2026-11-19.md).
 
 **Alternate administrator.** A second named person holds recovery access and can run every critical service, so no service depends on one administrator.
 
@@ -73,6 +73,6 @@ This is the Phase 0 (governance, week 1) package of the [Open-Source Digital Gov
 
 ## Next steps
 
-1. Founders review this draft and amend it before any vote.
-2. Once an Assembly exists, move the Act through the [ratification procedure](../operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md) and record the vote with the [decision templates](../operations/DECISION_AND_ELECTION_TEMPLATES.md).
-3. Confirm Glenn's willingness and the Shed's suitability, then update Parts 2 and 3 with dated evidence.
+1. The open-source strategic direction and OSPO charter are approved. Founders can still review this **full bill** as a separate legislative proposal.
+2. Bring the **full Act** to a properly noticed Assembly session if the founders want to enact its remaining provisions; record its own vote, and reconcile any presidential-appointment clause with the Assembly's founding CDO appointment.
+3. Glenn's acceptance is recorded. Separately evaluate The Shed or any other authorised hosting site before declaring it in use.

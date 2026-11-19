@@ -1,8 +1,8 @@
 # First Presidential Election — Proposed Rules
 
-**Not active.** The constitution has not been ratified and no presidential election has occurred.
+**Status: first-election rules still proposed; constitution ratified at the 19 November 2026 founding assembly (5–0, per minutes). No President has yet been elected.**
 
-Following ratification, the draft constitution calls for a presidential election within 90 days.
+The consolidated adopted constitution calls for a presidential election within **90 days of ratification**: by **17 February 2027** on the recorded 19 November 2026 effective date. An election date and final electoral regulations have not been announced.
 
 1. Announce electorate eligibility and voting method before nominations open.
 2. Allow all eligible adult citizen-members to nominate, subject to uniformly applied rules.

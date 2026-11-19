@@ -1,23 +1,19 @@
-# Public Decision Register
+# Public Decision Register — Founder-Supplied Assembly Minutes
 
-**Last editorial update: 19 November 2026**
+**Updated:** 19 November 2026  
+**Source:** [First Assembly minutes](../docs/FOUNDING_ASSEMBLY_2026-11-19.md), supplied by the founding organiser; this is a transcription and not a separately witnessed signature audit.
 
-The organiser reports a five-person founding assembly **met 19 November 2026 at 3:30 pm AEDT**. Exact ratification motion counts, applicable notice rules, reviewed minutes and the constitution's effective date have **not yet been transcribed**; therefore no formally verified constitutional adoption entry is asserted. No elected President, official national symbols, recognised territory or foreign-state recognition is recorded.
+All five founders reportedly attended the assembly commencing **3:30 pm AEDT, 19 November 2026**. The following internal civic resolutions were adopted by the participating founders:
 
-This register is for decisions actually taken by legitimate, documented institutions — not drafts, opinions, issues or commit messages.
-
-| Decision number | Date adopted | Decision | Decision-maker and procedure | Primary evidence |
+| ID | Date | Resolution | Vote / consent | Effect and source |
 | --- | --- | --- | --- | --- |
-| — | — | No constitutional decisions recorded | — | — |
+| FA-2026-001 | 19 Nov 2026 | Change draft **founding assembly** notice from 14 days to 1 hour, before constitutional ballot | **5 YES / 0 NO / 0 ABSTAIN** | Founding-assembly procedure only; [minutes](../docs/FOUNDING_ASSEMBLY_2026-11-19.md) |
+| FA-2026-002 | 19 Nov 2026 | Adopt Constitution of the Republic of Parristan | **5 YES / 0 NO / 0 ABSTAIN** | Internal constitution effective **19 Nov 2026**; [ratification return](../docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md) |
+| FA-2026-003 | 19 Nov 2026 | Open-source digital administration inspired by GendBuntu and Schleswig-Holstein | **Unanimous**, exact numerical tally not separately supplied | Strategic direction adopted; actual services still proposed/piloted |
+| FA-2026-004 | 19 Nov 2026 | Appoint Glenn as CDO; activate Office of Sovereign Systems charter | **Unanimous consent**, accepted by Glenn | [Office charter](../docs/OSPO_CHARTER_2026-11-19.md) |
 
-## Reported meetings awaiting formal decision-return details
+**Source fidelity and open items:** The supplied minutes do not identify the original distribution time for the new one-hour notice, the exact constitution commit/version considered, or an independently approved signed copy. The [consolidated text](CONSTITUTION.md) reproduces the only published draft v0.1 until matched to the original meeting copy. This uncertainty does not erase the organiser's reported unanimous vote.
 
-| Event | Attendance | Record status |
-| --- | --- | --- |
-| [Founding assembly, 19 Nov 2026, 3:30 pm AEDT](../docs/FOUNDING_ASSEMBLY_2026-11-19.md) | All five founders, organiser-reported | Held, per organiser; ratification tally and notice-rule documentation outstanding |
+**Not adopted in these minutes:** a presidential election or cabinet; a complete passage of the separately drafted *Open Source Act*; national flag/arms/anthem; sovereign territory; foreign state recognition. The OSPO is an internal association office and not a public-law authority.
 
-## For later entries
-
-Each actual decision should include the exact motion, meeting date, authorised decision-maker, quorum, YES/NO/ABSTAIN totals or other lawful adoption evidence, source minutes, effective date and subsequent amendments.
-
-Repository publication alone does not confer legal status or turn a proposed motion into an adopted instrument.
+For any future entry, record exact motion text, eligibility/quorum, YES/NO/ABSTAIN or nature of unanimity, effective date, conflicts, signed-off minutes and corrections. Historical notices are supplemented, not silently overwritten.

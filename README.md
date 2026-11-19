@@ -4,7 +4,7 @@
 
 [![Gazette](https://img.shields.io/badge/Gazette-Founding%20Edition-123149)](https://github.com/Parris-Tech-Services/RepublicOfParristan/tree/main/gazette)
 
-> **Status — 19 November 2026:** Parristan is a genuine **micronational civic initiative** seeking to organise real members, constitutional government and peaceful external relationships. A five-person founding assembly **was reported held at 3:30 pm AEDT on 19 November 2026**; the ratification vote totals and notice-rule evidence have not yet been entered, so verified adoption is pending. Parristan is **not a recognised sovereign state**. This Gazette records notices by its organisers, not notices having statutory effect under Australian law.
+> **Status — 19 November 2026:** Parristan is a genuine **micronational civic initiative** seeking to organise real members, constitutional government and peaceful external relationships. A five-person founding assembly **was reported held at 3:30 pm AEDT on 19 November 2026**; minutes now record **5 YES, 0 NO and 0 ABSTAIN** for constitutional adoption, effective that day, with the exact voted-on text and original notice timing still to be confirmed. Parristan is **not a recognised sovereign state**. This Gazette records notices by its organisers, not notices having statutory effect under Australian law.
 
 ## Public Gazette
 
@@ -14,6 +14,7 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 - [Gazette No. 2026-002 — Proposal to convene a constituent assembly](gazette/2026/2026-002-assembly-invitation.md)
 - [Gazette No. 2026-003 — National symbol designs released for consultation](gazette/2026/2026-003-symbols-consultation.md)
 - [Gazette No. 2026-004 — First founding assembly held (organiser's report)](gazette/2026/2026-004-founding-assembly-report.md)
+- [Gazette No. 2026-005 — Unanimous ratification and CDO appointment](gazette/2026/2026-005-ratification-and-digital-appointments.md)
 - [Browse the Gazette index](gazette/INDEX.md)
 
 ## Website
@@ -27,7 +28,10 @@ GitHub Pages settings: https://github.com/Parris-Tech-Services/RepublicOfParrist
 ## Founding documents and civic institutions
 
 - [Founding declaration — proposal](institutions/FOUNDING_DECLARATION.md)
-- [Constitution — draft 0.1](institutions/CONSTITUTION_DRAFT.md)
+- [Constitution — ratified 19 November 2026 (consolidated text pending source-version confirmation)](institutions/CONSTITUTION.md)
+- [Ratification return — 5–0](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md)
+- [Office of Sovereign Systems and appointed CDO](docs/OSPO_CHARTER_2026-11-19.md)
+- [Historical constitution draft](institutions/CONSTITUTION_DRAFT.md)
 - [First constituent assembly](institutions/FOUNDING_ASSEMBLY.md)
 - [Assembly report — 19 November 2026](docs/FOUNDING_ASSEMBLY_2026-11-19.md)
 - [First election record — details pending](docs/FIRST_ELECTION_STATUS_2026-11-19.md)
@@ -64,7 +68,7 @@ Practical kit for running Parristan day to day, in [`operational-pack/`](operati
 
 ## National operations and next steps
 
-The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) tracks what is implemented and what requires real founder decisions or external legal action. The founding assembly is organiser-reported as held. **A verified ratification return and elected office have not yet been recorded.** Official symbols, sovereignty and recognition remain unestablished.
+The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) tracks what is implemented and what requires real founder decisions or external legal action. The supplied minutes record **unanimous constitutional ratification** and **Glenn's appointment as CDO**, effective 19 November 2026. The formal ratification return is published, but the exact circulated text and notice time still require matching against original records. **No President has been elected.** Official symbols, sovereignty and recognition remain unestablished.
 
 - [Ratification and founding assembly pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md)
 - [Presidential election and government operations](operations/ELECTION_AND_GOVERNMENT.md)
@@ -84,10 +88,11 @@ Never post home addresses, IDs, birth dates, private contact details or sensitiv
 | Institution or claim | Verified status |
 | --- | --- |
 | Founder-led initiative | Established |
-| Draft founding declaration and constitution | Published for consultation |
+| Constitution | Ratified unanimously 19 November 2026, per founder-supplied minutes; consolidated v0.1 text awaits copy confirmation |
 | Founding assembly | Held 19 November 2026, 3:30 pm AEDT, according to organiser; 5 founders present |
-| Constitutional ratification | Vote process reported complete; tally, final text, notice rule and effective date not supplied |
-| First-election arrangements | Organiser reports discussed/arranged; exact dates not supplied |
+| Constitutional ratification | 5 YES, 0 NO, 0 ABSTAIN; effective 19 November 2026; exact circulated text and notice timing unverified |
+| Office of Sovereign Systems | Charter activated; Glenn appointed CDO by unanimous consent |
+| First Presidential election | Not held; nominations/timetable not yet published |
 | Elected President or legislature | Not yet established |
 | Citizenship scheme | Proposed; applications not open |
 | Adopted national flag, arms or anthem | None; design proposals only |
@@ -98,12 +103,12 @@ The [Montevideo Convention](https://history.state.gov/historicaldocuments/frus19
 
 ## Open-source administration and next steps
 
-Parristan's **proposed digital-government direction** draws on the French National Gendarmerie's GendBuntu approach and Schleswig-Holstein's coordinated move to open-source office, messaging, collaboration and Linux systems. This is an **organiser-led proposal, not enacted law or a claim that any services are already deployed**.
+Parristan's **proposed digital-government direction** draws on the French National Gendarmerie's GendBuntu approach and Schleswig-Holstein's coordinated move to open-source office, messaging, collaboration and Linux systems. The founding Assembly adopted the **open-source strategic direction** unanimously on 19 November 2026. The full Open Source Act bill remains a proposal; no particular infrastructure service is claimed as deployed.
 
 - [Open-source digital-government strategy](docs/OPEN_SOURCE_DIGITAL_GOVERNMENT.md)
 - [Founding execution checklist — what happens next](docs/FOUNDING_EXECUTION_CHECKLIST.md)
 
-The immediate civic priority is a genuine founding assembly, recorded constitution ratification and democratic elections; the technology work begins with one testable, supportable Linux and LibreOffice pilot.
+With the founding assembly and reported ratification complete, the next priority is the first presidential election and practical administration; the technology work begins with one testable, supportable Linux and LibreOffice pilot.
 
 ## Windows developer setup and verified reference stacks
 

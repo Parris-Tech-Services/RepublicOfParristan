@@ -6,7 +6,7 @@ Note: GendBuntu itself is not publicly distributed, so ParriBuntu copies the app
 
 ## Phase 0: Governance
 - [ ] Pass the Open Source Act (`government/open-source-act.md`)
-- [ ] Appoint Chief Digital Officer (Office of Sovereign Systems)
+- [x] Appoint Chief Digital Officer — Glenn appointed by unanimous founding-assembly consent and accepted, 19 November 2026; [minutes](../../docs/FOUNDING_ASSEMBLY_2026-11-19.md). The full Open Source Act bill remains unpassed.
 - [ ] Confirm host: The Shed / ForgeGrid coordinator
 
 ## Phase 1: Identity (`runbook-01-identity-ucs.md`)
