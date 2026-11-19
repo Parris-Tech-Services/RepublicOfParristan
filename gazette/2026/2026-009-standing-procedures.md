@@ -21,3 +21,7 @@ Any member could ask for an item to be voted separately; none did.
 - These procedures govern future written votes and meetings until amended.
 - Item 5 resolves the open question in [Gazette 2026-005](2026-005-ratification-and-digital-appointments.md): members have confirmed that the published Constitution v0.1 is the text they adopted. The exact time founding-assembly notice was given remains unrecorded.
 - Joint admin access is a decision; whether each account and domain is actually set up that way still needs checking.
+
+## Session closed
+
+The chair (Joshua Parris) closed the session in the official channel at **4:50 pm AEDT, 19 November 2026**, noting the appointments and decisions above. Next steps: presidential nominations open 20 November under Returning Officer Matthew Walker, and the Secretary is to arrange the first monthly meeting.
