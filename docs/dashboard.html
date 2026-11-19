@@ -155,7 +155,7 @@
 <div class="container">
 <a href="./index.html" class="breadcrumb" aria-label="Back to Gazette home">&larr; Republic of Parristan Gazette</a>
 <h1>Public Administration Dashboard</h1>
-<p id="header-desc">Real-time view of constitutional progress, recorded decisions, operations tracking, and the first presidential election timetable. Data sourced from version-controlled repository records.</p>
+<p id="header-desc">Recorded facts from the Republic of Parristan repository, last updated <strong id="as-of-date"></strong>.</p>
 </div>
 </header>
 
@@ -210,15 +210,15 @@
 <!-- Appointed Officers -->
 <section class="section-block" aria-labelledby="officers-heading">
 <h2 id="officers-heading">Appointed Officers</h2>
-<p>Interim and electoral officers appointed by founding-assembly resolution.</p>
+<p>Five interim offices held by four people, appointed by founding-assembly resolution (<a href="../gazette/2026/2026-005-ratification-and-digital-appointments.md">Gazette 2026-005</a>, <a href="../gazette/2026/2026-007-returning-officer-and-election-timetable.md">Gazette 2026-007</a>, <a href="../gazette/2026/2026-008-interim-roles-en-bloc.md">Gazette 2026-008</a>). Glenn Peterson holds two roles (CDO and Registrar).</p>
 <div class="officer-list" id="officer-list"></div>
 </section>
 
 <!-- Operations Board -->
 <section class="section-block" aria-labelledby="ops-heading">
 <h2 id="ops-heading">Operations Tracker</h2>
-<p>From the national operations checklist. Progress: <strong id="ops-progress">0 / 0</strong>.</p>
-<div class="ops-board" id="ops-board" role="group" aria-label="Operations by status"></div>
+<p>From <a href="../NATIONAL_OPERATIONS_TODO.md">NATIONAL_OPERATIONS_TODO.md</a>. Counted live from <code>[x]</code> markers: <strong id="ops-progress">— / —</strong>.</p>
+<div class="ops-board" id="ops-board" role="group" aria-label="Operations by status"><p class="copy">Loading…</p></div>
 </section>
 
 <!-- Gazette Feed -->
@@ -253,15 +253,60 @@
 </div>
 </section>
 
+<!-- Status Disclaimers -->
+<section class="section-block" aria-labelledby="disclaimer-heading">
+<div style="background:#fdf7e9;border:1px solid #e7d9ba;border-radius:var(--radius);padding:20px 24px">
+<h3 id="disclaimer-heading" style="font-size:16px;color:#6f4d19;margin:0 0 8px">Important disclaimers</h3>
+<ul style="margin:0;padding-left:18px;font-size:13px;color:#5a4618;line-height:1.6">
+<li><strong>No President is elected.</strong> The first presidential election nominates 20–27 Nov and ballots 28 Nov – 1 Dec 2026 (Gazette 2026-007).</li>
+<li><strong>No national symbols are adopted.</strong> Flag, arms and anthem remain design proposals awaiting Assembly vote.</li>
+<li><strong>Citizenship intake is not open.</strong> A private consent-based application process must be adopted before accepting applications.</li>
+<li><strong>Parristan is not a recognised sovereign state.</strong> It is a developing micronational civic initiative. These records have no statutory force under Australian law.</li>
+</ul>
+<p style="margin:10px 0 0;font-size:12px;color:#68502b"><em>Sources: <a href="../institutions/CONSTITUTION.md">Constitution Art VIII &amp; XII</a>, <a href="../docs/LEGAL_STATUS.md">Legal Position</a>, <a href="../operations/ELECTION_AND_GOVERNMENT.md">Election Operations</a>, <a href="../operations/CITIZENSHIP_OPERATIONS.md">Citizenship Operations</a></em></p>
+</div>
+</section>
+
 </div>
 </main>
+
+<!-- No-JS static fallback shown when JavaScript is disabled -->
+<noscript>
+<div style="background:#fffdf8;border-top:3px solid var(--teal);padding:20px 25px">
+<p style="background:#fdf7e9;border:1px solid #e7d9ba;padding:16px;border-radius:8px">
+<strong>Dashboard data:</strong> This page loads live data from JSON. View <a href="./data/dashboard-metadata.json">the raw metadata file</a> or see below for summary figures.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:16px">
+<div style="background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:18px;text-align:center"><strong style="font:700 clamp(26px,3.8vw,38px)/1 Georgia,serif;color:var(--navy);display:block">9</strong><span style="font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--muted);display:block">Gazette Notices</span></div>
+<div style="background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:18px;text-align:center"><strong style="font:700 clamp(26px,3.8vw,38px)/1 Georgia,serif;color:#27ae60;display:block">✓</strong><span style="font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--muted);display:block">Constitution Ratified</span></div>
+<div style="background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:18px;text-align:center"><strong style="font:700 clamp(26px,3.8vw,38px)/1 Georgia,serif;color:var(--teal-dark);display:block">8</strong><span style="font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--muted);display:block">Decisions Logged</span></div>
+<div style="background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:18px;text-align:center"><strong style="font:700 clamp(26px,3.8vw,38px)/1 Georgia,serif;color:var(--navy);display:block">20/41</strong><span style="font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--muted);display:block">Operations Done</span></div>
+<div style="background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:18px;text-align:center"><strong style="font:700 clamp(26px,3.8vw,38px)/1 Georgia,serif;color:#c0392b;display:block">None</strong><span style="font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--muted);display:block">President Elected</span></div>
+<div style="background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:18px;text-align:center"><strong style="font:700 clamp(26px,3.8vw,38px)/1 Georgia,serif;color:var(--teal-dark);display:block">5/4</strong><span style="font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--muted);display:block">Offices/Appointed</span></div>
+</div>
+<h3 style="font-family:Georgia,serif;font-size:20px;color:var(--navy);margin:20px 0 10px">Decisions &amp; Officers</h3>
+<table style="width:100%;border-collapse:collapse;font-size:13px"><thead><tr style="background:var(--navy);color:#e8edf1"><th style="padding:8px;text-align:left">ID</th><th style="padding:8px;text-align:left">Resolution</th><th style="padding:8px;text-align:left">Vote</th></tr></thead><tbody>
+<tr style="border-bottom:1px solid var(--line)"><td style="padding:8px;font-weight:bold">FA-2026-001</td><td style="padding:8px">Change founding-assembly notice from 14 days to 1 hour</td><td style="padding:8px">5 YES / 0 NO / 0 ABSTAIN</td></tr>
+<tr style="border-bottom:1px solid var(--line)"><td style="padding:8px;font-weight:bold">FA-2026-002</td><td style="padding:8px">Adopt Constitution of the Republic of Parristan</td><td style="padding:8px">5 YES / 0 NO / 0 ABSTAIN</td></tr>
+<tr style="border-bottom:1px solid var(--line)"><td style="padding:8px;font-weight:bold">FA-2026-003</td><td style="padding:8px">Open-source digital administration</td><td style="padding:8px">Unanimous</td></tr>
+<tr style="border-bottom:1px solid var(--line)"><td style="padding:8px;font-weight:bold">FA-2026-004</td><td style="padding:8px">Appoint Glenn as CDO; activate OSPO</td><td style="padding:8px">Unanimous consent</td></tr>
+<tr style="border-bottom:1px solid var(--line)"><td style="padding:8px;font-weight:bold">FA-2026-005</td><td style="padding:8px">Matrix room as interim official channel</td><td style="padding:8px">5 YES / 0 NO / 0 ABSTAIN</td></tr>
+<tr style="border-bottom:1px solid var(--line)"><td style="padding:8px;font-weight:bold">FA-2026-006</td><td style="padding:8px">Matthew Walker as Returning Officer</td><td style="padding:8px">5 YES / 0 NO / 0 ABSTAIN</td></tr>
+<tr style="border-bottom:1px solid var(--line)"><td style="padding:8px;font-weight:bold">FA-2026-007</td><td style="padding:8px">Secretary/Treasurer/Registrar appointed</td><td style="padding:8px">5 YES / 0 NO / 0 ABSTAIN</td></tr>
+<tr><td style="padding:8px;font-weight:bold">FA-2026-008</td><td style="padding:8px">Standing procedures; Constitution v0.1 confirmed</td><td style="padding:8px">5 YES / 0 NO / 0 ABSTAIN</td></tr>
+</tbody></table>
+<ul style="list-style:none;padding:0;margin-top:10px">
+<li><strong>CDO/OSPO:</strong> Glenn Peterson · <strong>Secretary:</strong> Jane Carbunkle · <strong>Treasurer:</strong> Fred Carbunkle · <strong>Registrar:</strong> Glenn Peterson · <strong>RO:</strong> Matthew J.L. Walker</li>
+<li><strong>President:</strong> Not elected — vote 28 Nov – 1 Dec 2026</li>
+</ul>
+</div>
+</noscript>
 
 <footer class="footer">
 <div class="container">
 <div class="footer-grid">
 <div>
 <h3>Republic of Parristan</h3>
-<p>A developing civic attempt to establish a peaceful, democratic community. This dashboard reads directly from Git repository data files — no database required.</p>
+<p>A developing civic attempt to establish a peaceful, democratic community. Dashboard reads directly from Git repository data files.</p>
 </div>
 <div>
 <strong>Quick links</strong>
@@ -316,13 +361,21 @@
   /* --- KPI Strip --- */
   function renderKPI(kpi) {
     var strip = document.getElementById('kpi-strip');
+    // Set "as of" date
+    var asOfEl = document.getElementById('as-of-date');
+    if (asOfEl && kpi.updated) {
+      try {
+        var d = new Date(kpi.updated);
+        asOfEl.textContent = d.toLocaleDateString('en-AU', {day:'numeric',month:'long',year:'numeric'});
+      } catch(e) { asOfEl.textContent = kpi.updated; }
+    }
     var items = [
-      { label: 'Notices', value: kpi.gazette_notices_published, cls: '' },
-      { label: 'Ratified Constitution', value: kpi.constitutional_instruments_ratified ? '\u2713' : '—', cls: 'success' },
-      { label: 'Decisions Recorded', value: kpi.recorded_decisions, cls: 'info' },
-      { label: 'Ops Completed', value: kpi.operations_done + ' / ' + kpi.operations_total, cls: '' },
-      { label: 'Elected President', value: kpi.elected_president || '\u2014', cls: 'alert' },
-      { label: 'Founders', value: kpi.founding_members, cls: 'success' }
+      { label: 'Gazette Notices', value: kpi.gazette_notices_published, cls: '' },
+      { label: 'Constitution Ratified', value: kpi.constitutional_instruments_ratified ? '\u2713' : '—', cls: 'success' },
+      { label: 'Decisions Logged', value: kpi.recorded_decisions, cls: 'info' },
+      { label: 'Operations Done', value: kpi.operations_done + ' / ' + kpi.operations_total, cls: '' },
+      { label: 'President Elected', value: kpi.elected_president > 0 ? '\u2713' : 'None', cls: kpi.elected_president > 0 ? 'success' : 'alert' },
+      { label: 'Officers Appointed', value: '5 offices / 4 people', cls: 'info' }
     ];
     items.forEach(function(it) {
       var card = el('div', 'kpi-card ' + it.cls);
