@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Republic of Parristan · Public Administration Dashboard",
+    "description": "Live view of constitutional progress, Gazette notices, operations tracking and institutional health.",
+    "updated": "2026-11-19T16:00:00+11:00",
+    "source": "https://github.com/Parris-Tech-Services/RepublicOfParristan"
+  },
+
+  "kpi": {
+    "gazette_notices_published": 9,
+    "constitutional_instruments_ratified": 1,
+    "recorded_decisions": 8,
+    "elected_president": 0,
+    "interim_appointees": 4,
+    "operations_done": 20,
+    "operations_total": 41,
+    "founding_members": 5
+  },
+
+  "roadmap": [
+    {
+      "step": 1,
+      "label": "Publish honest founding documents",
+      "status": "complete",
+      "note": "Founding declaration, constitution draft, and roadmap published for consultation."
+    },
+    {
+      "step": 2,
+      "label": "Form constituent assembly",
+      "status": "complete",
+      "note": "All five founders attended on 19 November 2026 at 3:30 pm AEDT per supplied minutes."
+    },
+    {
+      "step": 3,
+      "label": "Ratify the constitution",
+      "status": "complete",
+      "note": "5 YES / 0 NO / 0 ABSTAIN; internal effect from 19 November 2026. Open audit: exact version and notice-delivery time."
+    },
+    {
+      "step": 4,
+      "label": "Elect accountable officeholders",
+      "status": "in_progress",
+      "note": "Interim Secretary, Treasurer, Registrar appointed 5–0. First presidential election nominated 20–27 Nov, ballot 28 Nov – 1 Dec. No President elected yet."
+    },
+    {
+      "step": 5,
+      "label": "Develop civic community",
+      "status": "future",
+      "note": "Membership register not operational, lawful premises not established, external correspondence not authorised."
+    }
+  ],
+
+  "decisions": [
+    {"id": "FA-2026-001", "date": "2026-11-19", "text": "Change founding-assembly notice from 14 days to 1 hour before constitutional ballot", "vote": "5 YES / 0 NO / 0 ABSTAIN"},
+    {"id": "FA-2026-002", "date": "2026-11-19", "text": "Adopt Constitution of the Republic of Parristan", "vote": "5 YES / 0 NO / 0 ABSTAIN"},
+    {"id": "FA-2026-003", "date": "2026-11-19", "text": "Open-source digital administration inspired by GendBuntu and Schleswig-Holstein", "vote": "Unanimous"},
+    {"id": "FA-2026-004", "date": "2026-11-19", "text": "Appoint Glenn as CDO; activate Office of Sovereign Systems charter", "vote": "Unanimous consent, accepted"},
+    {"id": "FA-2026-005", "date": "2026-11-19", "text": "Motion 1: founders' encrypted Matrix room as interim official channel", "vote": "5 YES / 0 NO / 0 ABSTAIN"},
+    {"id": "FA-2026-006", "date": "2026-11-19", "text": "Motion 2: appoint Matthew Walker as Returning Officer", "vote": "5 YES / 0 NO / 0 ABSTAIN"},
+    {"id": "FA-2026-007", "date": "2026-11-19", "text": "Motion 3 (en bloc): Secretary, Treasurer, Registrar appointed; no spending until budget approved", "vote": "5 YES / 0 NO / 0 ABSTAIN"},
+    {"id": "FA-2026-008", "date": "2026-11-19", "text": "Motion 4 (en bloc): voting rules, monthly meetings, Constitution v0.1 confirmed as adopted text", "vote": "5 YES / 0 NO / 0 ABSTAIN"}
+  ],
+
+  "officeholders": [
+    {"role": "Chief Digital Officer / OSPO", "name": "Glenn Peterson", "appointed_by": "FA-2026-004 (unanimous)", "started": "2026-11-19", "term": "until reassignment"},
+    {"role": "Secretary (interim)", "name": "Jane Carbunkle", "appointed_by": "FA-2026-007 (5–0)", "started": "2026-11-19", "term": "until first election"},
+    {"role": "Treasurer (interim)", "name": "Fred Carbunkle", "appointed_by": "FA-2026-007 (5–0)", "started": "2026-11-19", "term": "until first election"},
+    {"role": "Registrar (interim)", "name": "Glenn Peterson", "appointed_by": "FA-2026-007 (5–0)", "started": "2026-11-19", "term": "until first election"},
+    {"role": "Returning Officer", "name": "Matthew John Lucas Walker", "appointed_by": "FA-2026-006 (5–0)", "started": "2026-11-19", "term": "until first election result certified"},
+    {"role": "President", "name": "Not elected", "appointed_by": null, "started": null, "term": "N/A — election pending 28 Nov – 1 Dec"}
+  ],
+
+  "election_timetable": {
+    "nominations_open": "2026-11-20",
+    "nominations_close": "2026-11-27",
+    "voting_start": "2026-11-28",
+    "voting_end": "2026-12-01",
+    "returning_officer": "Matthew John Lucas Walker",
+    "candidates": ["Joshua Parris (intention shared)"],
+    "status": "nominations_pending"
+  },
+
+  "symbols": [
+    {
+      "name": "Flag — Founding Star",
+      "type": "flag",
+      "status": "consultation",
+      "colors": ["navy #142b42", "teal #0e675f", "ivory #fffdf8", "gold #e3b366"],
+      "description": "Gold eight-point star on navy field, ivory stripe and teal band",
+      "image": "../assets/flag-proposal.svg"
+    },
+    {
+      "name": "Civic Arms — Liberty Service Truth",
+      "type": "arms",
+      "status": "consultation",
+      "description": "Navy-and-teal shield, golden star and branches with motto",
+      "image": "../assets/arms-proposal.svg"
+    }
+  ],
+
+  "tech_stack": {
+    "gendarmerie": {
+      "name": "French National Gendarmerie (GendBuntu) — proposed pilot",
+      "items": [
+        {"name": "UCS (Univention Corporate Server)", "status": "proposed", "progress": 0},
+        {"name": "LibreOffice", "status": "proposed", "progress": 0},
+        {"name": "Thobys email", "status": "proposed", "progress": 0},
+        {"name": "Nextcloud collaboration", "status": "proposed", "progress": 0},
+        {"name": "ParriBuntu desktop image", "status": "proposal_only", "progress": 0}
+      ]
+    },
+    "schleswig_holstein": {
+      "name": "Schleswig-Holstein (Germany) migration — evidence model",
+      "items": [
+        {"name": "Müller-MSP office suite", "status": "completed", "progress": 100},
+        {"name": "Messaging (Matrix/Dendrite)", "status": "completed", "progress": 100},
+        {"name": "Collaboration infrastructure", "status": "completed", "progress": 100},
+        {"name": "Linux endpoint deployment", "status": "ongoing", "progress": 65}
+      ]
+    }
+  },
+
+  "institution_health": [
+    {"institution": "Constitution", "status": "ratified_adopted_v0.1", "file": "CONSTITUTION.md"},
+    {"institution": "Decision Register", "status": "active_8_decisions", "file": "DECISION_REGISTER.md"},
+    {"institution": "Founding Declaration", "status": "published_for_consultation", "file": "FOUNDING_DECLARATION.md"},
+    {"institution": "Ratification Procedure", "status": "proposal", "file": "RATIFICATION_PROCEDURE.md"},
+    {"institution": "Election Rules", "status": "proposal", "file": "ELECTION_RULES.md"},
+    {"institution": "Citizenship & Privacy Policy", "status": "policy_proposal", "file": "CITIZENSHIP.md"},
+    {"institution": "Governance Framework", "status": "proposal", "file": "GOVERNANCE.md"},
+    {"institution": "National Symbols Policy", "status": "design_proposals", "file": "NATIONAL_SYMBOLS.md"},
+    {"institution": "Legal Status Position", "status": "published", "file": "LEGAL_STATUS.md"},
+    {"institution": "OS Charter", "status": "activated_unanimous", "file": "OSPO_CHARTER_2026-11-19.md"}
+  ]
+}

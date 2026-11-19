@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#142b42">
+<meta name="description" content="Public Administration Dashboard — institutional health, operations tracking, Gazette notices and election timetable for the Republic of Parristan.">
+<title>Dashboard · Republic of Parristan</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="site.css">
+<style>
+/* Dashboard-specific styles */
+.dashboard-page{min-height:100vh;background:var(--paper)}
+.db-header{background:linear-gradient(135deg,var(--navy) 0%,#1a3a5c 50%,var(--teal-dark) 100%);color:#e8edf1;padding:36px 0 28px}
+.db-header .container{display:flex;flex-direction:column;gap:10px}
+.db-header h1{font-size:clamp(22px,3.2vw,34px);margin:0;color:#fffdf7;font-weight:700;letter-spacing:-.01em}
+.db-header p{margin:0;font-size:13px;color:#b8c9cc;max-width:680px;line-height:1.5}
+.db-header .breadcrumb{font-size:12px;color:#8aa3a7;margin-bottom:6px}
+.db-header .breadcrumb a{color:#d3dfdf;text-decoration:none}
+.db-header .breadcrumb a:hover{text-decoration:underline}
+
+.kpi-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:-24px;position:relative;z-index:3;margin-bottom:28px}
+.kpi-card{background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow);text-align:center;transition:transform .15s ease,box-shadow .15s ease}
+.kpi-card:hover{transform:translateY(-2px);box-shadow:0 22px 48px #132d4125}
+.kpi-card .kpi-value{font:700 clamp(26px,3.8vw,38px)/1 Georgia,serif;color:var(--navy);display:block;margin-bottom:4px}
+.kpi-card .kpi-label{font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--muted);display:block}
+.kpi-card.success .kpi-value{color:#27ae60}
+.kpi-card.alert .kpi-value{color:#c0392b}
+.kpi-card.info .kpi-value{color:var(--teal-dark)}
+
+.section-block{padding:32px 0 44px;border-bottom:1px solid var(--line)}
+.section-block:last-child{border-bottom:none}
+.section-block h2{font-size:clamp(20px,2.5vw,28px);margin:0 0 6px;color:var(--navy)}
+.section-block>p{color:var(--muted);margin:0 0 22px;font-size:14px}
+
+/* Roadmap */
+.roadspace{display:grid;grid-template-columns:minmax(0,.95fr) 260px;gap:32px;align-items:start}
+.road-item{display:flex;gap:16px;align-items:stretch;padding:16px 20px;background:var(--ivory);border:1px solid var(--line);border-radius:10px;margin-bottom:10px;transition:box-shadow .15s ease}
+.road-item:hover{box-shadow:0 4px 16px #10283b0a}
+.road-num{font:700 clamp(26px,3.2vw,36px)/1 Georgia,serif;color:var(--line);min-width:38px;text-align:center}
+.road-body{flex:1}
+.road-body h3{font:500 16px/1.3 Georgia,serif;margin:0 0 3px;color:var(--navy)}
+.road-status{font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;display:inline-flex;align-items:center;gap:6px}
+.status-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.status-dot.complete{background:#27ae60;box-shadow:0 0 6px #27ae6066}
+.status-dot.in_progress{background:#e67e22;box-shadow:0 0 6px #e67e2266}
+.status-dot.pending{background:#95a5a6}
+.status-dot.future{background:#ddd;border:1.5px solid #ccc}
+.road-body .road-note{font-size:12px;color:#65737d;margin:5px 0 0}
+
+.side-panel{background:var(--navy);color:#dce9eb;border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);font-size:13px;line-height:1.55}
+.side-panel h3{font-family:Georgia,serif;font-size:17px;color:white;margin:0 0 12px}
+.side-panel a{color:#f6d9a4}
+.side-panel p{margin:0 0 10px}
+
+/* Operations Board */
+.ops-board{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.ops-column{background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:14px;min-height:100px}
+.ops-column h3{font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid var(--line);display:flex;align-items:center;gap:8px;color:var(--navy)}
+.ops-column h3 .ops-count{background:var(--paper);padding:1px 7px;border-radius:50px;font-size:10px}
+.ops-card{background:var(--paper);border:1px solid #e2dfd7;border-radius:7px;padding:12px;margin-bottom:8px;transition:border-color .15s}
+.ops-card:hover{border-color:var(--teal)}
+.ops-card .ops-title{font-size:12px;font-weight:600;color:var(--ink);line-height:1.35;margin:0 0 4px}
+.ops-card .ops-area{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.priority-critical{border-left:3px solid #c0392b}.priority-high{border-left:3px solid #e67e22}.priority-medium{border-left:3px solid #f1c40f}.priority-low{border-left:3px solid #3498db}
+
+/* Decision Register */
+.decision-table{width:100%;border-collapse:collapse;font-size:13px}
+.decision-table th{text-align:left;padding:10px 14px;background:var(--navy);color:#e8edf1;font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:800}
+.decision-table th:first-child{border-radius:var(--radius) 0 0 0}
+.decision-table th:last-child{border-radius:0 var(--radius) 0 0}
+.decision-table td{padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+.decision-table tr:last-child td{border:none}
+.decision-table tr:hover td{background:#fafaf7}
+.dec-id{font:700 13px Georgia,serif;color:var(--teal-dark);white-space:nowrap}
+.dec-vote{font-size:11px;font-weight:800;padding:2px 8px;border-radius:4px;background:#eaf2f8;color:#2471a3;white-space:nowrap}
+
+/* Officeholders */
+.officer-list{display:grid;gap:8px}
+.officer-row{display:flex;gap:16px;align-items:center;padding:12px 18px;background:var(--ivory);border:1px solid var(--line);border-radius:8px;transition:box-shadow .15s}
+.officer-row:hover{box-shadow:0 3px 12px #10283b0a}
+.officer-role{flex:1;font-size:14px;font-weight:700;color:var(--navy)}
+.officer-name{font-size:14px;font-weight:600;color:var(--ink);min-width:160px}
+.officer-badge{font-size:10px;font-weight:700;padding:3px 8px;border-radius:50px;text-transform:uppercase;letter-spacing:.05em}
+.officer-badge.interim{background:#fef9e7;color:#9a7d0a}
+.officer-badge.election_pending{background:#fadbd8;color:#922b21}
+.officer-badge.active{background:#d5f5e3;color:#1e8449}
+
+/* Symbols */
+.symbols-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.sym-card{background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.sym-card .sym-preview{display:flex;align-items:center;justify-content:center;padding:28px;background:var(--paper);min-height:160px}
+.sym-card .sym-preview img{max-width:180px;max-height:160px;object-fit:contain;filter:drop-shadow(0 4px 8px #0001)}
+.sym-card .sym-info{padding:18px}
+.sym-type{font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--teal)}
+.sym-card h3{font-size:17px;margin:5px 0 6px;color:var(--navy)}
+.sym-card p{font-size:12px;color:#65737d;margin:0 0 8px}
+.sym-tags{display:flex;gap:5px;flex-wrap:wrap}
+.sym-tags span{font-size:9px;font-weight:700;padding:2px 6px;border-radius:3px;background:var(--paper);color:var(--muted)}
+
+/* Election Timetable */
+.election-banner{background:linear-gradient(135deg,#fdf7e9,#fff8ea);border:2px solid #f0c75e;border-radius:var(--radius);padding:24px 28px;display:grid;grid-template-columns:minmax(0,.7fr) 200px;gap:24px;align-items:center}
+.election-banner h3{font-family:Georgia,serif;font-size:20px;color:var(--navy);margin:0 0 6px}
+.election-banner p{font-size:13px;color:#65737d;margin:0 0 4px;line-height:1.5}
+.election-dates{text-align:right}
+.election-date{text-align:right;margin:6px 0}
+.election-date strong{font:700 18px Georgia,serif;color:var(--navy)}
+.election-date span{font-size:11px;color:var(--muted);display:block;font-weight:600}
+
+/* Tech Stack */
+.tech-section{margin-bottom:28px}
+.tech-section h3{font-family:Georgia,serif;font-size:19px;color:var(--navy);margin:0 0 12px}
+.tech-item{display:flex;align-items:center;gap:14px;padding:10px 0;border-bottom:1px solid #ece9e2}
+.tech-item:last-child{border:none}
+.tech-name{flex:1;font-size:13px;font-weight:600;color:var(--ink)}
+.progress-bar{width:130px;height:9px;background:#e8e5de;border-radius:5px;overflow:hidden}
+.progress-fill{height:100%;border-radius:5px;transition:width .5s ease}
+.progress-fill.green{background:linear-gradient(90deg,#27ae60,#2ecc71)}
+.progress-fill.orange{background:linear-gradient(90deg,#e67e22,#f39c12)}
+.progress-fill.gray{background:linear-gradient(90deg,#95a5a6,#bdc3c7)}
+.tech-status{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;min-width:90px;text-align:right}
+.tech-status.completed{color:#27ae60}
+.tech-status.ongoing{color:#e67e22}
+.tech-status.proposed{color:#95a5a6}
+.tech-status.proposal_only{color:#bbb;font-weight:600}
+
+/* Institution Health */
+.health-table{width:100%;border-collapse:collapse;font-size:13px}
+.health-table th{text-align:left;padding:10px 14px;background:var(--navy);color:#e8edf1;font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:800}
+.health-table th:first-child{border-radius:var(--radius) 0 0 0}
+.health-table th:last-child{border-radius:0 var(--radius) 0 0}
+.health-table td{padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:middle}
+.health-table tr:last-child td{border:none}
+.health-table tr:hover td{background:#fafaf7}
+.inst-name{font-weight:700;color:var(--navy)}
+.health-badge{display:inline-block;padding:3px 9px;border-radius:50px;font-size:10px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.health-badge.ratified{background:#d5f5e3;color:#1e8449}
+.health-badge.active{background:#d4efdf;color:#1e8449}
+.health-badge.published{background:#eaf2f8;color:#2471a3}
+.health-badge.draft{background:#fef9e7;color:#9a7d0a}
+.health-badge.proposal{background:#fadbd8;color:#922b21}
+.health-badge.design_proposals{background:#eaf2f8;color:#2471a3}
+.health-badge.policy{background:#f5eef8;color:#6c3483}
+.health-badge.activated{background:#d5f5e3;color:#1e8449}
+
+@media(max-width:880px){.roadspace,.election-banner{grid-template-columns:1fr}.ops-board{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.kpi-strip{grid-template-columns:repeat(2,1fr)}.ops-board{grid-template-columns:1fr}}
+</style>
+</head>
+<body class="dashboard-page">
+<a href="#main-content" class="skip-link">Skip to dashboard</a>
+
+<header class="db-header">
+<div class="container">
+<a href="./index.html" class="breadcrumb" aria-label="Back to Gazette home">&larr; Republic of Parristan Gazette</a>
+<h1>Public Administration Dashboard</h1>
+<p id="header-desc">Real-time view of constitutional progress, recorded decisions, operations tracking, and the first presidential election timetable. Data sourced from version-controlled repository records.</p>
+</div>
+</header>
+
+<main id="main-content">
+<div class="container">
+
+<!-- KPI strip -->
+<section class="kpi-strip" id="kpi-strip" aria-label="Key performance indicators"></section>
+
+<!-- Election Alert Banner -->
+<section class="section-block" aria-labelledby="election-heading">
+<div class="election-banner" id="election-banner">
+<div>
+<h3 id="election-heading">First Presidential Election</h3>
+<p>Nominations are scheduled <strong>20–27 November 2026</strong>. Ballot runs <strong>28 November – 1 December 2026</strong>, AEDT.</p>
+<p>Returning Officer: <strong>Matthew John Lucas Walker</strong> (appointed 5–0). Joshua Parris has expressed intention to stand.</p>
+</div>
+<div class="election-dates">
+<div class="election-date"><strong id="election-days-until">—</strong><span>days until nominations open</span></div>
+<div class="election-date"><strong style="font-size:14px;color:#e67e22">5–0</strong><span>Returning Officer voted in</span></div>
+</div>
+</div>
+</section>
+
+<!-- Institutional Roadmap -->
+<section class="section-block" aria-labelledby="roadmap-heading">
+<div class="roadspace">
+<div>
+<h2 id="roadmap-heading">Constitutional Roadmap</h2>
+<p>Five-stage path from founding documents to a functioning civic community.</p>
+<div id="roadmap-list"></div>
+</div>
+<aside class="side-panel" aria-label="Roadmap notes">
+<h3>Status note</h3>
+<p>Parristan is a developing micronational initiative, not a recognised sovereign state. Publishing resolutions in this repository does not constitute international recognition or Australian statutory authority.</p>
+<p>The priority is genuine democratic participation through verifiable election and accountable governance.</p>
+<a href="../institutions/ROADMAP.md">Read the full roadmap &rarr;</a>
+</aside>
+</div>
+</section>
+
+<!-- Recorded Decisions -->
+<section class="section-block" aria-labelledby="decisions-heading">
+<h2 id="decisions-heading">Recorded Decisions</h2>
+<p>Eight resolutions adopted by the founding assembly on 19 November 2026.</p>
+<table class="decision-table" id="decision-table" aria-label="Founding assembly decisions">
+<thead><tr><th>ID</th><th>Resolution</th><th>Vote</th></tr></thead>
+<tbody id="decisions-tbody"></tbody>
+</table>
+</section>
+
+<!-- Appointed Officers -->
+<section class="section-block" aria-labelledby="officers-heading">
+<h2 id="officers-heading">Appointed Officers</h2>
+<p>Interim and electoral officers appointed by founding-assembly resolution.</p>
+<div class="officer-list" id="officer-list"></div>
+</section>
+
+<!-- Operations Board -->
+<section class="section-block" aria-labelledby="ops-heading">
+<h2 id="ops-heading">Operations Tracker</h2>
+<p>From the national operations checklist. Progress: <strong id="ops-progress">0 / 0</strong>.</p>
+<div class="ops-board" id="ops-board" role="group" aria-label="Operations by status"></div>
+</section>
+
+<!-- Gazette Feed -->
+<section class="section-block" aria-labelledby="gazette-heading">
+<h2 id="gazette-heading">Gazette Notices</h2>
+<p>All published notices in <a href="./index.html#notices">the public record</a>.</p>
+<div class="gazette-feed" id="gazette-feed" role="feed" aria-label="Gazette notices"></div>
+</section>
+
+<!-- Symbol Consultations -->
+<section class="section-block" aria-labelledby="symbols-heading">
+<h2 id="symbols-heading">Symbol Consultations</h2>
+<p>Design proposals awaiting Assembly vote. Not adopted emblems.</p>
+<div class="symbols-row" id="symbols-row"></div>
+</section>
+
+<!-- Digital Government Stack -->
+<section class="section-block" aria-labelledby="tech-heading">
+<h2 id="tech-heading">Digital Government Reference Stacks</h2>
+<p>Proposed technology direction modelled on the French National Gendarmerie and Schleswig-Holstein. The OSPO was activated unanimously but no services are deployed yet.</p>
+<div id="tech-stacks"></div>
+</section>
+
+<!-- Institution Health -->
+<section class="section-block" aria-labelledby="health-heading">
+<h2 id="health-heading">Institution Health Register</h2>
+<p>Status of every constitution, policy proposal and charter in the repository.</p>
+<table class="health-table" id="health-table" aria-label="Institution health register">
+<thead><tr><th>Institution</th><th>Document</th><th>Status</th></tr></thead>
+<tbody id="health-tbody"></tbody>
+</table>
+</div>
+</section>
+
+</div>
+</main>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<h3>Republic of Parristan</h3>
+<p>A developing civic attempt to establish a peaceful, democratic community. This dashboard reads directly from Git repository data files — no database required.</p>
+</div>
+<div>
+<strong>Quick links</strong>
+<ul>
+<li><a href="./index.html#notices">Gazette notices</a></li>
+<li><a href="../institutions/">Constitution and records</a></li>
+<li><a href="../NATIONAL_OPERATIONS_TODO.md">Full operations list</a></li>
+<li><a href="../operations/ELECTION_AND_GOVERNMENT.md">Election operations</a></li>
+</ul>
+</div>
+<div>
+<strong>Source of record</strong>
+<ul>
+<li><a href="https://github.com/Parris-Tech-Services/RepublicOfParristan">GitHub repository</a></li>
+<li><a href="https://github.com/Parris-Tech-Services/RepublicOfParristan/issues">Public consultations</a></li>
+<li><a href="./data/dashboard-metadata.json">Dashboard metadata (JSON)</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-end">Dashboard data loaded at runtime from <code>docs/data/dashboard-metadata.json</code> · Prepared 19 November 2026 · No claim of recognition, statutory authority or Australian affiliation.</div>
+</div>
+</footer>
+
+<script src="site.js" defer></script>
+<script>
+(function() {
+  /* Load dashboard data */
+  const DATA_URL = 'data/dashboard-metadata.json';
+
+  function load() {
+    fetch(DATA_URL + '?_=' + Date.now())
+      .then(function(res) { if (!res.ok) throw new Error('Failed to load dashboard data'); return res.json(); })
+      .then(function(d) { renderAll(d); })
+      .catch(function(err) {
+        document.body.innerHTML = '<div class="container" style="padding:80px 25px;text-align:center"><h1 style="color:#c0392b">Dashboard data unavailable</h1><p>' + err.message + '</p><p><a href="./index.html">Return to Gazette</a></p></div>';
+      });
+  }
+
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined && text !== null) e.textContent = text;
+    return e;
+  }
+
+  function fragment(items, tag, fn) {
+    var frag = document.createDocumentFragment();
+    items.forEach(function(item) { frag.appendChild(fn(item)); });
+    return frag;
+  }
+
+  /* --- KPI Strip --- */
+  function renderKPI(kpi) {
+    var strip = document.getElementById('kpi-strip');
+    var items = [
+      { label: 'Notices', value: kpi.gazette_notices_published, cls: '' },
+      { label: 'Ratified Constitution', value: kpi.constitutional_instruments_ratified ? '\u2713' : '—', cls: 'success' },
+      { label: 'Decisions Recorded', value: kpi.recorded_decisions, cls: 'info' },
+      { label: 'Ops Completed', value: kpi.operations_done + ' / ' + kpi.operations_total, cls: '' },
+      { label: 'Elected President', value: kpi.elected_president || '\u2014', cls: 'alert' },
+      { label: 'Founders', value: kpi.founding_members, cls: 'success' }
+    ];
+    items.forEach(function(it) {
+      var card = el('div', 'kpi-card ' + it.cls);
+      card.appendChild(el('span', 'kpi-value', String(it.value)));
+      card.appendChild(el('span', 'kpi-label', it.label));
+      strip.appendChild(card);
+    });
+  }
+
+  /* --- Roadmap --- */
+  function renderRoadmap(steps) {
+    var list = document.getElementById('roadmap-list');
+    steps.forEach(function(s) {
+      var item = el('div', 'road-item road-' + s.status);
+      item.appendChild(el('div', 'road-num', 'S' + s.step));
+      var body = el('div', 'road-body');
+      body.appendChild(el('h3', '', s.label));
+      var dot = el('span', 'status-dot ' + s.status);
+      var label = s.status.replace(/_/g, ' ').replace(/\b\w/g, function(c){ return c.toUpperCase(); });
+      body.appendChild(el('span', 'road-status', [dot.outerHTML, label].join(' ')));
+      if (s.note) body.appendChild(el('p', 'road-note', s.note));
+      item.appendChild(body);
+      list.appendChild(item);
+    });
+  }
+
+  /* --- Decisions --- */
+  function renderDecisions(decisions) {
+    var tbody = document.getElementById('decisions-tbody');
+    decisions.forEach(function(d) {
+      var tr = el('tr', '');
+      tr.appendChild(el('td', 'dec-id', d.id));
+      tr.appendChild(el('td', '', d.text));
+      var badge = el('td', '', '');
+      badge.appendChild(el('span', 'dec-vote', d.vote));
+      tr.appendChild(badge);
+      tbody.appendChild(tr);
+    });
+  }
+
+  /* --- Officers --- */
+  function renderOfficers(officeholders) {
+    var list = el('div', 'officer-list', '');
+    officeholders.forEach(function(o) {
+      var row = el('div', 'officer-row', '');
+      row.appendChild(el('span', 'officer-role', o.role));
+      row.appendChild(el('span', 'officer-name', o.name));
+      var cls = o.name === 'Not elected' ? 'election_pending' : 'interim';
+      row.appendChild(el('span', 'officer-badge ' + cls, o.started ? (o.term.indexOf('until') > -1 ? o.term.split(';')[0] : '') : 'Pending'));
+      list.appendChild(row);
+    });
+    document.getElementById('officer-list').appendChild(list);
+  }
+
+  /* --- Elections --- */
+  function renderElectionDates(et) {
+    var daysEl = document.getElementById('election-days-until');
+    if (daysEl && et.nominations_open) {
+      var nomOpen = new Date(et.nominations_open + 'T00:00:00+11:00');
+      var now = new Date();
+      var diff = Math.ceil((nomOpen - now) / (1000 * 60 * 60 * 24));
+      daysEl.textContent = diff > 0 ? diff + ' days' : 'Open';
+    }
+  }
+
+  /* --- Operations --- */
+  function renderOps(opsData, doneCount, totalCount) {
+    document.getElementById('ops-progress').textContent = doneCount + ' / ' + totalCount;
+    var board = document.getElementById('ops-board');
+    var columns = ['pending', 'consultation'];
+    columns.forEach(function(col) {
+      var cards = opsData.filter(function(it) { return it.status === col; });
+      var colDiv = el('div', 'ops-column');
+      colDiv.appendChild(el('h3', '', col.charAt(0).toUpperCase() + col.slice(1) + ' <span class="ops-count">' + cards.length + '</span>'));
+      cards.sort(function(a,b) {
+        var order = {critical:0,high:1,medium:2,low:3};
+        return (order[a.priority]||9) - (order[b.priority]||9);
+      });
+      cards.forEach(function(c) {
+        var link = el('a', 'ops-card priority-' + c.priority, '');
+        link.href = '../operations/' + c.title.toLowerCase().replace(/[^a-z]/g,'_') + '.md';
+        link.setAttribute('aria-label', c.id + ': ' + c.title + ', priority ' + c.priority);
+        link.appendChild(el('p', 'ops-title', c.title));
+        link.appendChild(el('span', 'ops-area', c.area + ' \u00b7 ' + c.priority));
+        colDiv.appendChild(link);
+      });
+      board.appendChild(colDiv);
+    });
+  }
+
+  /* --- Gazette Feed --- */
+  function renderGazette(notices) {
+    var feed = document.getElementById('gazette-feed');
+    notices.forEach(function(n) {
+      var link = el('a', 'gz-item notice', '');
+      link.href = './notices/' + n.id + '.html';
+      link.setAttribute('aria-label', 'Notice ' + n.id + ': ' + n.title);
+      link.setAttribute('data-notice', '');
+      link.setAttribute('data-category', n.category);
+      link.appendChild(el('span', 'meta', ''));
+      link.querySelector('.meta').appendChild(el('span', '', n.id));
+      link.querySelector('.meta').appendChild(el('span', '', new Date(n.date).toLocaleDateString('en-AU', {day:'numeric',month:'short',year:'numeric'})));
+      var tagClass = n.tag_class === 'amber' ? 'tag amber' : 'tag';
+      link.querySelector('.meta').appendChild(el('span', tagClass, n.tag));
+      link.appendChild(el('h3', '', n.title));
+      link.appendChild(el('p', '', n.description || ''));
+      feed.appendChild(link);
+    });
+  }
+
+  /* --- Symbols --- */
+  function renderSymbols(syms) {
+    var row = document.getElementById('symbols-row');
+    syms.forEach(function(s) {
+      var card = el('div', 'sym-card', '');
+      card.appendChild(el('div', 'sym-preview', '')).appendChild(el('img', '', s.image));
+      var info = el('div', 'sym-info', '');
+      info.appendChild(el('span', 'sym-type', s.type + ' proposal'));
+      info.appendChild(el('h3', '', s.name));
+      info.appendChild(el('p', '', s.description));
+      var tags = el('div', 'sym-tags', '');
+      tags.appendChild(el('span', '', 'Status: ' + s.status));
+      if (s.colors) s.colors.forEach(function(c) { tags.appendChild(el('span', '', c)); });
+      info.appendChild(tags);
+      card.appendChild(info);
+      row.appendChild(card);
+    });
+  }
+
+  /* --- Tech Stack --- */
+  function renderTech(ts) {
+    var container = document.getElementById('tech-stacks');
+    Object.keys(ts).forEach(function(key) {
+      var stack = ts[key];
+      var section = el('div', 'tech-section', '');
+      section.appendChild(el('h3', '', stack.name));
+      stack.items.forEach(function(item) {
+        var row = el('div', 'tech-item', '');
+        row.appendChild(el('span', 'tech-name', item.name));
+        var barWrap = el('div', 'progress-bar', '');
+        barWrap.appendChild(el('div', 'progress-fill ' + (item.progress >= 100 ? 'green' : item.progress > 0 ? 'orange' : 'gray'), ''));
+        var fill = barWrap.querySelector('.progress-fill');
+        fill.style.width = item.progress + '%';
+        fill.setAttribute('role', 'progressbar');
+        fill.setAttribute('aria-valuenow', item.progress);
+        fill.setAttribute('aria-valuemin', 0);
+        fill.setAttribute('aria-valuemax', 100);
+        fill.setAttribute('aria-label', item.name + ': ' + item.progress + '% complete');
+        row.appendChild(barWrap);
+        row.appendChild(el('span', 'tech-status ' + item.status, item.status.replace(/_/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();}))));
+        section.appendChild(row);
+      });
+      container.appendChild(section);
+    });
+  }
+
+  /* --- Health Table --- */
+  function renderHealth(instances) {
+    var tbody = document.getElementById('health-tbody');
+    var badges = {
+      ratified_adopted_v01: 'ratified',
+      active_8_decisions: 'active',
+      published_for_consultation: 'published',
+      proposal: 'proposal',
+      policy_proposal: 'policy',
+      design_proposals: 'design_proposals',
+      activated_unanimous: 'activated'
+    };
+    instances.forEach(function(inst) {
+      var tr = el('tr', '');
+      tr.appendChild(el('td', 'inst-name', inst.institution));
+      var link = el('a', '', inst.file);
+      link.href = '../institutions/' + inst.file;
+      link.setAttribute('aria-label', inst.institution + ': ' + inst.file);
+      tr.appendChild(el('td', '', '', [link]));
+      var badgeKey = inst.status;
+      var badgeCls = badges[badgeKey] || 'draft';
+      var displayLabel = inst.status.replace(/_/g, ' ');
+      tr.appendChild(el('td', '', '', [el('span', 'health-badge ' + badgeCls, displayLabel)]));
+      tbody.appendChild(tr);
+    });
+  }
+
+  /* --- Main Render --- */
+  function renderAll(data) {
+    renderKPI(data.kpi);
+    renderRoadmap(data.roadmap);
+    renderDecisions(data.decisions);
+    renderOfficers(data.officeholders);
+    renderElectionDates(data.election_timetable);
+    renderOps(data.operations || [], data.kpi.operations_done, data.kpi.operations_total);
+    renderGazette(data.notices || []);
+    renderSymbols(data.symbols);
+    renderTech(data.tech_stack);
+    renderHealth(data.institution_health);
+  }
+
+  load();
+})();
+</script>
+</body>
+</html>
