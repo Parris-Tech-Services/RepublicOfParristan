@@ -16,11 +16,41 @@ import argparse
 import json
 import re
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = REPO_ROOT / "docs" / "data" / "dashboard-metadata.json"
+
+_MONTHS = {
+    "Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04", "May": "05",
+    "Jun": "06", "Jul": "07", "Aug": "08", "Sep": "09", "Oct": "10",
+    "Nov": "11", "Dec": "12",
+}
+
+
+def _to_iso(raw):
+    """Convert human-readable dates to ISO-8601 (YYYY-MM-DD).
+
+    Handles formats like '19 Nov 2026', '19 November 2026', '2026-11-19'.
+    Returns the original string on failure rather than raising.
+    """
+    raw = raw.strip()
+    # Already ISO?
+    try:
+        date.fromisoformat(raw)
+        return raw
+    except ValueError:
+        pass
+    # Try strptime for common markdown formats
+    for fmt in ("%d %b %Y", "%d %B %Y", "%Y-%m-%d"):
+        try:
+            parsed = datetime.strptime(raw, fmt).date()
+            return parsed.isoformat()
+        except ValueError:
+            continue
+    # Fallback: keep original
+    return raw
 
 
 def parse_gazette_index():
@@ -35,11 +65,7 @@ def parse_gazette_index():
     ):
         nid, raw_date, title, status = m.group(1), m.group(2).strip(), m.group(3).strip(), m.group(4).strip()
         # Parse date
-        try:
-            d = date.fromisoformat(raw_date.replace(" ", "-").replace("November", "11").replace("Nov", "11"))
-            iso = d.isoformat()
-        except Exception:
-            iso = raw_date
+        iso = _to_iso(raw_date)
         notices.append({
             "id": nid,
             "date": iso,
@@ -92,11 +118,7 @@ def parse_decision_register():
         while len(cells) < 5:
             cells.append("")
         did, ddate, resolution, vote = cells[0], cells[1], cells[2], cells[3]
-        try:
-            d = date.fromisoformat(ddate.replace(" Nov", "-11-").replace(",", ""))
-            iso = d.isoformat()
-        except Exception:
-            iso = ddate
+        iso = _to_iso(ddate)
         # Clean markdown bold from resolution
         resolution = re.sub(r"\*\*", "", resolution)
         vote = re.sub(r"\*\*", "", vote)

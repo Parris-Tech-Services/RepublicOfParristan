@@ -50,49 +50,49 @@
   "decisions": [
     {
       "id": "FA-2026-001",
-      "date": "19 Nov 2026",
+      "date": "2026-11-19",
       "text": "Change draft founding assembly notice from 14 days to 1 hour, before constitutional ballot",
       "vote": "5 YES / 0 NO / 0 ABSTAIN"
     },
     {
       "id": "FA-2026-002",
-      "date": "19 Nov 2026",
+      "date": "2026-11-19",
       "text": "Adopt Constitution of the Republic of Parristan",
       "vote": "5 YES / 0 NO / 0 ABSTAIN"
     },
     {
       "id": "FA-2026-003",
-      "date": "19 Nov 2026",
+      "date": "2026-11-19",
       "text": "Open-source digital administration inspired by GendBuntu and Schleswig-Holstein",
       "vote": "Unanimous, exact numerical tally not separately supplied"
     },
     {
       "id": "FA-2026-004",
-      "date": "19 Nov 2026",
+      "date": "2026-11-19",
       "text": "Appoint Glenn as CDO; activate Office of Sovereign Systems charter",
       "vote": "Unanimous consent, accepted by Glenn"
     },
     {
       "id": "FA-2026-005",
-      "date": "19 Nov 2026",
+      "date": "2026-11-19",
       "text": "Motion 1: founders' encrypted Matrix/Element room is the interim official channel; CDO to propose permanent email/chat within 14 days",
       "vote": "5 YES / 0 NO / 0 ABSTAIN (written vote, closed 4:34 pm AEDT)"
     },
     {
       "id": "FA-2026-006",
-      "date": "19 Nov 2026",
+      "date": "2026-11-19",
       "text": "Motion 2: appoint Matthew Walker as Returning Officer for the first election (not a candidate)",
       "vote": "5 YES / 0 NO / 0 ABSTAIN (initially recorded 4–0 before the mover's vote was supplied)"
     },
     {
       "id": "FA-2026-007",
-      "date": "19 Nov 2026",
+      "date": "2026-11-19",
       "text": "Motion 3 (en bloc): Jane Carbunkle Secretary, Fred Carbunkle Treasurer, Glenn Peterson Registrar until first election; President-elect to bring draft mission/goals within 14 days of election; private member list, numbers 1–5 to founders; no money or bank account until a budget is approved",
       "vote": "5 YES / 0 NO / 0 ABSTAIN; no item split"
     },
     {
       "id": "FA-2026-008",
-      "date": "19 Nov 2026",
+      "date": "2026-11-19",
       "text": "Motion 4 (en bloc): written-vote rules (48 h, majority of votes cast, min. 3 voting); monthly meetings, extra on 24 h notice; Secretary keeps records, no personal details published; Josh and Glenn joint admins; Constitution v0.1 confirmed as adopted text",
       "vote": "5 YES / 0 NO / 0 ABSTAIN (closed 4:47 pm AEDT); no item split"
     }
