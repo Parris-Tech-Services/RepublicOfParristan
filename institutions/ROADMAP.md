@@ -16,7 +16,7 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 - [x] Record the adopted founding notice amendment: **1 hour**, passed **5–0** before the ratification vote.
 - [ ] Corroborate actual delivery time and exact voted-on text against the founders' retained records.
 - [x] Founding assembly held — organiser reports 5/5 present, 3:30 pm AEDT 19 November 2026; [report](../docs/FOUNDING_ASSEMBLY_2026-11-19.md)
-- [x] Publish the **5–0** ratification return and consolidated draft v0.1 constitutional text, effective **19 November 2026** per supplied minutes; exact meeting copy still needs confirmation.
+- [x] Publish the **5–0** ratification return and consolidated draft v0.1 constitutional text, effective **19 November 2026** per supplied minutes; published v0.1 confirmed by [Motion 4](../gazette/2026/2026-009-standing-procedures.md).
 - [x] Record the Chief Digital Officer appointment: **Glenn**, unanimous consent and acceptance, 19 November 2026.
 - [ ] Elect President and organise further government posts and regular Assembly meetings.
 
