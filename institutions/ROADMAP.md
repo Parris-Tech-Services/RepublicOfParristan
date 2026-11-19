@@ -11,7 +11,8 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 
 ## Phase 1 — Constituent process
 
-- [ ] Recruit an initial group of genuinely consenting participants
+- [x] Five founding members identified and agreement confirmed by organiser
+- [ ] Record individual founders' constitutional decisions and first meeting
 - [ ] Publish rules for the founding assembly and voting eligibility
 - [ ] Hold a founding assembly with recorded proceedings
 - [ ] Amend and ratify the constitution through a fair vote

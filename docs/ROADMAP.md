@@ -12,7 +12,8 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 ## Phase 1 — Constituent process
 
 - [x] Identify five proposed founding members (organiser-reported, 19 November 2026)
-- [ ] Obtain direct consent and confirmation from each proposed founding member
+- [x] Organiser reports all five founders have agreed to establish Parristan (19 November 2026)
+- [ ] Record formal participation/ratification votes with dated primary evidence
 - [ ] Publish rules for the founding assembly and voting eligibility
 - [ ] Hold a founding assembly with recorded proceedings
 - [ ] Amend and ratify the constitution through a fair vote

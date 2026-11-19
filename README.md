@@ -50,6 +50,17 @@ The Enterprise repository's founding documents have been copied here alongside t
 
 Personal contact and identification details are not published.
 
+## National operations and next steps
+
+The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) tracks what is implemented and what requires real founder decisions or external legal action. Ratification, elected office, official symbols, sovereignty and recognition are **not** recorded as completed.
+
+- [Ratification and founding assembly pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md)
+- [Presidential election and government operations](operations/ELECTION_AND_GOVERNMENT.md)
+- [Offline membership register instructions](operations/CITIZENSHIP_OPERATIONS.md)
+- [National symbols adoption pack](operations/SYMBOLS_ADOPTION.md)
+- [Territory and recognition research](operations/TERRITORY_AND_RECOGNITION.md)
+- [NSW legal organisation pathway](operations/NSW_ASSOCIATION_PATHWAY.md)
+
 ## Public consultation
 
 Members of the public may suggest improvements using [repository issues](https://github.com/Parris-Tech-Services/RepublicOfParristan/issues), including the tracked constitutional consultation. **An issue comment is not a vote, and a GitHub account is not citizenship.**
