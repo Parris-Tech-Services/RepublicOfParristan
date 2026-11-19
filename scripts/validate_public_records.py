@@ -50,7 +50,7 @@ for page in ("docs/administration.html", "docs/decisions.html"):
         errors.append(f"{page} must link the machine-readable public export")
 for page in ("docs/administration.html", "docs/status.html"):
     content = (ROOT / page).read_text(encoding="utf-8")
-    if "No President" not in content and "President</th><td><strong>Vacant" not in content and "President: <strong>none yet" not in content:
+    if not re.search(r"President(</th><td>|: )<strong>(Joshua Parris|Vacant|none yet)", content) and "No President" not in content:
         errors.append(f"{page} must not leave presidential status ambiguous")
 
 if errors:

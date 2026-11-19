@@ -15,14 +15,14 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 5. [x] **Convene the founding assembly.** Organiser reports all five attended at 3:30 pm AEDT on 19 November 2026 and voting proceedings took place; [meeting report](docs/FOUNDING_ASSEMBLY_2026-11-19.md). Exact counts were subsequently supplied and entered in the [ratification return](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md).
 6. [x] **Publish constitutional ratification return:** **5 YES / 0 NO / 0 ABSTAIN**, effective **19 November 2026**, per founder-supplied minutes; [return](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md). **Follow-up:** [Motion 4](gazette/2026/2026-009-standing-procedures.md) confirmed the published v0.1 text. The original notice-delivery time remains unrecorded.
 7. [x] **Prepare presidential election rules, election return and government activation pack.** Evidence: [elections](operations/ELECTION_AND_GOVERNMENT.md).
-8. [ ] **Hold the first actual election and record independently checked results, term dates and officeholders.**
-9. [ ] **Continue the constituted founding Assembly:** Glenn has accepted the unanimously approved Chief Digital Officer appointment; Secretary (Jane Carbunkle), Treasurer (Fred Carbunkle) and Registrar (Glenn Peterson) appointed 5–0 on 19 Nov (Gazette 2026-008); first President pending election 28 Nov – 1 Dec.
+8. [x] **Hold the first actual election and record results, term dates and officeholders** — Joshua Parris confirmed President, YES 5 / NO 0, 19 Nov 2026, term to 19 Nov 2028; [Gazette 2026-013](gazette/2026/2026-013-first-president-confirmed.md). Result as reported by the organiser; not independently audited.
+9. [ ] **Continue the constituted founding Assembly:** Glenn has accepted the unanimously approved Chief Digital Officer appointment; Secretary (Jane Carbunkle), Treasurer (Fred Carbunkle) and Registrar (Glenn Peterson) appointed 5–0 on 19 Nov (Gazette 2026-008); first President confirmed 19 Nov 2026 (Gazette 2026-013).
 
 ## 2. Citizenship administration
 
 10. [x] **Publish a membership and privacy procedure with a minimal-data model.** Evidence: [citizenship operations](operations/CITIZENSHIP_OPERATIONS.md).
 11. [x] **Implement a functioning local-only membership registry program and automated tests.** Evidence: [registry tool](tools/parristan_registry.py) and [tests](tests/test_parristan_registry.py); no real members are added automatically.
-12. [ ] **Registrar designated (Glenn Peterson, Gazette 2026-008); still to approve the membership policy and establish a private protected register on an authorised device.**
+12. [ ] **Registrar designated (Glenn Peterson, Gazette 2026-008); membership policy adopted 19 Nov (Gazette 2026-014); still to establish a private protected register on an authorised device.**
 13. [ ] **Record the five founders' memberships from verified records and consent dates; issue actual member numbers.** Existing GitHub profile names are not citizenship proofs.
 14. [ ] **Open an approved, privacy-respecting membership application and appeals process.** No real applications accepted through public GitHub issues.
 15. [ ] **Operate membership changes, resignations, a reliable one-person-one-vote roll and periodic aggregate reporting.**
@@ -40,7 +40,7 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 21. [x] **Prepare an operations and evidence register for actual decisions, budgets and meetings.** Evidence: [official records](operations/OFFICIAL_RECORDS.md).
 22. [x] **Research the optional NSW incorporated association pathway for five members.** Evidence: [NSW legal entity pathway](operations/NSW_ASSOCIATION_PATHWAY.md).
 23. [ ] **Choose an appropriate legal form, confirm NSW eligibility and lodge any real incorporation application if the founders approve.** Incorporation is not sovereignty.
-24. [ ] **Establish approved financial controls, lawful banking arrangements if applicable, a member budget and conflict-of-interest policy.**
+24. [ ] **Financial controls adopted 19 Nov (Gazette 2026-014); still to establish lawful banking arrangements if applicable, a member budget and conflict-of-interest policy.**
 25. [ ] **Publish meetings, decisions, correction notices and a functioning national website with a responsible contact route.**
 
 ## 5. Territory and external relations
@@ -56,17 +56,20 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 31. [x] **Create a public Gazette and private Enterprise drafting repository.**
 32. [x] **Copy the Enterprise founding documents to the public Gazette without deleting its website.**
 33. [x] **Add governance-operation validation tests and a GitHub Actions workflow.**
-34. [ ] **Verify the GitHub Pages site is actually published and publicly reachable**, then link to this checklist. **Alternative publishing evidence:** a [separately published public snapshot](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) and [Vercel production mirror](https://republic-of-parristan.vercel.app/) (READY, with three connected HTTP 200 route checks) exist; these do not verify that GitHub Pages is operational. [Publishing runbook](operations/PAGES_PUBLISHING.md).
+34. [x] **Official website live at https://parristan.org (Vercel, from main/docs), confirmed 19 Nov 2026; [Gazette 2026-015](gazette/2026/2026-015-official-website-parristan-org.md). GitHub Pages not used.** Originally: Verify the GitHub Pages site is actually published and publicly reachable**, then link to this checklist. **Alternative publishing evidence:** a [separately published public snapshot](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) and [Vercel production mirror](https://republic-of-parristan.vercel.app/) (READY, with three connected HTTP 200 route checks) exist; these do not verify that GitHub Pages is operational. [Publishing runbook](operations/PAGES_PUBLISHING.md).
 35. [ ] **Back up institutional records outside GitHub and establish a handover procedure before the Enterprise trial expires.**
 
 ## 7. First presidential election and official communications — 19 November votes
 
 36. [x] **Adopt the founders' encrypted Matrix room as the interim official channel** for notices, debate and votes — Motion 1 passed 5 YES / 0 NO / 0 ABSTAIN; [Gazette 2026-006](gazette/2026/2026-006-interim-official-channel.md).
 37. [x] **Appoint Matthew Walker Returning Officer**, not a presidential candidate — Motion 2 passed 5 YES / 0 NO / 0 ABSTAIN; Matthew accepted; [Gazette 2026-007](gazette/2026/2026-007-returning-officer-and-election-timetable.md).
-38. [x] **Announce first-election date ranges:** nominations 20–27 November; ballot 28 November – 1 December 2026, AEDT. Joshua Parris's intention to stand and candidate statement were shared; **no elected President**.
-39. [ ] **Returning Officer publishes nomination details and confidential ballot method**, verifies the eligible electoral roll and ensures candidates have fair access. Exact daily opening/closing times not in supplied transcript.
-40. [ ] **Hold, count and certify the first presidential election**, including a YES/NO confirmation ballot if there is only one valid candidate.
-41. [ ] **Glenn presents permanent email and chat arrangements within 14 days** of Motion 1, due 3 December 2026; only mark complete when an actual proposal is provided and considered.
+38. [x] **Announce first-election date ranges:** nominations 20–27 November; ballot 28 November – 1 December 2026, AEDT. Timetable later replaced by Motion 6; **Joshua Parris confirmed President 19 Nov 2026**.
+39. [x] **Superseded by Motion 6 (5–0, [Gazette 2026-012](gazette/2026/2026-012-election-timetable-brought-forward.md)): same-day nominations and confidential email ballot.** Originally: Returning Officer publishes nomination details and confidential ballot method**, verifies the eligible electoral roll and ensures candidates have fair access. Exact daily opening/closing times not in supplied transcript.
+40. [x] **Hold, count and certify the first presidential election** — YES/NO confirmation held 19 Nov 2026, 5 YES / 0 NO, declared 5:51 pm AEDT, including a YES/NO confirmation ballot if there is only one valid candidate.
+41. [x] **Glenn presents permanent email and chat arrangements within 14 days** of Motion 1 — Purelymail email + Matrix adopted, reported unanimous, 19 Nov 2026; [Gazette 2026-010](gazette/2026/2026-010-permanent-email-adopted.md).
+42. [x] **Register the Parristan domain, set up Purelymail mailboxes, test and announce official addresses** — parristan.org live 19 Nov 2026; [Gazette 2026-011](gazette/2026/2026-011-official-email-live.md).
+44. [x] **President's mission and first-year goals adopted** — Motion 7, reported 5–0, 19 Nov 2026; [Gazette 2026-014](gazette/2026/2026-014-presidents-first-programme.md).
+43. [x] **Every officeholder changes their mailbox password and enables two-step sign-in; Glenn added as Cloudflare admin; Purelymail admin moved to admin@parristan.org** — reported complete by the organiser, 19 Nov 2026.
 
 ## Status meanings
 

@@ -27,7 +27,7 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 - [Decision register (HTML)](docs/decisions.html) and [open-format JSON export](docs/data/decisions.json)
 - [ChatGPT technical execution checklist](CHATGPT_EXECUTION_TODO_2026-11-19.md)
 
-**Live public website:** [Republic of Parristan Gazette](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) · [Administration dashboard](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/administration)
+**Official website:** [parristan.org](https://parristan.org) (Gazette 2026-015) · **Earlier snapshot:** [Republic of Parristan Gazette](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) · [Administration dashboard](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/administration)
 
 The source is in [`docs/`](docs/). The public ChatGPT-hosted deployment is a snapshot of that directory. **Secondary Git-linked mirror:** [Vercel Gazette](https://republic-of-parristan.vercel.app/) deployed from `main/docs` on 19 November 2026 (READY; connected HTTP 200 checks for home, dashboard and JSON). Its production alias has no Vercel sign-in requirement, while previews remain protected. Independent anonymous-client verification of the mirror was not available during this run.
 
@@ -78,7 +78,7 @@ Practical kit for running Parristan day to day, in [`operational-pack/`](operati
 
 ## National operations and next steps
 
-The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) and the [implementation checklist](IMPLEMENTATION_TODO.md) track what is implemented and what requires real founder decisions or external legal action. The supplied minutes record **unanimous constitutional ratification** and **Glenn's appointment as CDO**, effective 19 November 2026. The formal ratification return is published. Motion 4 confirmed the published v0.1 text. The original notice time remains unrecorded. **No President has been elected.** Official symbols, sovereignty and recognition remain unestablished.
+The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) and the [implementation checklist](IMPLEMENTATION_TODO.md) track what is implemented and what requires real founder decisions or external legal action. The supplied minutes record **unanimous constitutional ratification** and **Glenn's appointment as CDO**, effective 19 November 2026. The formal ratification return is published. Motion 4 confirmed the published v0.1 text. The original notice time remains unrecorded. **Joshua Parris was confirmed as first President (5 YES / 0 NO) on 19 November 2026** ([Gazette 2026-013](gazette/2026/2026-013-first-president-confirmed.md)). Official symbols, sovereignty and recognition remain unestablished.
 
 - [Ratification and founding assembly pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md)
 - [Presidential election and government operations](operations/ELECTION_AND_GOVERNMENT.md)

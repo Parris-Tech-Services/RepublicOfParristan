@@ -1,5 +1,7 @@
 # First Presidential Election — Returning Officer and Timetable
 
+> **Update, 19 November 2026, 5:51 pm AEDT:** the timetable below was replaced by Motion 6 ([Gazette 2026-012](../gazette/2026/2026-012-election-timetable-brought-forward.md)) and Joshua Parris was confirmed as first President, 5 YES / 0 NO ([Gazette 2026-013](../gazette/2026/2026-013-first-president-confirmed.md)). The text below is kept as the historical record.
+
 **Record as of 19 November 2026:** The organiser-provided transcript of the encrypted founding members' Matrix room records **five YES / zero NO / zero ABSTAIN** for the Returning Officer motion. The **first presidential election has not yet happened**, and no President has been elected.
 
 ## Returning Officer (Motion 2)

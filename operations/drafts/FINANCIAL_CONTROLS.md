@@ -1,6 +1,6 @@
 # Financial controls (DRAFT)
 
-**For:** Fred Carbunkle, Treasurer (Gazette 2026-008), then an Assembly vote. **Status:** draft. Currently no money is held.
+**For:** Fred Carbunkle, Treasurer (Gazette 2026-008), then an Assembly vote. **Status:** ADOPTED 19 November 2026, Motion 7 ([Gazette 2026-014](../../gazette/2026/2026-014-presidents-first-programme.md)).
 
 ## 1. Principles
 - Money belongs to the association, never mixed with personal money.

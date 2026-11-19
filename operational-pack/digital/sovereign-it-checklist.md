@@ -15,8 +15,8 @@ Note: GendBuntu itself is not publicly distributed, so ParriBuntu copies the app
 - [ ] Groups: Founders, Ministers, Junior-Citizens, Constabulary
 
 ## Phase 2: Communications
-- [ ] Domain registered for national addresses
-- [ ] Mail server (UCS mail app or Mailcow)
+- [x] Domain registered for national addresses (parristan.org, Gazette 2026-011)
+- [x] Mail service — hosted Purelymail chosen instead of self-hosting (Gazette 2026-010/011)
 - [ ] Thunderbird on every national machine
 - [ ] Video: Jitsi (simple) or OpenTalk
 

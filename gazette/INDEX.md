@@ -15,6 +15,12 @@ A public register of published notices by the Republic of Parristan founding ini
 | [2026-007](2026/2026-007-returning-officer-and-election-timetable.md) | 19 November 2026 | Returning Officer appointed; first election timetable | Published — 5–0 (corrected from initial 4–0) |
 | [2026-008](2026/2026-008-interim-roles-en-bloc.md) | 19 November 2026 | Secretary, Treasurer, Registrar and first steps (en bloc) | Published — 5–0 |
 | [2026-009](2026/2026-009-standing-procedures.md) | 19 November 2026 | Standing procedures; Constitution v0.1 confirmed as adopted text (en bloc) | Published — 5–0 |
+| [2026-010](2026/2026-010-permanent-email-adopted.md) | 19 November 2026 | Permanent official email adopted (Purelymail) | Published — reported unanimous; set up per No. 2026-011 |
+| [2026-011](2026/2026-011-official-email-live.md) | 19 November 2026 | Official email addresses in service (parristan.org) | Published — tested and working |
+| [2026-012](2026/2026-012-election-timetable-brought-forward.md) | 19 November 2026 | First presidential election brought forward (Motion 6) | Published — 5–0, closed 5:51 pm AEDT |
+| [2026-013](2026/2026-013-first-president-confirmed.md) | 19 November 2026 | Joshua Parris confirmed as first President | Published — YES 5 / NO 0; term to 19 Nov 2028 |
+| [2026-014](2026/2026-014-presidents-first-programme.md) | 19 November 2026 | The President's first programme (Motion 7, en bloc) | Published — reported unanimous |
+| [2026-015](2026/2026-015-official-website-parristan-org.md) | 19 November 2026 | Official website: parristan.org | Published — live, HTTP 200 |
 
 ## Preservation policy
 
