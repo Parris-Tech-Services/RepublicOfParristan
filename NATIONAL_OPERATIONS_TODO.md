@@ -56,7 +56,7 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 31. [x] **Create a public Gazette and private Enterprise drafting repository.**
 32. [x] **Copy the Enterprise founding documents to the public Gazette without deleting its website.**
 33. [x] **Add governance-operation validation tests and a GitHub Actions workflow.**
-34. [ ] **Verify the GitHub Pages site is actually published and publicly reachable**, then link to this checklist.
+34. [ ] **Verify the GitHub Pages site is actually published and publicly reachable**, then link to this checklist. **Alternative publishing milestone:** the [Vercel Gazette](https://republic-of-parristan.vercel.app/) reached production READY from `main/docs` on 19 November 2026, with connected HTTP 200 checks for home, dashboard and JSON. This does **not** prove GitHub Pages is enabled or independently verify anonymous client access. [Publishing evidence](operations/PAGES_PUBLISHING.md).
 35. [ ] **Back up institutional records outside GitHub and establish a handover procedure before the Enterprise trial expires.**
 
 ## 7. First presidential election and official communications — 19 November votes

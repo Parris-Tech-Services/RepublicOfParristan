@@ -1,4 +1,4 @@
-# Public Gazette Website — GitHub Pages
+# Public Gazette website — Git-linked Vercel deployment and optional GitHub Pages
 
 This static website has no backend, account system, tracking, data collection or external dependencies.
 
@@ -6,15 +6,11 @@ This static website has no backend, account system, tracking, data collection or
 
 Repository: [Parris-Tech-Services/RepublicOfParristan](https://github.com/Parris-Tech-Services/RepublicOfParristan).
 
-Once the main branch contains these files, enable Pages in [repository Settings → Pages](https://github.com/Parris-Tech-Services/RepublicOfParristan/settings/pages):
-- **Source:** Deploy from a branch
-- **Branch:** `main`
-- **Folder:** `/docs`
-- **Save**
+**Production:** [https://republic-of-parristan.vercel.app/](https://republic-of-parristan.vercel.app/), served from the Vercel project `republic-of-parristan`, with GitHub `main` as its production branch and `docs` as the static root. The initial Vercel production build reached READY on 19 November 2026, and connected checks returned HTTP 200 for the homepage, administration dashboard and JSON export. Production aliases are configured without Vercel Authentication; independent unauthenticated reachability was not checked.
 
-Expected URL after successful deployment: https://parris-tech-services.github.io/RepublicOfParristan/
+**Optional GitHub Pages:** GitHub Pages has **not been enabled**. The existing workflow failed while looking up the Pages site. To use GitHub Pages, an authorised repo administrator can configure [Settings → Pages](https://github.com/Parris-Tech-Services/RepublicOfParristan/settings/pages) → Build and deployment → GitHub Actions, then manually run the workflow. It is deliberately not triggered on every push while it cannot deploy. The proposed Pages URL is https://parris-tech-services.github.io/RepublicOfParristan/ and remains unverified.
 
-This URL must not be described as live until verified. The `docs/.nojekyll` file makes the static HTML straightforward to deploy.
+The site is plain static HTML/CSS/JS and can also be exported from `docs/` without Vercel or GitHub Pages.
 
 ## Editorial workflow
 

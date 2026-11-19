@@ -1,9 +1,7 @@
 name: Deploy Gazette to GitHub Pages
-# Publishes the docs/ folder. Requires Settings → Pages → Source: "GitHub Actions".
+# Optional/manual GitHub Pages deployment. Vercel already deploys the public Gazette on main pushes.
+# Requires Settings → Pages → Source: GitHub Actions; disabled from push until configured.
 on:
-  push:
-    branches: [main]
-    paths: ['docs/**', '.github/workflows/deploy-pages.yml']
   workflow_dispatch:
 permissions:
   contents: read

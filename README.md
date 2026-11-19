@@ -27,11 +27,11 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 - [Decision register (HTML)](docs/decisions.html) and [open-format JSON export](docs/data/decisions.json)
 - [ChatGPT technical execution checklist](CHATGPT_EXECUTION_TODO_2026-11-19.md)
 
-A public-facing, responsive Gazette website is in [`docs/`](docs/), ready for GitHub Pages publishing from the `main` branch and `/docs` folder.
+The public Gazette is deployed on Vercel, directly from the `docs/` folder of `main`, with automatic Git-linked deployments. The site is a static publication with no private membership or voting system.
 
-**Site address once Pages is enabled:** https://parris-tech-services.github.io/RepublicOfParristan/
+**Production Gazette:** [https://republic-of-parristan.vercel.app/](https://republic-of-parristan.vercel.app/) — deployment READY on 19 November 2026; homepage, administration page and JSON export returned HTTP 200 through the connected Vercel deployment. Production aliases do not require Vercel sign-in; independent anonymous-client reachability has not been tested.
 
-GitHub Pages settings: https://github.com/Parris-Tech-Services/RepublicOfParristan/settings/pages
+**Optional GitHub Pages:** https://parris-tech-services.github.io/RepublicOfParristan/ is **not enabled** (deployment workflow failed at `actions/configure-pages`). The Pages workflow is manual-only until an authorised repository administrator enables [GitHub Pages](https://github.com/Parris-Tech-Services/RepublicOfParristan/settings/pages). [Publishing and verification notes](operations/PAGES_PUBLISHING.md).
 
 ## Founding documents and civic institutions
 
