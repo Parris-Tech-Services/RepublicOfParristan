@@ -7,6 +7,7 @@ Track delivery here. Mark a capability complete only when its operator, acceptan
 - [ ] Staff home: announcements, upcoming meetings, assigned actions, deadlines and service shortcuts.
 - [ ] Directory: people, offices, delegates, deputies, contact routes and responsibilities.
 - [ ] Meetings: calendar, notices, agendas, papers, attendance, quorum, minutes approval and action tracking.
+  - **Tooling ready 19 Nov 2026 (not yet used for a real meeting):** [`tools/assembly_cycle.py`](tools/assembly_cycle.py) runs schedule → 24-hour notice check → agenda with carried-forward actions → attendance and quorum → motions under Motion 4 rules → actions → minutes → approval → one-step publication to the Gazette, decision register, data export, decisions/administration pages and the public [actions page](docs/actions.html). Secretary's guide: [operations/ASSEMBLY_CYCLE.md](operations/ASSEMBLY_CYCLE.md). 14 end-to-end tests; worked example and backup restore verified on a scratch copy. Tick this item after the first real meeting is published with it.
 - [ ] Decisions: current constitution and standing orders, searchable motions and resolutions, delegations, approval authority, effective dates and version history.
 - [ ] Elections: Returning Officer-controlled nominations, one-person electoral roll, ballot windows, confidential ballot handling, counting, certification and authorised results. Keep ballots outside the work register.
 - [ ] Files: approved document store, access by office or committee, search, co-editing, version history and safe sharing.
@@ -52,3 +53,11 @@ References: [Digital Service Standard](https://architecture.digital.gov.au/stand
 ### Work-register recovery
 
 The account administrator can download the export from the signed-in intranet. Store it in the approved private backup destination. In a separate recovery database, apply the work-register schema, import items before activity entries, and compare row counts and representative records with the export. Keep the export out of the public repository. Record the restore date, operator and outcome without copying private contents into the Gazette.
+
+## Delivery record — Assembly cycle slice (19 November 2026)
+
+- Built the public half of the first milestone: notice, agenda, attendance and quorum, motions, actions, minutes approval and publication, with step order enforced. Rules match Gazette 2026-009 (24-hour notice, quorum 3, YES > NO) and Gazette 2026-014 (President chairs, Secretary minutes, stand-ins chosen by those present).
+- Publication is all-or-nothing across nine files and is checked by both validators; tests run the real validators on a published synthetic meeting.
+- Verified on a scratch copy: the worked example in the guide runs as written; a git-bundle backup made with `scripts/backup_records.sh` restored into a fresh clone that passes both validators with the meeting record intact.
+- GitHub Pages now redeploys on every push to `main` that changes `docs/`, so publication reaches https://parristan.org without the Vercel deployment limit.
+- **Not done:** a real meeting run through it; private papers (they belong in the intranet, not the public repo); secret ballots (Returning Officer).

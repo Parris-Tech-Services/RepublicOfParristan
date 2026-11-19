@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "note": "Public roster of Assembly voting members and offices. Names and offices only; no contact details. Source: docs/FOUNDERS.md and Gazettes 2026-005, -007, -008, -013.",
+  "quorum_minimum": 3,
+  "members": [
+    {"name": "Joshua Parris", "offices": ["President"]},
+    {"name": "Glenn Peterson", "offices": ["Chief Digital Officer", "Registrar"]},
+    {"name": "Matthew Walker", "offices": ["Returning Officer"]},
+    {"name": "Fred Carbunkle", "offices": ["Treasurer"]},
+    {"name": "Jane Carbunkle", "offices": ["Secretary"]}
+  ]
+}

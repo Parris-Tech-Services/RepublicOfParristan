@@ -5,6 +5,9 @@ on:
       - NATIONAL_OPERATIONS_TODO.md
       - 'operations/**'
       - 'tools/**'
+      - 'assembly/**'
+      - 'scripts/**'
+      - 'docs/**'
       - 'tests/**'
       - '.github/workflows/validate-national-operations.yml'
       - 'docs/FOUNDERS.md'
@@ -32,4 +35,4 @@ jobs:
       - name: Validate public decisions and administration records
         run: python3 scripts/validate_public_records.py
       - name: Compile tooling
-        run: python -m py_compile tools/parristan_registry.py
+        run: python -m py_compile tools/parristan_registry.py tools/assembly_cycle.py

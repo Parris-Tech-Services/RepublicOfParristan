@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Read-only integrity checks for Parristan's public decision export/pages."""
+from datetime import date
 import json
 from pathlib import Path
 import re
@@ -7,6 +8,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parent.parent
 errors = []
+FOUNDING = date(2026, 11, 19)
+MEMBERS = len(json.loads((ROOT / "assembly/roster.json").read_text(encoding="utf-8"))["members"])
 data_path = ROOT / "docs/data/decisions.json"
 payload = json.loads(data_path.read_text(encoding="utf-8"))
 records = payload["decisions"]
@@ -21,14 +24,18 @@ if registered != ids:
     errors.append("Machine-readable decisions differ from the authoritative Markdown register")
 
 for record in records:
-    if record["date"] != "2026-11-19":
-        errors.append(f"Unexpected date for {record['id']}; review provenance before changing")
+    try:
+        when = date.fromisoformat(record["date"])
+    except (TypeError, ValueError):
+        when = None
+    if when is None or when < FOUNDING or when > date.fromisoformat(payload["recorded_as_of"]):
+        errors.append(f"Decision date for {record['id']} must fall between founding and recorded_as_of")
     votes = [record[k] for k in ("yes", "no", "abstain")]
     if not all(v is None for v in votes):
         if not all(isinstance(v, int) and not isinstance(v, bool) and v >= 0 for v in votes):
             errors.append(f"Partial or invalid vote counts for {record['id']}")
-        elif sum(votes) != 5:
-            errors.append(f"Vote count mismatch for {record['id']}")
+        elif not 1 <= sum(votes) <= MEMBERS:
+            errors.append(f"Vote count for {record['id']} must be between 1 and {MEMBERS} voters")
     if record["id"] in ("FA-2026-003", "FA-2026-004") and votes != [None, None, None]:
         errors.append(f"Do not invent exact counts for {record['id']}")
     path = (ROOT / record["source"]).resolve()
