@@ -29,3 +29,9 @@ This site does not accept membership applications. Keep private contact and elig
 ## Public administration and data
 
 The read-only [administration dashboard](administration.html) shows the same eight documented founding decisions as the [public decisions page](decisions.html). A portable [JSON export](data/decisions.json) contains aggregate decisions and sources only, no member roll or ballots. The validator `python3 scripts/validate_public_records.py` checks machine-readable records against the decision register and both pages. It does not independently authenticate a vote.
+
+## Authenticated Assembly voting (supplementary, separate application)
+
+The `/voting/` entry point is a login-protected app and is **not part of the public Gazette's static information pages**. Its serverless endpoint `/api/voting` uses a separate private Postgres database, sensitive hosted environment variables and server-side founder access controls. No private passwords, ballots, individual participation or access tokens appear in the repository or public Gazette pages.
+
+The Gazette and Matrix/email decisions remain authoritative. This portal must not create a second version of the 19 November presidential confirmation. A private portal ballot is not automatically an adopted official vote; officers must verify the approved method, electorate and certification. Secret officer elections remain disabled until reviewed.
