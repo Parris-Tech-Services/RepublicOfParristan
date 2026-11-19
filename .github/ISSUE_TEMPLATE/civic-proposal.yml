@@ -1,0 +1,27 @@
+name: "Civic or constitutional proposal"
+description: "Suggest an improvement to the draft constitution, founding process or public Gazette"
+title: "Proposal: "
+body:
+  - type: markdown
+    attributes:
+      value: "This is a public consultation, not a vote or membership application. Please do not share personal or sensitive information."
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: reasons
+    attributes:
+      label: Reasons and implications
+      description: "Consider democracy, rights, fairness, privacy, costs and applicable law."
+    validations:
+      required: true
+  - type: checkboxes
+    id: declaration
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: "I understand this proposal is not an adopted law, citizenship application or official vote."
+          required: true
