@@ -86,7 +86,7 @@ async function actionPOST(req,res,action,d,u){
      opens=new Date(d.opensAt||"");closes=new Date(d.closesAt||"");
      if(!Number.isFinite(opens.getTime())||!Number.isFinite(closes.getTime())||closes<=opens)throw err(400,"Returning Officer must choose real opening and closing times");
      const day=x=>new Intl.DateTimeFormat("en-CA",{timeZone:"Australia/Sydney",year:"numeric",month:"2-digit",day:"2-digit"}).format(x);
-     if(office.toLowerCase()==="president"&&(day(opens)<"2026-11-28"||day(closes)>"2026-12-01"))throw err(400,"Presidential voting must follow announced 28 Nov–1 Dec AEDT dates");
+     if(office.trim().toLowerCase()==="president" && day(opens)<"2028-11-19") throw err(409,"The first Presidency is recorded as filled until 19 November 2028 (Gazette 2026-013). A fresh vacancy decision needs separately adopted election rules before another presidential poll.");
    }
    let q=await pool.query("INSERT INTO polls(kind,title,body,office,options,notice_ref,notice_at,opens_at,closes_at,created_by) VALUES ($1,$2,$3,$4,$5::jsonb,$6,$7,$8,$9,$10) RETURNING id",[kind,title,body,office||null,JSON.stringify(opts),noticeRef,notice,opens,closes,u.id]);
    await audit(pool,u.id,"create draft","poll "+q.rows[0].id);

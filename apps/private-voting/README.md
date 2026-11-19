@@ -2,7 +2,7 @@
 
 **Privacy:** the public GitHub repository contains program code and documented rules, not member passwords, ballot data or private enrolment credentials. The application itself requires private authenticated access.
 
-**Current status:** five-founder invite-only accounts, server-side authenticated motions, atomic one-vote-per-founder enforcement, role-based officer workflow, dual checking and private aggregate tally. **Secret presidential and officer election ballots are deliberately locked** until the Returning Officer confirms the actual method and times and an independent security/privacy review is completed.
+**Current implementation:** five pre-provisioned founder slots and a database; server-side authenticated motions, atomic one-vote-per-founder enforcement, officer workflow and independently checked aggregate tally. **No founders are yet activated and no ballots have been cast in this app.** New secret elections remain **locked** until the Returning Officer confirms the authorised method and a security/privacy review is completed. A deployed site or an existing user slot is not proof of an authenticated successful vote.
 
 ## Governing rules
 
@@ -38,3 +38,9 @@ One organiser activation creates a password for Josh; two technical admins can t
 ## Tests and operational controls
 
 Node built-in test suite checks quorum, ordinary majority, amendment thresholds, amendment notice, early closure, first-election majority/runoff, vote windows and count consistency. GitHub Actions runs this on every change in this application. Deployment requires separate runtime verification (login, session, same-origin, admin controls, atomically rejected duplicate vote) before reporting operational success.
+
+## Updated 19 November 2026 governance position
+
+[Gazette 2026-012](../../gazette/2026/2026-012-election-timetable-brought-forward.md) replaced the original date ranges. The first presidential confirmation used an emailed YES/NO ballot under Motion 6, **not this application**. [Gazette 2026-013](../../gazette/2026/2026-013-first-president-confirmed.md) records Joshua Parris as first President for **19 November 2026 – 19 November 2028**, with a 5–0 confirmation (organiser-supplied record). No historical ballots or account actions have been inserted here.
+
+[Gazette 2026-014](../../gazette/2026/2026-014-presidents-first-programme.md) established the President's first programme, Matrix debate/votes, official-email notices/correspondence, and future January 2027 symbol ballots. An Assembly resolution adopting use of this portal for official voting has not yet been evidenced; until then this portal is supplementary to the adopted Matrix/email process. Its platform can support written motion submissions once the five founders have activated accounts and the officers have confirmed its deployment, roll and operating method. Existing presidential terms are never silently reset.
