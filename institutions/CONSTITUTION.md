@@ -98,5 +98,5 @@ We, the members of the Republic of Parristan, associate voluntarily to form a pe
 - **Ratification vote:** 5 YES, 0 NO, 0 ABSTAIN; unanimously adopted as reported by the organiser's supplied minutes
 - **Effective date:** 19 November 2026
 - **Notice procedure:** founding assembly unanimously changed draft meeting notice from 14 days to 1 hour before ratification; actual distribution time not supplied
-- **Exact voted-on version:** not recorded in supplied minutes; this is the sole published v0.1 text, reproduced pending confirmation
+- **Adopted text:** the founders confirmed the published v0.1 in [Motion 4](../gazette/2026/2026-009-standing-procedures.md). The founding minutes do not record a Git identifier.
 - **Future constitutional amendments:** Article XI retains 14-day notice; not amended by the founding-assembly procedural resolution
