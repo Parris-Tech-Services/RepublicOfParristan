@@ -1,0 +1,9 @@
+import test from "node:test";import assert from "node:assert/strict";import{evaluate,enoughNotice,mayClose,mayVote}from"../lib/rules.js";
+test("ordinary motion quorum and YES majority",()=>{assert.equal(evaluate("motion",[],{YES:2},2).passed,false);assert.equal(evaluate("motion",[],{YES:2,NO:1},3).passed,true);assert.equal(evaluate("motion",[],{YES:1,NO:1,ABSTAIN:3},5).passed,false)});
+test("abstention counts only for participation",()=>assert.equal(evaluate("motion",[],{YES:2,NO:1,ABSTAIN:2},5).passed,true));
+test("two-thirds for constitutional amendment",()=>{assert.equal(evaluate("amendment",[],{YES:2,NO:1},3).passed,true);assert.equal(evaluate("amendment",[],{YES:1,NO:2},3).passed,false)});
+test("fourteen days of amendment notice",()=>{const n=Date.parse("2026-12-01T00:00:00Z");assert.equal(enoughNotice("amendment","2026-11-17T00:00:00Z",n),true);assert.equal(enoughNotice("amendment","2026-11-18T00:00:00Z",n),false)});
+test("48h or all voters early, but never early election closure",()=>{const n=Date.now(),future=new Date(n+1000).toISOString();assert.equal(mayClose("motion",5,4,future,n),false);assert.equal(mayClose("motion",5,5,future,n),true);assert.equal(mayClose("election",5,5,future,n),false)});
+test("single candidate YES confirmation",()=>{assert.equal(evaluate("election",["A"],{YES:2,NO:1},3).confirmed,true);assert.equal(evaluate("election",["A"],{YES:2,NO:2},4).confirmed,false)});
+test("contested election requires majority or runoff",()=>{assert.equal(evaluate("election",["A","B","C"],{A:2,B:2,C:1},5).needsRunoff,true);assert.equal(evaluate("election",["A","B"],{A:3,B:2},5).winner,"A")});
+test("window and counts validation",()=>{const n=Date.now();assert.equal(mayVote({status:"open",opens_at:new Date(n-1000).toISOString(),closes_at:new Date(n+1000).toISOString()},n),true);assert.throws(()=>evaluate("motion",[],{YES:3},2))});
