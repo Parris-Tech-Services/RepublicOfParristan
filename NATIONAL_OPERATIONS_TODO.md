@@ -67,7 +67,8 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 39. [ ] **Returning Officer publishes nomination details and confidential ballot method**, verifies the eligible electoral roll and ensures candidates have fair access. Exact daily opening/closing times not in supplied transcript.
 40. [ ] **Hold, count and certify the first presidential election**, including a YES/NO confirmation ballot if there is only one valid candidate.
 41. [x] **Glenn presents permanent email and chat arrangements within 14 days** of Motion 1 — Purelymail email + Matrix adopted, reported unanimous, 19 Nov 2026; [Gazette 2026-010](gazette/2026/2026-010-permanent-email-adopted.md).
-42. [ ] **Register the Parristan domain, set up Purelymail mailboxes with 2FA, test with two members and announce official addresses.**
+42. [x] **Register the Parristan domain, set up Purelymail mailboxes, test and announce official addresses** — parristan.org live 19 Nov 2026; [Gazette 2026-011](gazette/2026/2026-011-official-email-live.md).
+43. [ ] **Every officeholder changes their mailbox password and enables two-step sign-in; Glenn added as Cloudflare admin; Purelymail admin moved to admin@parristan.org.**
 
 ## Status meanings
 
