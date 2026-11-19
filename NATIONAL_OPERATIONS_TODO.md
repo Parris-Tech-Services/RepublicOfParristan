@@ -2,7 +2,7 @@
 
 **Baseline:** 19 November 2026 · **Owner:** the five founding members acting under their own agreed procedures · **Status:** live checklist, not a claim of sovereign recognition.
 
-**Founders:** Joshua Parris, Glenn Peterson, Matthew John Lucas Walker, Fred Carbunkle and Jane Carbunkle. The organiser confirms all five agreed to found Parristan. The organiser also reports all five attended the first assembly at 3:30 pm AEDT on 19 November. Vote totals and formal validation remain outstanding.
+**Founders:** Joshua Parris, Glenn Peterson, Matthew John Lucas Walker, Fred Carbunkle and Jane Carbunkle. The organiser confirms all five agreed to found Parristan. The organiser also reports all five attended the first assembly at 3:30 pm AEDT on 19 November. The supplied minutes now report ratification 5–0–0 effective 19 November, notice amendment 5–0–0, unanimous open-source strategy and Glenn's CDO appointment. Exact voted text and original notice delivery time still need reconciling.
 
 Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or automated script cannot cast a human vote. There are two separate outcomes: **(A) a working micronational association**, and **(B) sovereign statehood**. Completing A does not establish B.
 
@@ -11,12 +11,14 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 1. [x] **Identify five founding members and record the organiser's confirmation of agreement.** Evidence: [founders register](docs/FOUNDERS.md).
 2. [x] **Publish draft constitutional rules and proposed election rules.** Evidence: [constitution](docs/CONSTITUTION_DRAFT.md) and [assembly/ratification pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md).
 3. [x] **Prepare a practical constitution ratification pack:** motions, notice, quorum, sample ballot and minutes. Evidence: [ratification pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md).
-4. [ ] **Record the exact agreed constitutional version and operative voting rules** used by all five members, including dated notice or an agreed pre-vote notice waiver. The organiser reports this process happened, but the text and timing are not yet recorded.
-5. [x] **Convene the founding assembly.** Organiser reports all five attended at 3:30 pm AEDT on 19 November 2026 and voting proceedings took place; [meeting report](docs/FOUNDING_ASSEMBLY_2026-11-19.md). Transcription of exact motion counts remains outstanding.
-6. [ ] **Complete the ratification return for the vote reported held:** transcribe YES/NO/ABSTAIN, version, applicable notice rule, motion outcome, effective date and reviewed original minutes. Do not claim formal verification before these are recorded.
+4. [x] **Record the proposed notice amendment from 14 days to one hour** (5 YES / 0 NO / 0 ABSTAIN) in the [actual minutes](docs/FOUNDING_ASSEMBLY_2026-11-19.md). The original notice delivery timestamp and procedural authority to amend during the meeting are still to be confirmed.
+5. [x] **Convene the founding assembly.** Organiser reports all five attended at 3:30 pm AEDT on 19 November 2026 and voting proceedings took place; [meeting report](docs/FOUNDING_ASSEMBLY_2026-11-19.md). Actual numerical counts for the notice amendment and ratification are now recorded.
+6. [x] **Publish the organiser-supplied constitutional ratification vote:** 5 YES / 0 NO / 0 ABSTAIN; effective 19 November 2026. **Still outstanding:** bind the motion to the exact full constitution SHA, verify notice delivery and archive any required reviewed signatures.
 7. [x] **Prepare presidential election rules, election return and government activation pack.** Evidence: [elections](operations/ELECTION_AND_GOVERNMENT.md).
 8. [ ] **Hold the first actual election and record independently checked results, term dates and officeholders.**
-9. [ ] **Constitute the Assembly, appoint recordkeeping and financial officers lawfully, and begin periodic meetings.**
+9. [ ] **Complete the remaining government institutions:** elect a President, appoint secretary and treasurer, and begin regular Assembly meetings. **Glenn's CDO appointment and OSPO charter activation were recorded at the founding assembly.**
+
+**Additional reported founding resolutions:** unanimous adoption of GendBuntu/Schleswig-Holstein-inspired open-source strategy, and appointment of Glenn as Chief Digital Officer with OSPO charter activation. Neither software deployment nor enactment of the entire draft Open Source Act is implied.
 
 ## 2. Citizenship administration
 

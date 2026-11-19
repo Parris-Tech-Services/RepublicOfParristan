@@ -1,6 +1,6 @@
 # First Government and Election Operations
 
-**Status:** Voting procedures drafted; no President, Assembly leadership or cabinet is recorded as elected. The project organiser is not made President automatically.
+**Status:** The organiser-supplied minutes record a 5–0–0 constitutional ratification on 19 November 2026 and the unanimous appointment and acceptance of **Glenn as Chief Digital Officer** (OSPO lead). No President or legislature is yet recorded as elected.
 
 ## Institutional structure under the proposed constitution
 

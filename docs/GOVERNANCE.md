@@ -38,7 +38,7 @@ The adopted constitution (consolidated v0.1 text awaiting source-version confirm
 | --- | --- | --- |
 | President | Vacant | No presidential election yet held |
 | Founding Assembly | Constituted for founding session | 5/5 present, 19 November 2026; regular meeting arrangements pending |
-| Interim convenor | Not formally appointed | Procedure pending |
+| Chief Digital Officer / OSPO lead | Glenn | Unanimous appointment, acceptance and OSPO charter activation recorded in supplied minutes |
 | Chief Digital Officer | Glenn Peterson | Unanimous 19 November founding-assembly appointment, accepted; [record](../docs/OSPO_CHARTER_2026-11-19.md) |
 | Electoral officer | Vacant | First election pending |
 

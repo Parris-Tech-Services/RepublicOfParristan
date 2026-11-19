@@ -1,19 +1,17 @@
-# First Election — organiser-reported arrangements, formal notice pending
+# First Presidential Election — 19 November 2026 Status
 
-**19 November 2026.** The founding organiser reports that election arrangements were addressed following the first founding assembly. The repository has **not received** the election officer's name, nomination dates, voting date, adopted detailed election rules or election results. The supplied [ratification return](ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md) now records a **5–0** vote and effective date. No person has been declared President.
+The founding organiser's [minutes](FOUNDING_ASSEMBLY_2026-11-19.md) record a founding constitutional ratification vote of **5 YES / 0 NO / 0 ABSTAIN**, effective **19 November 2026**, and say elections will follow.
 
-The ratified constitution's published v0.1 text calls for the first election **within 90 days after ratification**. Based on the reported 19 November 2026 effective date, the deadline is **17 February 2027**. This is a constitutional timing calculation, **not** a formally announced election date.
+**No President has been elected or named in the minutes.** Glenn was unanimously appointed **Chief Digital Officer** and accepted leadership of the OSPO; that is not the presidential election.
 
-## Ready-to-complete notice
+The published constitution draft envisages holding the first presidential election within 90 days of ratification. If that clause was in the version adopted on 19 November, the 90-day date is **17 February 2027**. This is not an announced election date.
 
-- Election authorised by: _ratification recorded 19 November 2026; original voted-on constitution copy/version still needs confirmation_
-- Electoral officer / neutral teller: _not entered_
-- Eligible member roll (private): _not entered_
-- Nominations open: _not entered_ (published proposal: at least seven days)
-- Nominations close: _not entered_
-- Candidate statements available: _not entered_
-- Voting opens/closes, time zone, method: _not entered_
-- Count, disputes, certified election return: _not entered_
-- Officer and presidential term: _none elected or recorded_
+## Work still required
 
-Use the [election rules](../institutions/ELECTION_RULES.md) and the [government operations pack](../operations/ELECTION_AND_GOVERNMENT.md). Once the detailed election procedure, dates and teller have been approved, publish a dated election notice and proceed to nominations. Never silently infer a winner from the founding organiser's identity.
+- [ ] Identify and preserve the specific constitution version/SHA that the assembly adopted and actual notice evidence.
+- [ ] Appoint an impartial election officer according to the applicable internal constitution.
+- [ ] Set the private eligible voter roll, nomination and voting dates.
+- [ ] Issue the election notice and conduct the genuine ballot.
+- [ ] Publish actual aggregate results, challenges, winner and term dates.
+
+See [election operations](../operations/ELECTION_AND_GOVERNMENT.md).
