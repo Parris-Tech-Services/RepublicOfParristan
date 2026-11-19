@@ -1,55 +1,68 @@
-# First Founding Assembly — contemporaneous organiser report
+# Minutes of the Founding Assembly of the Republic of Parristan
 
-**Republic of Parristan | 19 November 2026 | 3:30 pm AEDT (Australia/Sydney)**
+**Date:** Thursday, 19 November 2026  
+**Time called to order:** 3:30 pm AEDT (Australia/Sydney)  
+**Attendance:** Five of five founding members (100% attendance)  
+**Source:** Minutes supplied by the founding organiser on 19 November 2026; published as a transcription of those minutes. Not independently signed or witnessed through this repository.
 
-**Record category:** Report of an actual meeting, supplied by the founding organiser on 19 November 2026. **This is not a signed minute book, independent verification of the ballots, or a declaration of sovereign statehood.**
+## Attendees
 
-## Attendance and proceedings
+The supplied minutes identify **Joshua Parris, Glenn, and three additional founding members**. The separate [founders register](FOUNDERS.md) names the full group; these minutes do not independently name the other three individuals. All five are reported present and consenting to proceed.
 
-The founding organiser reports that **all five founding members were present** at the founding assembly commencing at **3:30 pm on Thursday 19 November 2026**:
+## 1. Opening of Assembly
 
-- Joshua Parris
-- Glenn Peterson
-- Matthew John Lucas Walker
-- Fred Carbunkle
-- Jane Carbunkle
+The assembly was called to order at **3:30 pm**. All five founders were confirmed present and agreed to proceed with the founding vote.
 
-The organiser reports that the following were completed during the founding process:
+## 2. Amendment to assembly notice rules
 
-1. Participants' consent and any permissions needed to publish names were addressed privately.
-2. Eligibility, quorum, notice and voting procedures were discussed and agreed before voting.
-3. Agenda, date, meeting accessibility and circulation of the constitutional draft were addressed.
-4. All five founders attended and proceedings, motions and votes were recorded by the meeting.
-5. The outcome and effective date were addressed during the meeting, according to the organiser; the specific results have **not yet been supplied to this repository**.
-6. Arrangements for the first election were discussed/arranged as applicable, according to the organiser; no election date, election officer or actual election result has been supplied to this repository.
+**Motion:** Amend the draft founding-assembly notice rule from **14 days** to **1 hour**.
 
-**Source:** Founding organiser's direct statement in the 19 November 2026 project conversation. The report is an attestation, not a reproduction of original minutes. The five participants' individual votes, signatures, addresses and contact details have not been supplied to or stored in this repository.
+- **YES:** 5
+- **NO:** 0
+- **ABSTAIN:** 0
+- **Outcome:** Passed unanimously.
 
-## Ratification record — information still required for a formal declaration
+The members adopted the one-hour notice rule before taking the constitutional ratification vote, as reflected in the ordered minutes. **This resolution is about founding-assembly notice**, not an amendment to Article XI of the Constitution, which still separately refers to 14 days' notice for future constitutional amendments. The original time at which notice was actually circulated is not stated in these minutes. Since every founder attended and consented, no absent founder is reported; the records should not claim independent proof that a full hour elapsed.
 
-| Field | Public record at time of this report |
-| --- | --- |
-| Meeting date/time | Thursday 19 November 2026, 3:30 pm AEDT (start time supplied) |
-| Eligible voters attending | Five founders reported present; eligibility confirmed by organiser |
-| Agenda and rules | Organiser reports they were agreed |
-| Actual notice date and content | Not supplied |
-| Constitutional text/version actually voted upon | Not specified; the published document is draft v0.1 |
-| YES / NO / ABSTAIN / invalid vote counts | Not supplied |
-| Ratification decision | Organiser reports the ratification step was completed; **numerical result and procedural validity are not documented here** |
-| Constitution's effective date | Not supplied |
-| Election officer and nomination/voting dates | Arrangements reported; details not supplied |
-| Original minute-taker, independent teller and approved minutes | Not supplied to repository |
-| Officeholders | No presidential election or appointment evidenced in this report |
+## 3. Ratification of the Constitution
 
-**Notice issue:** The published *proposed* rules called for at least **14 full days' notice** after circulating the fixed constitutional text. The current draft files and public consultation are dated 19 November 2026, the meeting date. This report cannot establish that a 14-day period was met. If the founders adopted a different rule or unanimously waived a proposed notice period **before** voting, the original decision and exact adopted wording must be recorded; do not retroactively change the rule to fit the result. The applicable notice requirement and the vote threshold need to be reconciled against the original meeting record before describing the constitution as **formally verified and in force**.
+**Motion:** Formally adopt the Constitution of the Republic of Parristan.
 
-## Record completion / correction protocol
+- **YES:** 5
+- **NO:** 0
+- **ABSTAIN:** 0
+- **Outcome:** Passed unanimously, according to the supplied minutes.
+- **Effective date recorded:** Thursday, 19 November 2026.
 
-To complete the formal minutes and constitution register, transcribe the actual contemporaneous records (without inventing details): meeting venue/platform, notice and text circulation date, accepted voting rules and any waiver, chair/minute-taker/teller, constitution SHA or complete text, each motion's YES/NO/ABSTAIN totals, actual outcome and effective date, and the recorded first-election arrangements. A responsible participant should review/approve the transcript. Preserve original and amended records in version history.
+The founding members declare the Constitution **ratified and in force as Parristan's internal association constitution** on the effective date above. The minutes do **not** identify the exact commit SHA, approved text version, meeting platform, chair, teller, or exact time of the vote. The contemporaneous [draft v0.1](CONSTITUTION_DRAFT.md) is the only text identified in the repository; the [consolidated constitution](../institutions/CONSTITUTION.md) reproduces it as a provisional transcription pending confirmation it is identical to the meeting's version. See the [ratification return](ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md).
 
-- [Constitution draft](../institutions/CONSTITUTION_DRAFT.md)
-- [Ratification procedure](../institutions/RATIFICATION_PROCEDURE.md)
-- [First election rules](../institutions/ELECTION_RULES.md)
-- [Founding execution checklist](FOUNDING_EXECUTION_CHECKLIST.md)
+## 4. Strategic direction of national systems
 
-**Public legal status:** This is a voluntary civic/micronational assembly. It does not grant recognised statehood, independent territorial jurisdiction, diplomatic recognition, or legal nationality.
+**Motion:** Model Parristan's administrative structure and digital infrastructure on the French National Gendarmerie's GendBuntu approach and the German state of Schleswig-Holstein.
+
+- **Outcome:** Passed unanimously (the supplied minutes do not separately specify numerical counts for this motion).
+- **Policy:** Open-source-first national systems, including Linux workstations, LibreOffice and open data formats, with practical security, privacy and operational planning.
+
+This adopts a **policy direction**, not proof that Linux, Nextcloud, mail, identity or other services are already operating. The motion does not expressly enact every section of the separately published *Open Source Act 2026* bill; that text remains a draft unless the founders separately record its passage.
+
+## 5. Official appointment
+
+**Motion:** Appoint **Glenn** as **Chief Digital Officer**.
+
+- **Outcome:** Unanimous consent.
+- **Acceptance:** Glenn accepted.
+- **Effective date:** 19 November 2026, as the appointment was reported to take immediate effect.
+- **Office:** Office of Sovereign Systems (OSPO).
+- **Status:** OSPO charter activated by founding-assembly resolution.
+
+The [OSPO charter record](OSPO_CHARTER_2026-11-19.md) distinguishes this reported founding appointment from the draft Open Source Act's proposal that a future President make CDO appointments. **No President was elected by these motions.**
+
+## 6. Closing
+
+The founding assembly was adjourned after its agenda. **No adjournment time was supplied.** Elections and further institutional operations will proceed under the constitution and subsequently adopted election procedures. **No presidential election result is recorded in these minutes.**
+
+## Record provenance and outstanding particulars
+
+This document is a faithful structured transcription of minutes **supplied by the organiser**, not an independent audit or original ink-signed instrument. Outstanding details: actual notice-delivery time, final circulated constitutional copy/version, chair and teller, original signed-off minutes and election schedule. Absence of these details is not represented as a different vote result.
+
+Parristan remains a voluntary Australian-law-subject micronational association; internal ratification does not confer sovereign territory, externally recognised nationality, diplomatic status or immunity.
