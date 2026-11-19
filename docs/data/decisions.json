@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "recorded_as_of": "2026-11-19",
+  "record_basis": "Founder-supplied minutes and existing FA decision register; this file does not certify any separate vote.",
+  "source_register": "institutions/DECISION_REGISTER.md",
+  "legal_status": "Voluntary civic/micronational association; no recognition as a sovereign state.",
+  "decisions": [
+    {
+      "id": "FA-2026-001",
+      "date": "2026-11-19",
+      "meeting": "Founding Assembly",
+      "title": "Founding-assembly notice reduced to one hour",
+      "result": "5 YES / 0 NO / 0 ABSTAIN",
+      "yes": 5,
+      "no": 0,
+      "abstain": 0,
+      "notice": "2026-005",
+      "source": "docs/FOUNDING_ASSEMBLY_2026-11-19.md"
+    },
+    {
+      "id": "FA-2026-002",
+      "date": "2026-11-19",
+      "meeting": "Founding Assembly",
+      "title": "Constitution ratified for the voluntary association",
+      "result": "5 YES / 0 NO / 0 ABSTAIN",
+      "yes": 5,
+      "no": 0,
+      "abstain": 0,
+      "notice": "2026-005",
+      "source": "docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md"
+    },
+    {
+      "id": "FA-2026-003",
+      "date": "2026-11-19",
+      "meeting": "Founding Assembly",
+      "title": "Open-source-first digital strategy adopted",
+      "result": "Unanimous; exact count not separately supplied",
+      "yes": null,
+      "no": null,
+      "abstain": null,
+      "notice": "2026-005",
+      "source": "docs/FOUNDING_ASSEMBLY_2026-11-19.md"
+    },
+    {
+      "id": "FA-2026-004",
+      "date": "2026-11-19",
+      "meeting": "Founding Assembly",
+      "title": "Glenn appointed Chief Digital Officer; OSPO charter activated",
+      "result": "Unanimous consent; exact count not separately supplied",
+      "yes": null,
+      "no": null,
+      "abstain": null,
+      "notice": "2026-005",
+      "source": "docs/OSPO_CHARTER_2026-11-19.md"
+    },
+    {
+      "id": "FA-2026-005",
+      "date": "2026-11-19",
+      "meeting": "Founders' written session",
+      "title": "Encrypted Matrix room adopted as interim official channel",
+      "result": "5 YES / 0 NO / 0 ABSTAIN",
+      "yes": 5,
+      "no": 0,
+      "abstain": 0,
+      "notice": "2026-006",
+      "source": "docs/CHANNEL_SESSION_MINUTES_2026-11-19.md"
+    },
+    {
+      "id": "FA-2026-006",
+      "date": "2026-11-19",
+      "meeting": "Founders' written session",
+      "title": "Matthew Walker appointed Returning Officer; election dates agreed",
+      "result": "5 YES / 0 NO / 0 ABSTAIN",
+      "yes": 5,
+      "no": 0,
+      "abstain": 0,
+      "notice": "2026-007",
+      "source": "docs/FIRST_ELECTION_STATUS_2026-11-19.md"
+    },
+    {
+      "id": "FA-2026-007",
+      "date": "2026-11-19",
+      "meeting": "Founders' written session",
+      "title": "Interim Secretary, Treasurer and Registrar appointed; first steps approved",
+      "result": "5 YES / 0 NO / 0 ABSTAIN",
+      "yes": 5,
+      "no": 0,
+      "abstain": 0,
+      "notice": "2026-008",
+      "source": "gazette/2026/2026-008-interim-roles-en-bloc.md"
+    },
+    {
+      "id": "FA-2026-008",
+      "date": "2026-11-19",
+      "meeting": "Founders' written session",
+      "title": "Standing procedures adopted; Constitution v0.1 confirmed",
+      "result": "5 YES / 0 NO / 0 ABSTAIN",
+      "yes": 5,
+      "no": 0,
+      "abstain": 0,
+      "notice": "2026-009",
+      "source": "gazette/2026/2026-009-standing-procedures.md"
+    }
+  ]
+}

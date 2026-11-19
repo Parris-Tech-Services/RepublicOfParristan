@@ -27,3 +27,7 @@ This URL must not be described as live until verified. The `docs/.nojekyll` file
 - Use a dated erratum for substantive historical corrections.
 
 This site does not accept membership applications. Keep private contact and eligibility data outside the repository.
+
+## Public administration and data
+
+The read-only [administration dashboard](administration.html) shows the same eight documented founding decisions as the [public decisions page](decisions.html). A portable [JSON export](data/decisions.json) contains aggregate decisions and sources only, no member roll or ballots. The validator `python3 scripts/validate_public_records.py` checks machine-readable records against the decision register and both pages. It does not independently authenticate a vote.
