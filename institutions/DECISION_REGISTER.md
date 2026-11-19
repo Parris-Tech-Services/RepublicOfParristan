@@ -12,6 +12,8 @@ All five founders reportedly attended the assembly commencing **3:30 pm AEDT, 19
 | FA-2026-003 | 19 Nov 2026 | Open-source digital administration inspired by GendBuntu and Schleswig-Holstein | **Unanimous**, exact numerical tally not separately supplied | Strategic direction adopted; actual services still proposed/piloted |
 | FA-2026-004 | 19 Nov 2026 | Appoint Glenn as CDO; activate Office of Sovereign Systems charter | **Unanimous consent**, accepted by Glenn | [Office charter](../docs/OSPO_CHARTER_2026-11-19.md) |
 
+**Pending (not adopted):** Motion 1 — designate an encrypted Matrix/Element room as the interim official channel; proposed 19 Nov 2026, awaiting all founders joining and voting. See [interim channel record](../docs/INTERIM_OFFICIAL_CHANNEL_2026-11-19.md).
+
 **Source fidelity and open items:** The supplied minutes do not identify the original distribution time for the new one-hour notice, the exact constitution commit/version considered, or an independently approved signed copy. The [consolidated text](CONSTITUTION.md) reproduces the only published draft v0.1 until matched to the original meeting copy. This uncertainty does not erase the organiser's reported unanimous vote.
 
 **Not adopted in these minutes:** a presidential election or cabinet; a complete passage of the separately drafted *Open Source Act*; national flag/arms/anthem; sovereign territory; foreign state recognition. The OSPO is an internal association office and not a public-law authority.

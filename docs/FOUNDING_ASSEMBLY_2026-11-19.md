@@ -3,6 +3,7 @@
 **Date:** Thursday, 19 November 2026  
 **Time called to order:** 3:30 pm AEDT (Australia/Sydney)  
 **Attendance:** Five of five founding members (100% attendance)  
+**Format:** Hybrid — four founders in person (including the organiser); Glenn joined remotely by Zoom from Perth (organiser-reported, supplement added 19 November 2026)  
 **Source:** Minutes supplied by the founding organiser on 19 November 2026; published as a transcription of those minutes. Not independently signed or witnessed through this repository.
 
 ## Attendees

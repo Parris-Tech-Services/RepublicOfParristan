@@ -42,7 +42,7 @@ This checklist translates the existing [roadmap](ROADMAP.md) into tasks that the
 - [ ] Schedule and conduct the first democratic election under adopted rules; record results, terms and the transfer of responsibilities.
 - [ ] Set up a private, opt-in membership process, privacy notice, retention/deletion rules and an appeal route.
 - [x] Publish initial founding [decision register](../institutions/DECISION_REGISTER.md) and founding minutes.
-- [ ] Establish a routine for subsequent meetings, redaction and review.
+- [ ] Establish a routine for subsequent meetings, redaction and review. **Started:** interim Matrix/Element room created 19 Nov 2026; Motion 1 (interim official channel) pending — see [interim channel record](INTERIM_OFFICIAL_CHANNEL_2026-11-19.md).
 - [ ] Adopt a small annual budget, spending approval limits, a financial ledger and dual review of expenditure.
 - [ ] Evaluate an appropriate Australian legal structure. A **NSW incorporated association** is one possible route, not sovereignty; check the constitution, 5-member minimum, committee/public-officer rules and registration requirements before applying.
 - [x] Appoint Chief Digital Officer: Glenn, by unanimous founding-assembly consent.
