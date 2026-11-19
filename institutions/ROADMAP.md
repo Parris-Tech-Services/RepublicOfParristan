@@ -12,11 +12,13 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 ## Phase 1 — Constituent process
 
 - [x] Five founding members identified and agreement confirmed by organiser
-- [ ] Transcribe exact motions and verified counts from the 19 November assembly
-- [ ] Enter actual pre-vote rules and notice/waiver used at the assembly
+- [x] Transcribe the recorded founding vote counts: **5–0 notice rule and 5–0 constitution**; [minutes](../docs/FOUNDING_ASSEMBLY_2026-11-19.md).
+- [x] Record the adopted founding notice amendment: **1 hour**, passed **5–0** before the ratification vote.
+- [ ] Corroborate actual delivery time and exact voted-on text against the founders' retained records.
 - [x] Founding assembly held — organiser reports 5/5 present, 3:30 pm AEDT 19 November 2026; [report](../docs/FOUNDING_ASSEMBLY_2026-11-19.md)
-- [ ] Verify the reported vote outcome and publish the adopted text, counts and effective date if valid
-- [ ] Record actual officeholders and the effective date of the adopted constitution
+- [x] Publish the **5–0** ratification return and consolidated draft v0.1 constitutional text, effective **19 November 2026** per supplied minutes; exact meeting copy still needs confirmation.
+- [x] Record the Chief Digital Officer appointment: **Glenn**, unanimous consent and acceptance, 19 November 2026.
+- [ ] Elect President and organise further government posts and regular Assembly meetings.
 
 ## Phase 2 — Functioning institutions
 
@@ -58,6 +60,6 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 
 ## Immediate founding and open-source delivery checklist
 
-The detailed, evidence-based next steps are in the [Founding Execution Checklist](../docs/FOUNDING_EXECUTION_CHECKLIST.md). The proposed [Open-Source Digital Government Strategy](../docs/OPEN_SOURCE_DIGITAL_GOVERNMENT.md) is inspired by the French National Gendarmerie and Schleswig-Holstein; its product choices are **not yet approved or operational**.
+The detailed, evidence-based next steps are in the [Founding Execution Checklist](../docs/FOUNDING_EXECUTION_CHECKLIST.md). The founding-assembly-approved [Open-Source Digital Government Strategy](../docs/OPEN_SOURCE_DIGITAL_GOVERNMENT.md) is inspired by the French National Gendarmerie and Schleswig-Holstein; its **strategic direction is adopted**, but specific systems are **not yet verified as operational**.
 
 **No guaranteed path to sovereign recognition is implied.**

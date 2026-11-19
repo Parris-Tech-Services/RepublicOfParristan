@@ -13,11 +13,13 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 
 - [x] Identify five proposed founding members (organiser-reported, 19 November 2026)
 - [x] Organiser reports all five founders have agreed to establish Parristan (19 November 2026)
-- [ ] Transcribe the already-reported 19 November meeting's vote counts and signed-off minutes into an evidence-backed ratification return
-- [ ] Publish exact rules *used* at the 19 November assembly, including any notice waiver (organiser reports rules agreed; text not supplied)
+- [x] Transcribe the founding vote counts and effective date: **5 YES / 0 NO / 0 ABSTAIN**, 19 November 2026; [ratification return](ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md).
+- [ ] Confirm that the signed-off meeting copy matches the consolidated published constitution and record the actual one-hour notice delivery time.
+- [x] Publish the adopted founding-assembly notice motion: **14 days to 1 hour, 5–0**, before ratification; actual notice timing remains unverified.
 - [x] Hold a founding assembly — organiser reports all five attended at 3:30 pm AEDT, 19 November 2026; [event report](FOUNDING_ASSEMBLY_2026-11-19.md)
-- [ ] Verify and publish the reported ratification outcome, full text/version, YES/NO/ABSTAIN totals, notice rule and effective date
-- [ ] Record actual officeholders and the effective date of the adopted constitution
+- [x] Publish the founding-assembly decision: ratification **5–0**, effective **19 November 2026**; exact voted-on version still needs corroboration.
+- [x] Record the Chief Digital Officer appointment: **Glenn**, unanimous consent and acceptance, 19 November 2026.
+- [ ] Elect President and organise further government posts and regular Assembly meetings.
 
 ## Phase 2 — Functioning institutions
 
@@ -59,6 +61,6 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 
 ## Immediate founding and open-source delivery checklist
 
-The detailed, evidence-based next steps are in the [Founding Execution Checklist](FOUNDING_EXECUTION_CHECKLIST.md). The proposed [Open-Source Digital Government Strategy](OPEN_SOURCE_DIGITAL_GOVERNMENT.md) is inspired by the French National Gendarmerie and Schleswig-Holstein; its product choices are **not yet approved or operational**.
+The detailed, evidence-based next steps are in the [Founding Execution Checklist](FOUNDING_EXECUTION_CHECKLIST.md). The founding-assembly-approved [Open-Source Digital Government Strategy](OPEN_SOURCE_DIGITAL_GOVERNMENT.md) is inspired by the French National Gendarmerie and Schleswig-Holstein; its **strategic direction is adopted**, but specific systems are **not yet verified as operational**.
 
 **No guaranteed path to sovereign recognition is implied.**

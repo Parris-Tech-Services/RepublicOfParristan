@@ -1,8 +1,8 @@
 # Republic of Parristan — Operational Pack v1
 
-Proclaimed 19 November 2026.
+Founding Assembly of 19 November 2026 recorded constitutional ratification **5–0**. This pack includes **proposals and game-world lore** as well as official administrative material; individual sections are not automatically enacted.
 
-This pack adds the remaining pieces needed to run Parristan as a micronation, game world and family tradition.
+This pack contains tools, drafts and cultural/game-world proposals. The only office appointment in the supplied founding minutes is **Glenn as Chief Digital Officer**; the whimsical cabinet, flag, anthem and currency proposals below are not ratified offices or official instruments.
 
 ## Contents
 
@@ -22,4 +22,4 @@ Do not add personal contact details (home addresses, phone numbers, emails) to a
 
 ## Status of symbols
 
-The flag, coat of arms and anthem in this pack are marked **Adopted pending First Assembly vote**. Once the First National Assembly ratifies them (see `government/first-assembly-agenda.md`), change the status to **Official**.
+The 19 November founding minutes **do not adopt the flag, coat of arms, anthem or currency**. Any files labelled "adopted" elsewhere in this pack are **unapproved proposals or game-world material**, not genuine legal/civic decisions. Only a later recorded vote can give them formal association status.
