@@ -36,6 +36,20 @@ GitHub Pages settings: https://github.com/Parris-Tech-Services/RepublicOfParrist
 - [Territorial, legal and diplomatic position](institutions/LEGAL_STATUS.md)
 - [Development roadmap](institutions/ROADMAP.md)
 
+## Founding members and source documents
+
+The organiser confirms **five founding members** have agreed to participate: Joshua Parris, Glenn Peterson, Matthew John Lucas Walker, Fred Carbunkle, and Jane Carbunkle. This reports their agreement as supplied by the organiser; it does not, by itself, record a constitutional ratification vote or election.
+
+The Enterprise repository's founding documents have been copied here alongside the Gazette and public website:
+
+- [Founding members register](docs/FOUNDERS.md)
+- [Founding assembly minutes template](docs/FOUNDING_ASSEMBLY_MINUTES_TEMPLATE.md)
+- [Enterprise founding overview (original README preserved)](ENTERPRISE_README.md)
+- [Enterprise constitutional draft](docs/CONSTITUTION_DRAFT.md)
+- [Enterprise roadmap](docs/ROADMAP.md)
+
+Personal contact and identification details are not published.
+
 ## Public consultation
 
 Members of the public may suggest improvements using [repository issues](https://github.com/Parris-Tech-Services/RepublicOfParristan/issues), including the tracked constitutional consultation. **An issue comment is not a vote, and a GitHub account is not citizenship.**
