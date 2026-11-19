@@ -2,6 +2,8 @@
 
 **Republic of Parristan · 19 November 2026 · Status: the full Open Source Act remains a DRAFT bill. The founding Assembly unanimously adopted the open-source direction, activated the separately proposed OSPO charter, and appointed Glenn CDO by consent. No hosting site is confirmed.**
 
+**Alternative for consideration:** [Consolidated Open Source Act proposal](OPEN_SOURCE_ACT_CONSOLIDATED_PROPOSAL.md) compares and reconciles the governance and operational-pack drafts. It is **not adopted**.
+
 This is the Phase 0 (governance, week 1) package of the [Open-Source Digital Government Strategy](OPEN_SOURCE_DIGITAL_GOVERNMENT.md). It uses the status vocabulary in [Official Records](../operations/OFFICIAL_RECORDS.md): nothing here is **ADOPTED** or **IN FORCE** until a real decision exists with dated evidence. A GitHub merge of this file is a document edit, not a vote.
 
 ## Phase 0 checklist
