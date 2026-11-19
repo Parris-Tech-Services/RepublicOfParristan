@@ -90,15 +90,15 @@ for path in notices:
 
 # Cross-check the published Gazette against its two human-facing indexes.
 index_text = (ROOT / "gazette/INDEX.md").read_text(encoding="utf-8")
-indexed = re.findall(r'^\\| \\[(\\d{4}-\\d{3})\\]\\(', index_text, flags=re.MULTILINE)
+indexed = re.findall(r'^\| \[(\d{4}-\d{3})\]\(', index_text, flags=re.MULTILINE)
 home_text = (ROOT / "docs/index.html").read_text(encoding="utf-8")
-linked = re.findall(r'href="notices/(\\d{4}-\\d{3})\\.html" data-notice', home_text)
+linked = re.findall(r'href="notices/(\d{4}-\d{3})\.html" data-notice', home_text)
 expected = sorted(ids)
 if sorted(indexed) != expected:
     errors.append("Gazette Markdown index IDs do not exactly match published notices")
 if sorted(linked) != expected:
     errors.append("Website notice listing IDs do not exactly match published notices")
-visible_count = re.search(r'<strong>(\\d+)</strong><span>Published notices</span>', home_text)
+visible_count = re.search(r'<strong>(\d+)</strong><span>Published notices</span>', home_text)
 if visible_count is None or int(visible_count.group(1)) != len(ids):
     errors.append("Homepage published notice count is stale")
 
