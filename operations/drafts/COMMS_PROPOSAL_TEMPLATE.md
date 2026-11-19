@@ -1,6 +1,6 @@
 # Permanent email and chat proposal — template (DRAFT)
 
-**For:** Glenn Peterson, Chief Digital Officer. **Due:** 3 December 2026 (Gazette 2026-006, Motion 1). **Status:** template; Glenn fills in and presents it to the Assembly.
+**For:** Glenn Peterson, Chief Digital Officer. **Due:** 3 December 2026 (Gazette 2026-006, Motion 1). **Status:** ADOPTED — reported unanimous, 19 November 2026 ([Gazette 2026-010](../../gazette/2026/2026-010-permanent-email-adopted.md)). Not yet set up.
 
 ## 1. Recommendation (pre-filled at the organiser's request — Glenn to confirm or change)
 Use **Purelymail** (about **US$10 a year**, flat price for the whole account, no per-user charge on our own domain) for email on a Parristan domain, read in **Thunderbird**. Keep the existing **Matrix/Element** room for chat and votes.

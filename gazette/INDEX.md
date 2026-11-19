@@ -15,6 +15,7 @@ A public register of published notices by the Republic of Parristan founding ini
 | [2026-007](2026/2026-007-returning-officer-and-election-timetable.md) | 19 November 2026 | Returning Officer appointed; first election timetable | Published — 5–0 (corrected from initial 4–0) |
 | [2026-008](2026/2026-008-interim-roles-en-bloc.md) | 19 November 2026 | Secretary, Treasurer, Registrar and first steps (en bloc) | Published — 5–0 |
 | [2026-009](2026/2026-009-standing-procedures.md) | 19 November 2026 | Standing procedures; Constitution v0.1 confirmed as adopted text (en bloc) | Published — 5–0 |
+| [2026-010](2026/2026-010-permanent-email-adopted.md) | 19 November 2026 | Permanent official email adopted (Purelymail) | Published — reported unanimous; not yet set up |
 
 ## Preservation policy
 
