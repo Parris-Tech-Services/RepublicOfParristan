@@ -7,7 +7,7 @@ The ratified constitution's published v0.1 text calls for the first election **w
 ## Ready-to-complete notice
 
 - Election authorised by: _ratification recorded 19 November 2026; original voted-on constitution copy/version still needs confirmation_
-- Electoral officer / neutral teller: **Matthew Walker**, appointed 4–0 (FA-2026-006)
+- Electoral officer / neutral teller: **Matthew Walker**, appointed 5–0 (FA-2026-006)
 - Eligible member roll (private): _not entered_
 - Nominations open: **20 November 2026**
 - Nominations close: **27 November 2026**

@@ -1,14 +1,14 @@
 # Gazette No. 2026-007 — Returning Officer Appointed; First Election Timetable
 
 **Published:** 19 November 2026
-**Decision:** Written resolution in the founders' interim official channel (FA-2026-005), closed about 4:40 pm AEDT, 19 November 2026
+**Decision:** Written resolution in the founders' interim official channel (FA-2026-005), closed about 4:41 pm AEDT, 19 November 2026
 **Record:** Organiser-supplied screenshot; civic/association decision, not Australian public law.
 
 ## Motion 2 — Returning Officer
 
 > Appoint Matthew Walker as Returning Officer for the first election. They won't be a candidate.
 
-**Result: 4 YES, 0 NO, 0 ABSTAIN.** Joshua Parris, who moved the motion and has declared he will stand for President, did not record a vote. Matthew Walker accepted the role.
+**Result: 5 YES, 0 NO, 0 ABSTAIN.** Joshua Parris (mover and declared presidential candidate) added his YES at about 4:41 pm, after the other four. Correction: an earlier version of this notice, published minutes before, recorded 4–0 because his vote had not yet been supplied. Matthew Walker accepted the role.
 
 ## Candidate declared
 
