@@ -4,3 +4,9 @@
 @media(max-width:880px){.hero .container{grid-template-columns:1fr;gap:25px;padding-top:65px;padding-bottom:75px}.hero-card{max-width:470px;margin:0;transform:none}.notices-layout,.page-layout{grid-template-columns:1fr}.sidebar{border:0;border-top:1px solid var(--line);padding:20px 0 0}.nav{gap:14px}.footer-grid{grid-template-columns:1fr 1fr}.symbols{grid-template-columns:1fr 1fr}}@media(max-width:620px){body{font-size:15px}.container{padding-left:18px;padding-right:18px}.strap .container{display:block}.strap span+span{display:block}.masthead .container{align-items:flex-start;flex-direction:column;gap:17px}.brand strong{font-size:22px}.brand img{width:44px;height:44px}.hero .container{padding-top:56px}.section{padding:55px 0}.stats{grid-template-columns:1fr;margin-top:0}.stat{border-right:0;border-bottom:1px solid var(--line);padding:15px 24px}.stat:last-child{border-bottom:0}.stat strong{font-size:28px}.filterbar{align-items:stretch}.search{width:100%}.symbols,.cols-2{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.notice{padding:20px}.page-hero{padding:48px 0 40px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 @media print{.nav,.hero-actions,.filters,.search,.footer{display:none!important}body{background:white}.hero{background:white;color:black}.hero h1{color:black}.section{padding:25px 0}.notice,.stats,.panel{box-shadow:none}.panel{background:#eee;color:black}.panel h3,.panel li strong{color:black}}
+
+/* Tables for decision register and corrections */
+.table-wrap{overflow-x:auto;margin:1rem 0}
+.table-wrap table{border-collapse:collapse;width:100%;font-size:.95rem}
+.table-wrap th,.table-wrap td{border-bottom:1px solid #d8dee6;padding:.5rem .6rem;text-align:left;vertical-align:top}
+.table-wrap th{background:#f2f5f8}

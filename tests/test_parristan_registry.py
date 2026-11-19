@@ -6,6 +6,7 @@ from datetime import date
 from tools.parristan_registry import (
     REPO_ROOT, safe_db_path, init_db, add_member, summary,
     list_members, withdraw_member, remove_member,
+    assign_number, resign_member, electoral_roll, aggregate_report,
 )
 
 class RegistryTests(unittest.TestCase):
@@ -44,6 +45,41 @@ class RegistryTests(unittest.TestCase):
     def test_must_init_before_adding(self):
         with self.assertRaises(ValueError):
             add_member(self.path, "Sample", date.today().isoformat())
+
+class RollTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.path = init_db(Path(self.temp.name) / "m.sqlite3")
+
+    def test_numbers_sequential_and_stable(self):
+        a = add_member(self.path, "Alpha", "2026-11-01")
+        b = add_member(self.path, "Beta", "2026-11-01")
+        self.assertEqual(assign_number(self.path, a), "P-0001")
+        self.assertEqual(assign_number(self.path, b), "P-0002")
+        self.assertEqual(assign_number(self.path, a), "P-0001")
+        with self.assertRaises(ValueError):
+            assign_number(self.path, "missing")
+
+    def test_roll_respects_dates_and_resignation(self):
+        a = add_member(self.path, "Alpha", "2026-11-01")
+        b = add_member(self.path, "Beta", "2026-11-10")
+        c = add_member(self.path, "Gamma", "2026-11-01")
+        assign_number(self.path, a)
+        self.assertTrue(resign_member(self.path, c, "2026-11-05"))
+        roll = electoral_roll(self.path, "2026-11-03")
+        self.assertIn("P-0001,Alpha", roll)
+        self.assertIn("Gamma", roll)
+        self.assertNotIn("Beta", roll)
+        later = electoral_roll(self.path, "2026-11-12")
+        self.assertIn("Beta", later)
+        self.assertNotIn("Gamma", later)
+
+    def test_report_has_no_names(self):
+        add_member(self.path, "Alpha", "2026-11-01")
+        r = aggregate_report(self.path)
+        self.assertEqual(r["active"], 1)
+        self.assertNotIn("Alpha", str(r))
 
 if __name__ == "__main__":
     unittest.main()

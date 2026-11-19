@@ -1,0 +1,13 @@
+name: Check external links (manual)
+# Manual only, so it never spends CI minutes on routine pushes.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/check_external_links.py
