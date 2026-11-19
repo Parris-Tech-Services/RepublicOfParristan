@@ -10,8 +10,8 @@
 - **Appointing authority for this initial office:** Unanimous founding-assembly resolution, not a presidential appointment.
 - **President:** Not yet elected or recorded.
 - **Mandate:** Lead Parristan's open-source-first digital administration and report to the Assembly.
-- **Charter basis:** [Open Source Act / OSPO charter proposal](OPEN_SOURCE_ACT_DRAFT.md), Part 2, activated by founding resolution specifically for the OSPO. The entire separately proposed *Open Source Act 2026* has **not** been recorded as enacted.
-- **Future appointment procedure:** The alternative [bill](../operational-pack/government/open-source-act.md) proposes that the President appoint the CDO. That future rule needs harmonisation with this initial Assembly appointment when the bill is formally considered; it cannot be retroactively represented as a presidential action.
+- **Charter basis:** [Open Source Act / OSPO charter proposal](OPEN_SOURCE_ACT_DRAFT.md), Part 2, activated by founding resolution specifically for the OSPO. The organiser's later correction records the *Open Source Act 2026* as also adopted 5 YES on 19 November 2026, covering both published texts ([correction](FOUNDING_ASSEMBLY_2026-11-19.md)).
+- **Future appointment procedure:** The alternative [bill](../operational-pack/government/open-source-act.md) proposes that the President appoint the CDO. The two adopted texts therefore differ on this point; the [consolidated proposal](OPEN_SOURCE_ACT_CONSOLIDATED_PROPOSAL.md) harmonises them. It cannot be retroactively represented as a presidential action.
 
 ## Operating duties
 

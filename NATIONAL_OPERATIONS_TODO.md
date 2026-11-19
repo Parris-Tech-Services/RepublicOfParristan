@@ -2,7 +2,7 @@
 
 **Baseline:** 19 November 2026 · **Owner:** the five founding members acting under their own agreed procedures · **Status:** live checklist, not a claim of sovereign recognition.
 
-**Founders:** Joshua Parris, Glenn Peterson, Matthew John Lucas Walker, Fred Carbunkle and Jane Carbunkle. The organiser confirms all five agreed to found Parristan. The organiser also reports all five attended the first assembly at 3:30 pm AEDT on 19 November. Vote totals and formal validation remain outstanding.
+**Founders:** Joshua Parris, Glenn Peterson, Matthew John Lucas Walker, Fred Carbunkle and Jane Carbunkle. The organiser confirms all five agreed to found Parristan. The organiser also reports all five attended the first assembly at 3:30 pm AEDT on 19 November. The minutes record the constitution ratified 5–0 effective that day, the Open Source Act adopted 5 YES, and Glenn appointed Chief Digital Officer; the organiser reports the minutes were signed (signed copy not stored in this repository).
 
 Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or automated script cannot cast a human vote. There are two separate outcomes: **(A) a working micronational association**, and **(B) sovereign statehood**. Completing A does not establish B.
 
@@ -11,9 +11,9 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 1. [x] **Identify five founding members and record the organiser's confirmation of agreement.** Evidence: [founders register](docs/FOUNDERS.md).
 2. [x] **Publish draft constitutional rules and proposed election rules.** Evidence: [constitution](docs/CONSTITUTION_DRAFT.md) and [assembly/ratification pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md).
 3. [x] **Prepare a practical constitution ratification pack:** motions, notice, quorum, sample ballot and minutes. Evidence: [ratification pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md).
-4. [ ] **Record the exact agreed constitutional version and operative voting rules** used by all five members, including dated notice or an agreed pre-vote notice waiver. The organiser reports this process happened, but the text and timing are not yet recorded.
+4. [x] **Record the exact agreed constitutional version and operative voting rules** used by all five members. Evidence: version identifier and 1-hour notice rule in the [ratification return](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md). The time notice was actually given is not recorded.
 5. [x] **Convene the founding assembly.** Organiser reports all five attended at 3:30 pm AEDT on 19 November 2026 and voting proceedings took place; [meeting report](docs/FOUNDING_ASSEMBLY_2026-11-19.md). Transcription of exact motion counts remains outstanding.
-6. [ ] **Complete the ratification return for the vote reported held:** transcribe YES/NO/ABSTAIN, version, applicable notice rule, motion outcome, effective date and reviewed original minutes. Do not claim formal verification before these are recorded.
+6. [x] **Complete the ratification return for the vote held:** 5 YES / 0 NO / 0 abstain, version, notice rule, outcome and effective date are in the [ratification return](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md), and the organiser reports the minutes were signed. The signed copy is not stored here, so independent verification is still outstanding.
 7. [x] **Prepare presidential election rules, election return and government activation pack.** Evidence: [elections](operations/ELECTION_AND_GOVERNMENT.md).
 8. [ ] **Hold the first actual election and record independently checked results, term dates and officeholders.**
 9. [ ] **Constitute the Assembly, appoint recordkeeping and financial officers lawfully, and begin periodic meetings.**

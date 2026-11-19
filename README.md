@@ -4,7 +4,7 @@
 
 [![Gazette](https://img.shields.io/badge/Gazette-Founding%20Edition-123149)](https://github.com/Parris-Tech-Services/RepublicOfParristan/tree/main/gazette)
 
-> **Status — 19 November 2026:** Parristan is a genuine **micronational civic initiative** seeking to organise real members, constitutional government and peaceful external relationships. A five-person founding assembly **was reported held at 3:30 pm AEDT on 19 November 2026**; the ratification vote totals and notice-rule evidence have not yet been entered, so verified adoption is pending. Parristan is **not a recognised sovereign state**. This Gazette records notices by its organisers, not notices having statutory effect under Australian law.
+> **Status — 19 November 2026:** Parristan is a genuine **micronational civic initiative** seeking to organise real members, constitutional government and peaceful external relationships. A five-person founding assembly **was reported held at 3:30 pm AEDT on 19 November 2026**; the minutes record the constitution ratified 5–0 effective that day, and the organiser reports the minutes were signed (signed copy not stored here), so independent verification is pending. Parristan is **not a recognised sovereign state**. This Gazette records notices by its organisers, not notices having statutory effect under Australian law.
 
 ## Public Gazette
 

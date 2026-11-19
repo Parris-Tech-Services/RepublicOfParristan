@@ -43,7 +43,7 @@ The founding members declare the Constitution **ratified and in force as Parrist
 - **Outcome:** Passed unanimously (the supplied minutes do not separately specify numerical counts for this motion).
 - **Policy:** Open-source-first national systems, including Linux workstations, LibreOffice and open data formats, with practical security, privacy and operational planning.
 
-This adopts a **policy direction**, not proof that Linux, Nextcloud, mail, identity or other services are already operating. The motion does not expressly enact every section of the separately published *Open Source Act 2026* bill; that text remains a draft unless the founders separately record its passage.
+This adopts a **policy direction**, not proof that Linux, Nextcloud, mail, identity or other services are already operating. The motion does not expressly enact every section of the separately published *Open Source Act 2026* bill; that text remains a draft unless the founders separately record its passage. **Superseded by the correction at the end of this document.**
 
 ## 5. Official appointment
 
@@ -66,3 +66,13 @@ The founding assembly was adjourned after its agenda. **No adjournment time was 
 This document is a faithful structured transcription of minutes **supplied by the organiser**, not an independent audit or original ink-signed instrument. Outstanding details: actual notice-delivery time, final circulated constitutional copy/version, chair and teller, original signed-off minutes and election schedule. Absence of these details is not represented as a different vote result.
 
 Parristan remains a voluntary Australian-law-subject micronational association; internal ratification does not confer sovereign territory, externally recognised nationality, diplomatic status or immunity.
+
+## Correction and supplement — 19 November 2026 (organiser, after 3:51 pm AEDT)
+
+The founding organiser corrected the record after the minutes were first transcribed. The original transcription above is preserved and is not rewritten. The corrections are:
+
+1. **Open Source Act adopted.** The assembly voted on the Open Source Act 2026 and it passed with **5 YES** (all five founders present; no NO or abstention). The organiser reports that **both** published texts were passed: `docs/OPEN_SOURCE_ACT_DRAFT.md` Part 1, git blob `014f5342069cc6713ae25e76123c9db9146fd1f8` (commit `eda78c6`), and `operational-pack/government/open-source-act.md`, git blob `b7acf90d9a09b76644b3fa7947c18c60b05c5345` (commit `eda78c6`). The two differ on several points, including who appoints the Chief Digital Officer. A [consolidated proposal](OPEN_SOURCE_ACT_CONSOLIDATED_PROPOSAL.md) sets out the differences and one text to replace both; it is **not adopted** until voted on. The statements above that the Act "was not recorded as enacted" are superseded by this correction.
+2. **Minutes signed.** The organiser reports the minutes were **signed** by the founders. The signed copy is not stored in this repository, and signatures are not published here.
+3. **Version identifier added.** The text ratified is identified as: Constitution of the Republic of Parristan, Version 0.1 as ratified; git blob `bd72a431f4ce2fc211f5b87e2ac1fe850a49350e` (`docs/CONSTITUTION_DRAFT.md`, commit `eda78c6`), SHA-256 `c0397530a249bb2db159aca660a69d1bcd163fb09c20117a625d1a753f498b65`. The 1-hour notice amendment applies to founding-assembly notice only and does not amend Article XI.
+
+**Still outstanding:** the exact time notice was given, the chair and teller, the meeting venue, and the election schedule. These are not recorded.

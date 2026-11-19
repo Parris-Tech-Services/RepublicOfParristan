@@ -1,7 +1,7 @@
 # Open Source Act 2026
 
 *An Act to secure the digital sovereignty of the Republic of Parristan.*
-**Status:** Bill, for passage at the First National Assembly
+**Status:** Adopted 19 November 2026 (organiser-reported; see [correction to the minutes](../../docs/FOUNDING_ASSEMBLY_2026-11-19.md)). A [consolidated proposal](../../docs/OPEN_SOURCE_ACT_CONSOLIDATED_PROPOSAL.md) would replace this text and the governance version once voted on.
 
 ## 1. Short title
 This Act may be cited as the *Open Source Act 2026*.

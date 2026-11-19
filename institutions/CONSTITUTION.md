@@ -2,7 +2,7 @@
 
 **Version 0.1 (consolidated transcription) — Founding Assembly reports unanimous adoption, 19 November 2026, effective that day.**
 
-**Text provenance:** This reproduces the pre-existing published draft with no substantive edits to Articles I–XII. The supplied minutes do not specify the version or commit voted upon; confirm identical wording against the founders' meeting copy. Original source blob: `bd72a431f4ce2fc211f5b87e2ac1fe850a49350e`. Internal constitutional effect is reported by the founding members; not recognised statehood. [Minutes](../docs/FOUNDING_ASSEMBLY_2026-11-19.md) · [Ratification return](../docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md).
+**Text provenance:** This reproduces the pre-existing published draft with no substantive edits to Articles I–XII. The version voted on was identified by the organiser after the minutes were first supplied (see the [correction](../docs/FOUNDING_ASSEMBLY_2026-11-19.md)): Version 0.1, SHA-256 `c0397530a249bb2db159aca660a69d1bcd163fb09c20117a625d1a753f498b65`. Original source blob: `bd72a431f4ce2fc211f5b87e2ac1fe850a49350e`. Internal constitutional effect is reported by the founding members; not recognised statehood. [Minutes](../docs/FOUNDING_ASSEMBLY_2026-11-19.md) · [Ratification return](../docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md).
 
 ## Preamble
 
