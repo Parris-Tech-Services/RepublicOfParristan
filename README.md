@@ -29,7 +29,9 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 
 **Live public website:** [Republic of Parristan Gazette](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) · [Administration dashboard](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/administration)
 
-The source is in [`docs/`](docs/). The public deployment is a snapshot of that directory. GitHub Pages remains a separately configured publishing option at https://parris-tech-services.github.io/RepublicOfParristan/
+The source is in [`docs/`](docs/). The public ChatGPT-hosted deployment is a snapshot of that directory. **Secondary Git-linked mirror:** [Vercel Gazette](https://republic-of-parristan.vercel.app/) deployed from `main/docs` on 19 November 2026 (READY; connected HTTP 200 checks for home, dashboard and JSON). Its production alias has no Vercel sign-in requirement, while previews remain protected. Independent anonymous-client verification of the mirror was not available during this run.
+
+GitHub Pages remains a separately configured, **not-yet-enabled** publishing option at https://parris-tech-services.github.io/RepublicOfParristan/. Its failing automatic push workflow has been made manual-only. [Publishing runbook](operations/PAGES_PUBLISHING.md).
 
 GitHub Pages settings: https://github.com/Parris-Tech-Services/RepublicOfParristan/settings/pages
 
