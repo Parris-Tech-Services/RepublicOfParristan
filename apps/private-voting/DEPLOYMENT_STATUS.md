@@ -4,7 +4,7 @@
 
 ## Verified source and tests
 
-- [Private voting source](../apps/private-voting/) merged by [PR #28](https://github.com/Parris-Tech-Services/RepublicOfParristan/pull/28), commit `41415020d5d26095b2936c0793ab15b642c1e1ae`.
+- [Private voting source](README.md) merged by [PR #28](https://github.com/Parris-Tech-Services/RepublicOfParristan/pull/28), commit `41415020d5d26095b2936c0793ab15b642c1e1ae`.
 - Both "Validate Public Gazette" and "Validate Private Voting" passed on the final PR commit `b534be68` ([private-voting CI](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44478060630)).
 - Eight pure rule tests cover ordinary majority, minimum 3 voters, abstention, 48h close, 14d amendments, two-thirds thresholds, single-candidate confirmation, runoff, voting windows and count consistency.
 - Neon Postgres database `parristan_ballots` exists separately from the pre-existing application database `neondb`; least-privilege app role `parristan_voter_app` can read its five seeded founder records.
