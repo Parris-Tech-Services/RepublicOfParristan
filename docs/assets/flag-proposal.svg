@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+<title id="title">Proposed Founding Star flag of the Republic of Parristan</title>
+<desc id="desc">Original flag proposal: deep navy field, teal lower band, ivory diagonal separator and an eight-point golden star at the hoist.</desc>
+<rect width="1200" height="750" fill="#142b42"/>
+<path d="M0 512 L1200 512 L1200 750 L0 750 Z" fill="#0e675f"/>
+<path d="M0 483 L1200 483 L1200 515 L0 515 Z" fill="#fffdf2"/>
+<path d="M0 0 L355 0 L0 285 Z" fill="#fffdf2" opacity=".99"/>
+<path d="M0 0 L290 0 L0 233 Z" fill="#0e675f"/>
+<polygon points="448.00,97.00 472.49,194.87 559.02,142.98 507.13,229.51 605.00,254.00 507.13,278.49 559.02,365.02 472.49,313.13 448.00,411.00 423.51,313.13 336.98,365.02 388.87,278.49 291.00,254.00 388.87,229.51 336.98,142.98 423.51,194.87" fill="#e9b65b"/>
+<circle cx="448" cy="254" r="34" fill="#142b42"/>
+<circle cx="448" cy="254" r="20" fill="#fff9e8"/>
+</svg>

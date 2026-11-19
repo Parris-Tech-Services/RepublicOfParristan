@@ -1,0 +1,28 @@
+name: "Gazette notice correction"
+description: "Report a factual, editorial or accessibility error in a published notice"
+title: "Correction: "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include confidential or personal information. This issue is public."
+  - type: input
+    id: notice
+    attributes:
+      label: Notice identifier
+      placeholder: "2026-001"
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error and proposed correction
+      description: "Include verifiable primary sources where possible."
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: "This report contains no private identifying details, secrets or recovery codes."
+          required: true
