@@ -27,7 +27,7 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 - [Decision register (HTML)](docs/decisions.html) and [open-format JSON export](docs/data/decisions.json)
 - [ChatGPT technical execution checklist](CHATGPT_EXECUTION_TODO_2026-11-19.md)
 
-**Live public website:** [Republic of Parristan Gazette](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) · [Administration dashboard](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/administration)
+**Official website:** [parristan.org](https://parristan.org) (Gazette 2026-015) · **Earlier snapshot:** [Republic of Parristan Gazette](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) · [Administration dashboard](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/administration)
 
 The source is in [`docs/`](docs/). The public ChatGPT-hosted deployment is a snapshot of that directory. **Secondary Git-linked mirror:** [Vercel Gazette](https://republic-of-parristan.vercel.app/) deployed from `main/docs` on 19 November 2026 (READY; connected HTTP 200 checks for home, dashboard and JSON). Its production alias has no Vercel sign-in requirement, while previews remain protected. Independent anonymous-client verification of the mirror was not available during this run.
 
