@@ -85,6 +85,10 @@ Further reading: [European Commission Open Source Observatory on GendBuntu](http
 - Publish updates as **proposal**, **pilot**, **approved** or **operational (verified)** with evidence and dates.
 - Maintain a succession plan; the Republic's records and services must survive one person's departure.
 
+## Phase 0 — governance draft
+
+The draft [Open Source Act, Sovereign Systems Office charter and hosting decision record](OPEN_SOURCE_ACT_DRAFT.md) are proposals only, pending a ratified constitution and Assembly.
+
 ## Tracking
 
 See [Founding Execution Checklist](FOUNDING_EXECUTION_CHECKLIST.md) for the civic priorities, first assembly, service pilots and measurable milestones. This strategy is a working proposal, not a claim that the systems described above are already deployed.
