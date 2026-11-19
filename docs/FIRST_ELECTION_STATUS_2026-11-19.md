@@ -11,7 +11,7 @@ The ratified constitution's published v0.1 text calls for the first election **w
 - Eligible member roll (private): _not entered_
 - Nominations open: **20 November 2026**
 - Nominations close: **27 November 2026**
-- Candidate statements available: _not entered_ (declared: Joshua Parris)
+- Candidate statements available: Joshua Parris (posted in the official channel, 19 Nov 2026)
 - Voting opens/closes, time zone, method: **28 Nov – 1 Dec 2026, AEDT**; method to be set by Returning Officer
 - Count, disputes, certified election return: _not entered_
 - Officer and presidential term: _none elected or recorded_

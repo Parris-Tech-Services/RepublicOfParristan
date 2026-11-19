@@ -16,13 +16,13 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 6. [x] **Publish constitutional ratification return:** **5 YES / 0 NO / 0 ABSTAIN**, effective **19 November 2026**, per founder-supplied minutes; [return](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md). **Remaining audit:** exact text/version and notice-delivery time.
 7. [x] **Prepare presidential election rules, election return and government activation pack.** Evidence: [elections](operations/ELECTION_AND_GOVERNMENT.md).
 8. [ ] **Hold the first actual election and record independently checked results, term dates and officeholders.**
-9. [ ] **Continue the constituted founding Assembly:** Glenn has accepted the unanimously approved Chief Digital Officer appointment; secretary, treasurer, ongoing meetings and first President remain to be established.
+9. [ ] **Continue the constituted founding Assembly:** Glenn has accepted the unanimously approved Chief Digital Officer appointment; Secretary (Jane Carbunkle), Treasurer (Fred Carbunkle) and Registrar (Glenn Peterson) appointed 5–0 on 19 Nov (Gazette 2026-008); first President pending election 28 Nov – 1 Dec.
 
 ## 2. Citizenship administration
 
 10. [x] **Publish a membership and privacy procedure with a minimal-data model.** Evidence: [citizenship operations](operations/CITIZENSHIP_OPERATIONS.md).
 11. [x] **Implement a functioning local-only membership registry program and automated tests.** Evidence: [registry tool](tools/parristan_registry.py) and [tests](tests/test_parristan_registry.py); no real members are added automatically.
-12. [ ] **Designate a human registrar, approve the membership policy and establish a private protected register on an authorised device.**
+12. [ ] **Registrar designated (Glenn Peterson, Gazette 2026-008); still to approve the membership policy and establish a private protected register on an authorised device.**
 13. [ ] **Record the five founders' memberships from verified records and consent dates; issue actual member numbers.** Existing GitHub profile names are not citizenship proofs.
 14. [ ] **Open an approved, privacy-respecting membership application and appeals process.** No real applications accepted through public GitHub issues.
 15. [ ] **Operate membership changes, resignations, a reliable one-person-one-vote roll and periodic aggregate reporting.**
