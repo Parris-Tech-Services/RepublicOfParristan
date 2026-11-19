@@ -4,7 +4,7 @@
 
 [![Gazette](https://img.shields.io/badge/Gazette-Founding%20Edition-123149)](https://github.com/Parris-Tech-Services/RepublicOfParristan/tree/main/gazette)
 
-> **Status — 19 November 2026:** Parristan is a genuine **micronational civic initiative** seeking to organise real members, constitutional government and peaceful external relationships. Its constitution is **proposed, not ratified**. Parristan is **not a recognised sovereign state**. This Gazette records notices by its organisers, not notices having statutory effect under Australian law.
+> **Status — 19 November 2026:** Parristan is a genuine **micronational civic initiative** seeking to organise real members, constitutional government and peaceful external relationships. A five-person founding assembly **was reported held at 3:30 pm AEDT on 19 November 2026**; the ratification vote totals and notice-rule evidence have not yet been entered, so verified adoption is pending. Parristan is **not a recognised sovereign state**. This Gazette records notices by its organisers, not notices having statutory effect under Australian law.
 
 ## Public Gazette
 
@@ -13,6 +13,7 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 - [Gazette No. 2026-001 — Founding initiative and constitutional consultation](gazette/2026/2026-001-founding-consultation.md)
 - [Gazette No. 2026-002 — Proposal to convene a constituent assembly](gazette/2026/2026-002-assembly-invitation.md)
 - [Gazette No. 2026-003 — National symbol designs released for consultation](gazette/2026/2026-003-symbols-consultation.md)
+- [Gazette No. 2026-004 — First founding assembly held (organiser's report)](gazette/2026/2026-004-founding-assembly-report.md)
 - [Browse the Gazette index](gazette/INDEX.md)
 
 ## Website
@@ -28,6 +29,8 @@ GitHub Pages settings: https://github.com/Parris-Tech-Services/RepublicOfParrist
 - [Founding declaration — proposal](institutions/FOUNDING_DECLARATION.md)
 - [Constitution — draft 0.1](institutions/CONSTITUTION_DRAFT.md)
 - [First constituent assembly](institutions/FOUNDING_ASSEMBLY.md)
+- [Assembly report — 19 November 2026](docs/FOUNDING_ASSEMBLY_2026-11-19.md)
+- [First election record — details pending](docs/FIRST_ELECTION_STATUS_2026-11-19.md)
 - [Ratification procedure — proposal](institutions/RATIFICATION_PROCEDURE.md)
 - [Presidential election procedure — proposal](institutions/ELECTION_RULES.md)
 - [Citizenship and privacy rules](institutions/CITIZENSHIP.md)
@@ -61,7 +64,7 @@ Practical kit for running Parristan day to day, in [`operational-pack/`](operati
 
 ## National operations and next steps
 
-The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) tracks what is implemented and what requires real founder decisions or external legal action. Ratification, elected office, official symbols, sovereignty and recognition are **not** recorded as completed.
+The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) tracks what is implemented and what requires real founder decisions or external legal action. The founding assembly is organiser-reported as held. **A verified ratification return and elected office have not yet been recorded.** Official symbols, sovereignty and recognition remain unestablished.
 
 - [Ratification and founding assembly pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md)
 - [Presidential election and government operations](operations/ELECTION_AND_GOVERNMENT.md)
@@ -82,7 +85,9 @@ Never post home addresses, IDs, birth dates, private contact details or sensitiv
 | --- | --- |
 | Founder-led initiative | Established |
 | Draft founding declaration and constitution | Published for consultation |
-| Constituent assembly and ratification | Not yet held |
+| Founding assembly | Held 19 November 2026, 3:30 pm AEDT, according to organiser; 5 founders present |
+| Constitutional ratification | Vote process reported complete; tally, final text, notice rule and effective date not supplied |
+| First-election arrangements | Organiser reports discussed/arranged; exact dates not supplied |
 | Elected President or legislature | Not yet established |
 | Citizenship scheme | Proposed; applications not open |
 | Adopted national flag, arms or anthem | None; design proposals only |

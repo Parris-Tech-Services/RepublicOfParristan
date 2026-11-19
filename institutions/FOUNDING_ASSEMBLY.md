@@ -1,6 +1,6 @@
 # First Constituent Assembly — convening proposal
 
-**Consultation draft, prepared 19 November 2026. An assembly has not been convened and no constitutional vote has taken place.**
+**Historical convening proposal, prepared 19 November 2026.** The organiser subsequently reported the meeting **was held at 3:30 pm AEDT on 19 November 2026 with all five founders present**. See [assembly report](../docs/FOUNDING_ASSEMBLY_2026-11-19.md). A formal ratification tally is still pending.
 
 The purpose of a first constituent assembly is to bring real, consenting participants together to consider the founding declaration, deliberate on the draft constitution and, if they choose, vote on formally adopting a constitution for Parristan's voluntary micronational community.
 

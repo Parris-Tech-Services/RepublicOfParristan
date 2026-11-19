@@ -1,10 +1,10 @@
 # First Founding Assembly and Constitutional Ratification Pack
 
-**Prepared:** 19 November 2026. **Status:** READY TO USE AS A PROPOSAL — no assembly, ratification or voting result is recorded by this document.
+**Prepared:** 19 November 2026. **Status:** HISTORICAL PREPARATION PACK. The organiser now reports a five-person assembly at 3:30 pm AEDT, 19 November 2026. See the [event record](../docs/FOUNDING_ASSEMBLY_2026-11-19.md); exact vote counts and notice particulars remain unrecorded.
 
 ## The five founders
 
-Joshua Parris; Glenn Peterson; Matthew John Lucas Walker; Fred Carbunkle; Jane Carbunkle. The organising founder reports all five have agreed to establish Parristan. The next step is to record their actual collective constitutional decision.
+Joshua Parris; Glenn Peterson; Matthew John Lucas Walker; Fred Carbunkle; Jane Carbunkle. The organising founder reports all five have agreed to establish Parristan. Their first collective assembly was subsequently reported held; the original motion counts must still be transcribed.
 
 ## Preparation
 

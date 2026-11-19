@@ -12,10 +12,10 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 ## Phase 1 — Constituent process
 
 - [x] Five founding members identified and agreement confirmed by organiser
-- [ ] Record individual founders' constitutional decisions and first meeting
-- [ ] Publish rules for the founding assembly and voting eligibility
-- [ ] Hold a founding assembly with recorded proceedings
-- [ ] Amend and ratify the constitution through a fair vote
+- [ ] Transcribe exact motions and verified counts from the 19 November assembly
+- [ ] Enter actual pre-vote rules and notice/waiver used at the assembly
+- [x] Founding assembly held — organiser reports 5/5 present, 3:30 pm AEDT 19 November 2026; [report](../docs/FOUNDING_ASSEMBLY_2026-11-19.md)
+- [ ] Verify the reported vote outcome and publish the adopted text, counts and effective date if valid
 - [ ] Record actual officeholders and the effective date of the adopted constitution
 
 ## Phase 2 — Functioning institutions

@@ -13,10 +13,10 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 
 - [x] Identify five proposed founding members (organiser-reported, 19 November 2026)
 - [x] Organiser reports all five founders have agreed to establish Parristan (19 November 2026)
-- [ ] Record formal participation/ratification votes with dated primary evidence
-- [ ] Publish rules for the founding assembly and voting eligibility
-- [ ] Hold a founding assembly with recorded proceedings
-- [ ] Amend and ratify the constitution through a fair vote
+- [ ] Transcribe the already-reported 19 November meeting's vote counts and signed-off minutes into an evidence-backed ratification return
+- [ ] Publish exact rules *used* at the 19 November assembly, including any notice waiver (organiser reports rules agreed; text not supplied)
+- [x] Hold a founding assembly — organiser reports all five attended at 3:30 pm AEDT, 19 November 2026; [event report](FOUNDING_ASSEMBLY_2026-11-19.md)
+- [ ] Verify and publish the reported ratification outcome, full text/version, YES/NO/ABSTAIN totals, notice rule and effective date
 - [ ] Record actual officeholders and the effective date of the adopted constitution
 
 ## Phase 2 — Functioning institutions

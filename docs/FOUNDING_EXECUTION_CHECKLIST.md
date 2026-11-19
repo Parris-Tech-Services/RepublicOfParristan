@@ -8,7 +8,7 @@ This checklist translates the existing [roadmap](ROADMAP.md) into tasks that the
 
 - [x] Republic of Parristan name and founding initiative established.
 - [x] Separate internal Enterprise repository and public Gazette repository exist.
-- [x] Five founding members identified and, according to the organiser, agreed to participate. Formal meeting/signature evidence is still to be recorded.
+- [x] Five founding members identified and, according to the organiser, agreed to participate. Five attended the 19 November assembly according to organiser; original signatures and motion counts are not stored here.
 - [x] Draft constitution, founding declaration, assembly procedures, member policy and roadmaps published.
 - [x] Public Gazette website source prepared. **Live hosting is not verified by this checklist.**
 - [x] Open-source digital-government strategy **proposed**, modelled on GendBuntu and Schleswig-Holstein; **not ratified or implemented**.
@@ -17,10 +17,10 @@ This checklist translates the existing [roadmap](ROADMAP.md) into tasks that the
 
 ### Before the first founding assembly
 
-- [ ] **Confirm and record the five founders' participation**, their permission for any public naming, and a secure contact route (do not store private contact details in public GitHub).
+- [x] **Confirm and record the five founders' participation** (organiser-reported); their permission for public naming and a secure contact route (do not store private contact details in public GitHub).
 - [ ] Agree a one-paragraph mission, public-service purpose and first-year goals.
-- [ ] Agree the founding assembly's eligibility, notice, quorum and voting procedure **before** the vote. Use the existing ratification proposal as a starting point.
-- [ ] Choose a meeting date and accessible venue or online option; send formal notice and full draft text, respecting the proposed 14-day notice period if adopted.
+- [x] Agree founding assembly eligibility, notice, quorum and voting procedure before voting — organiser-reported; exact approved text and notice exception still to be transcribed. Use the existing ratification proposal as a starting point.
+- [x] Agree meeting date/format, accessibility, agenda and distribution of the draft — organiser-reported. The 14-day notice rule or pre-vote waiver is **not documented**.
 - [ ] Prepare agenda, chair/secretary for the meeting, attendance verification and private voting method. Temporary roles are not elected government offices.
 - [ ] Collect constitutional amendments and settle the text members will vote on.
 
@@ -28,11 +28,11 @@ This checklist translates the existing [roadmap](ROADMAP.md) into tasks that the
 
 ### At the founding assembly
 
-- [ ] Confirm quorum and formally record attendance and conflicts.
-- [ ] Debate and vote on the constitution using the agreed procedure.
-- [ ] Record the exact text, YES/NO/ABSTAIN totals, outcome and date in signed-off minutes.
-- [ ] **If ratified**, publish an adopted version and decision entry; **if not**, keep it a draft and schedule further consultation.
-- [ ] Approve interim operational roles and election timetable only within the authority actually granted by the adopted rules.
+- [x] Confirm attendance and quorum — organiser reports all five present. Conflict/teller record pending transcription.
+- [x] Debate and conduct constitutional vote — organiser reports completed. The vote outcome and validity remain to be documented.
+- [ ] **Transcribe and verify** the exact text, motion counts and outcome from the 19 November meeting's original minutes.
+- [ ] If the 19 November vote was valid and passed, publish the adopted text and decision entry only after the verified tally and notice record are entered.
+- [ ] Publish the election arrangements the organiser reports were made: election officer, nominations, timetable and constitutional authority.
 
 **Evidence gate:** ratification status can be checked against genuine minutes; a repository merge alone is not a vote.
 
