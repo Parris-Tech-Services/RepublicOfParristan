@@ -23,6 +23,10 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 
 ## Website
 
+- [Public administration dashboard](docs/administration.html) — records, officers, election timetable and open actions (read-only)
+- [Decision register (HTML)](docs/decisions.html) and [open-format JSON export](docs/data/decisions.json)
+- [ChatGPT technical execution checklist](CHATGPT_EXECUTION_TODO_2026-11-19.md)
+
 A public-facing, responsive Gazette website is in [`docs/`](docs/), ready for GitHub Pages publishing from the `main` branch and `/docs` folder.
 
 **Site address once Pages is enabled:** https://parris-tech-services.github.io/RepublicOfParristan/

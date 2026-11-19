@@ -8,6 +8,11 @@ on:
       - 'tests/**'
       - '.github/workflows/validate-national-operations.yml'
       - 'docs/FOUNDERS.md'
+      - 'docs/data/**'
+      - 'docs/administration.html'
+      - 'docs/decisions.html'
+      - 'institutions/DECISION_REGISTER.md'
+      - 'scripts/validate_public_records.py'
   workflow_dispatch:
 permissions:
   contents: read
@@ -24,5 +29,7 @@ jobs:
           python-version: '3.11'
       - name: Test the offline citizenship register
         run: python -m unittest discover -s tests -v
+      - name: Validate public decisions and administration records
+        run: python3 scripts/validate_public_records.py
       - name: Compile tooling
         run: python -m py_compile tools/parristan_registry.py
