@@ -3,7 +3,7 @@
 **Important:** the first spending has already happened on 19 November — the domain and the email service — paid personally by founders. No budget exists yet, so these need to be recorded and approved after the fact.
 
 ## Step 1 — Start the ledger
-Open [../../templates/LEDGER_2026-27.csv](../../templates/LEDGER_2026-27.csv) in LibreOffice Calc and save it as `.ods` in a private place (not GitHub — receipts may show card details). Fill in the blanks:
+Open [../../templates/treasury/PARRISTAN_LEDGER_2026-27.ods](../../templates/treasury/PARRISTAN_LEDGER_2026-27.ods) in LibreOffice Calc and save it as `.ods` in a private place (not GitHub — receipts may show card details). Fill in the blanks:
 
 | Date | Description | Paid by | Amount (USD) | Notes |
 |---|---|---|---|---|

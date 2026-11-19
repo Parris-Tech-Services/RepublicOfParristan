@@ -62,7 +62,7 @@ def add_member(path, name, consent_date):
         raise ValueError("Consent cannot be recorded as occurring in the future.")
     member_id = str(uuid.uuid4())
     with sqlite3.connect(path) as con:
-        con.execute("INSERT INTO members VALUES (?, ?, ?, ?, ?)", (
+        con.execute("INSERT INTO members (id, public_name, consent_date, recorded_utc, status) VALUES (?, ?, ?, ?, ?)", (
             member_id, name, when.isoformat(), datetime.now(timezone.utc).isoformat(), "active"
         ))
     return member_id
@@ -145,6 +145,32 @@ def aggregate_report(path):
     s["generated"] = date.today().isoformat()
     return s
 
+def import_founders(path, csv_path):
+    """Add and number members from a private CSV (columns: name, consent_date), in file order.
+
+    The CSV must live outside the repository. Names already on the register are skipped.
+    Returns a list of (member_number, name, status) tuples.
+    """
+    src = Path(csv_path).expanduser().resolve()
+    if src == REPO_ROOT or REPO_ROOT in src.parents:
+        raise ValueError("Refusing to read member data from inside the Git repository.")
+    path = require_existing(path)
+    with sqlite3.connect(path) as con:
+        existing = {r[0] for r in con.execute("SELECT public_name FROM members")}
+    results = []
+    with open(src, newline="", encoding="utf-8") as fh:
+        for row in csv.DictReader(fh):
+            name = (row.get("name") or "").strip()
+            if not name:
+                continue
+            if name in existing:
+                results.append(("", name, "skipped (already registered)"))
+                continue
+            member_id = add_member(path, name, (row.get("consent_date") or "").strip())
+            results.append((assign_number(path, member_id), name, "added"))
+            existing.add(name)
+    return results
+
 def summary(path):
     path = require_existing(path)
     with sqlite3.connect(path) as con:
@@ -182,6 +208,8 @@ def main():
     roll = sub.add_parser("roll", help="CSV electoral roll as of a date")
     roll.add_argument("--as-of", required=True)
     sub.add_parser("report", help="aggregate counts, safe to publish")
+    imp = sub.add_parser("import", help="add and number members from a private CSV (name,consent_date)")
+    imp.add_argument("--csv", required=True)
     args = parser.parse_args()
     try:
         if args.cmd == "init":
@@ -205,6 +233,9 @@ def main():
             print(electoral_roll(args.db, args.as_of), end="")
         elif args.cmd == "report":
             print(aggregate_report(args.db))
+        elif args.cmd == "import":
+            for number, name, status in import_founders(args.db, args.csv):
+                print(f"{number or '-'}\t{name}\t{status}")
     except (ValueError, sqlite3.DatabaseError) as e:
         parser.error(str(e))
 

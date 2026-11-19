@@ -10,3 +10,9 @@ One file per officer, with ready-to-send messages and step-by-step instructions.
 | Jane Carbunkle | First monthly meeting | Week of 7 Dec 2026 (suggested) | [JANE_SECRETARY.md](JANE_SECRETARY.md) | Open |
 | Fred Carbunkle | Ledger and draft budget controls | 26 Nov 2026 (suggested) | [FRED_TREASURER.md](FRED_TREASURER.md) | Open — first spending already happened |
 | Josh and Glenn | Joint GitHub, Matrix and domain admin | 22 Nov 2026 (suggested) | [JOSH_GLENN_ADMINS.md](JOSH_GLENN_ADMINS.md) | Domain + email **done**; GitHub + Matrix to verify |
+
+## Ready-to-use files (added 19 Nov, after Motion 7)
+- **Glenn:** [glenn/CONSENT_EMAILS.md](glenn/CONSENT_EMAILS.md), [glenn/REGISTER_SETUP.md](glenn/REGISTER_SETUP.md)
+- **Fred:** [fred/FIRST_STEPS.md](fred/FIRST_STEPS.md), [fred/TREASURERS_REPORT_DEC_2026.md](fred/TREASURERS_REPORT_DEC_2026.md), [ledger spreadsheet](../../templates/treasury/PARRISTAN_LEDGER_2026-27.ods)
+- **Jane:** [jane/POLL.md](jane/POLL.md), [jane/MEETING_NOTICE.md](jane/MEETING_NOTICE.md), [jane/MINUTES_PREFILLED.md](jane/MINUTES_PREFILLED.md), [jane/AUDIT_NOTICE_TIME.md](jane/AUDIT_NOTICE_TIME.md)
+- **President:** [FORWARD_MESSAGES.md](FORWARD_MESSAGES.md) — copy-paste messages to send each officer

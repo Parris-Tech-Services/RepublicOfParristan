@@ -6,7 +6,7 @@ from datetime import date
 from tools.parristan_registry import (
     REPO_ROOT, safe_db_path, init_db, add_member, summary,
     list_members, withdraw_member, remove_member,
-    assign_number, resign_member, electoral_roll, aggregate_report,
+    assign_number, resign_member, electoral_roll, aggregate_report, import_founders,
 )
 
 class RegistryTests(unittest.TestCase):
@@ -74,6 +74,18 @@ class RollTests(unittest.TestCase):
         later = electoral_roll(self.path, "2026-11-12")
         self.assertIn("Beta", later)
         self.assertNotIn("Gamma", later)
+
+    def test_import_numbers_in_order_and_skips_duplicates(self):
+        csv_path = Path(self.temp.name) / "consents.csv"
+        csv_path.write_text("name,consent_date\nAlpha,2026-11-19\nBeta,2026-11-19\nAlpha,2026-11-19\n", encoding="utf-8")
+        result = import_founders(self.path, csv_path)
+        self.assertEqual(result[0][:2], ("P-0001", "Alpha"))
+        self.assertEqual(result[1][:2], ("P-0002", "Beta"))
+        self.assertIn("skipped", result[2][2])
+
+    def test_import_refuses_csv_in_repository(self):
+        with self.assertRaises(ValueError):
+            import_founders(self.path, REPO_ROOT / "consents.csv")
 
     def test_report_has_no_names(self):
         add_member(self.path, "Alpha", "2026-11-01")
