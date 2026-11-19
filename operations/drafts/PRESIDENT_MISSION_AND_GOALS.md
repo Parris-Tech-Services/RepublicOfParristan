@@ -1,6 +1,6 @@
 # President's draft mission and first-year goals (DRAFT)
 
-**For:** President Joshua Parris to edit and bring to the Assembly. **Due:** by 3 December 2026 (Gazette 2026-008: within 14 days of the election). **Status:** draft — not adopted. Built from the Constitution (Article I), the draft Founding Declaration and the open items in `NATIONAL_OPERATIONS_TODO.md`.
+**For:** President Joshua Parris to edit and bring to the Assembly. **Due:** by 3 December 2026 (Gazette 2026-008: within 14 days of the election). **Status:** President's draft — goes to the Assembly in Motion 7 (see [MOTION_7_PRESIDENTS_PROGRAMME.md](MOTION_7_PRESIDENTS_PROGRAMME.md)). Built from the Constitution (Article I), the draft Founding Declaration and the open items in `NATIONAL_OPERATIONS_TODO.md`.
 
 ## Mission (one paragraph)
 
@@ -11,20 +11,17 @@ Honesty in every public claim · Fair votes and open records · Privacy for memb
 
 ## First-year goals (19 November 2026 – 30 November 2027)
 
-Each goal has a measurable target and an owner. The Assembly can change, drop or add goals.
+President's choice: five goals, kept short on purpose. Each has a measure and a lead.
 
 | # | Goal | Measure of success | Lead | By |
 |---|---|---|---|---|
 | 1 | **Run government regularly** | 12 monthly meetings held, minutes published in the Gazette | Secretary | Nov 2027 |
-| 2 | **Honest money** | Ledger kept from Nov 2026; budget adopted; monthly second-officer check; year-end report | Treasurer | Budget by Dec 2026; report Nov 2027 |
-| 3 | **Working membership** | Founders numbered P-0001–P-0005; membership policy adopted; application and appeal process open | Registrar | Policy Dec 2026; applications open by Mar 2027 |
-| 4 | **Public presence** | Gazette website live on parristan.org; status page updated each quarter | CDO + President | Website Dec 2026 |
-| 5 | **National symbols** | Flag, coat of arms and motto voted on; anthem melody chosen or commissioned | President + Assembly | Vote by Feb 2027; anthem by Jun 2027 |
-| 6 | **Sovereign IT pilot** | One Linux + LibreOffice workstation running; tested backup restore by a second person | CDO | Mar 2027 |
-| 7 | **Grow the community** | At least [3] new members admitted under the adopted policy | Registrar + all | Nov 2027 |
-| 8 | **One public-service project** | One modest, measurable civic or learning project completed (e.g. a family coding club, local clean-up, or open-source contribution) | President | Sep 2027 |
-| 9 | **Friendly relations** | Correspondence protocol adopted; first-contact letters sent to [3] micronations; all replies logged | President | Protocol Jan 2027; letters Jun 2027 |
-| 10 | **Legal form decision** | Assembly decides whether to stay unincorporated or become a NSW incorporated association | Treasurer + President | Jun 2027 |
+| 2 | **Honest money** | Ledger kept from Nov 2026; budget adopted; monthly second-officer check; year-end report | Treasurer | Budget Dec 2026; report Nov 2027 |
+| 3 | **Working membership** | Founders numbered P-0001–P-0005; policy adopted; applications open to invited people; fewer than ~15 members in year one | Registrar | Policy Dec 2026; applications Mar 2027 |
+| 4 | **Public presence** | Gazette website on parristan.org; status page updated quarterly | CDO + President | Dec 2026 |
+| 5 | **National symbols** | Flag, coat of arms and motto voted on separately; anthem melody ideas collected | President + Assembly | Vote Jan 2027 |
+
+**Later in the year, not formal goals:** correspondence protocol and first friendly letters to 2–3 micronations; one small public-service project; a one-machine Linux pilot; a named meeting place with the owner's permission. **Not yet:** incorporation, a bank account, self-hosted servers, any territorial claim.
 
 ## First 30 days (to 19 December 2026)
 1. Bring this paper to the first monthly meeting for adoption.
