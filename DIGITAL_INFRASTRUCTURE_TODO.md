@@ -40,3 +40,15 @@ Track delivery here. Mark a capability complete only when its operator, acceptan
 Complete one Assembly cycle using the private intranet and approved communication channel: issue notice, prepare agenda, record attendance and quorum, approve minutes, track actions, publish the authorised record and restore a backup. Existing service links: [official public website](https://parristan.org/) and [private intranet](https://intranet.parristan.org/).
 
 References: [Digital Service Standard](https://architecture.digital.gov.au/standard/digital-service-standard) and [Essential Eight / ISM mapping](https://www.cyber.gov.au/sites/default/files/2025-03/Essential%20Eight%20maturity%20model%20and%20ISM%20mapping%20%28October%202024%29.pdf).
+
+## Delivery record — 19 November 2026
+
+- Deployed the [private intranet](https://intranet.parristan.org/) with an office directory, links to adopted rules and published decisions, office-specific action summaries, a dated work list, searchable shared work items and digital support links. Assign an action to the exact office email to show it in that office’s summary.
+- Added an account-administration-only JSON export at `/backup.json`. A local test restored the exported work items and activity history into a fresh database and compared the rows. A second-person restore, approved backup destination, backup schedule and recovery targets remain open.
+- Verified search, account restrictions and export/restore with synthetic office identities and data. Browser sign-in and officer acceptance still need a real mailbox session.
+- The first presidential election is already recorded in [Gazette 2026-013](gazette/2026/2026-013-first-president-confirmed.md). Future electronic voting requires the Returning Officer to confirm the electoral roll, approve the ballot method and verify one-person eligibility independently of office email addresses.
+- The existing shared register supports agenda items and actions. Meeting notice delivery, minutes approval, delegated permissions, restricted document sharing and service workflows remain open.
+
+### Work-register recovery
+
+The account administrator can download the export from the signed-in intranet. Store it in the approved private backup destination. In a separate recovery database, apply the work-register schema, import items before activity entries, and compare row counts and representative records with the export. Keep the export out of the public repository. Record the restore date, operator and outcome without copying private contents into the Gazette.
