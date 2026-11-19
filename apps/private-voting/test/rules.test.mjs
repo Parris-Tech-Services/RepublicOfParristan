@@ -7,3 +7,14 @@ test("48h or all voters early, but never early election closure",()=>{const n=Da
 test("single candidate YES confirmation",()=>{assert.equal(evaluate("election",["A"],{YES:2,NO:1},3).confirmed,true);assert.equal(evaluate("election",["A"],{YES:2,NO:2},4).confirmed,false)});
 test("contested election requires majority or runoff",()=>{assert.equal(evaluate("election",["A","B","C"],{A:2,B:2,C:1},5).needsRunoff,true);assert.equal(evaluate("election",["A","B"],{A:3,B:2},5).winner,"A")});
 test("window and counts validation",()=>{const n=Date.now();assert.equal(mayVote({status:"open",opens_at:new Date(n-1000).toISOString(),closes_at:new Date(n+1000).toISOString()},n),true);assert.throws(()=>evaluate("motion",[],{YES:3},2))});
+
+import {readFileSync} from "node:fs";
+const html=readFileSync(new URL("../public/index.html",import.meta.url),"utf8");
+const apiSource=readFileSync(new URL("../api/index.js",import.meta.url),"utf8");
+test("published Gazette 2026-013 supersedes stale first-election timetable",()=>{
+ assert.match(html,/19 November 2028/);
+ assert.match(html,/first presidential election has already been recorded as completed/i);
+ assert.doesNotMatch(html,/Presidential voting must fall on 28 November/i);
+ assert.match(apiSource,/2028-11-19/);
+ assert.doesNotMatch(apiSource,/2026-11-28/);
+});
