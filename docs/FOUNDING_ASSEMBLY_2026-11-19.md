@@ -32,18 +32,18 @@ The organiser reports that the following were completed during the founding proc
 | Meeting date/time | Thursday 19 November 2026, 3:30 pm AEDT (start time supplied) |
 | Eligible voters attending | Five founders reported present; eligibility confirmed by organiser |
 | Agenda and rules | Organiser reports they were agreed |
-| Actual notice date and content | Organiser reports the founders agreed a **1-hour notice** rule (reported 3:44 pm AEDT, 19 Nov 2026). Exact wording, its scope, and whether it was agreed before the vote are **to be confirmed** |
-| Constitutional text/version actually voted upon | Not specified; the published document is draft v0.1 |
-| YES / NO / ABSTAIN / invalid vote counts | **5 YES / 0 NO / 0 abstain**, as reported by the organiser (all five founders present voted YES) |
-| Ratification decision | Organiser reports the constitution was approved unanimously, 5–0. Transcribed minutes and independent verification have **not** been supplied |
+| Actual notice date and content | Minutes item 2: a motion to change assembly notice from 14 days to **1 hour** passed 5–0–0 **before** the constitution vote ([minutes](FOUNDING_ASSEMBLY_MINUTES_2026-11-19.md)). No separate circulation date for the text is recorded |
+| Constitutional text/version actually voted upon | The minutes do not identify a version; the published document is draft v0.1 |
+| YES / NO / ABSTAIN / invalid vote counts | **5 YES / 0 NO / 0 abstain** on each motion, per the [minutes](FOUNDING_ASSEMBLY_MINUTES_2026-11-19.md) supplied by the organiser |
+| Ratification decision | Minutes item 3: constitution ratified unanimously, 5–0. The minutes are unsigned and not independently verified |
 | Constitution's effective date | **19 November 2026**, as reported by the organiser |
 | Election officer and nomination/voting dates | Arrangements reported; details not supplied |
-| Original minute-taker, independent teller and approved minutes | Not supplied to repository |
-| Officeholders | No presidential election or appointment evidenced in this report |
+| Original minute-taker, independent teller and approved minutes | Minutes supplied by the organiser but unsigned; minute-taker and reviewer not named; no independent teller recorded |
+| Officeholders | Chief Digital Officer: Glenn, appointed by unanimous consent (minutes item 5). No President elected |
 
 **Notice issue:** The published *proposed* rules called for at least **14 full days' notice** after circulating the fixed constitutional text. The current draft files and public consultation are dated 19 November 2026, the meeting date. This report cannot establish that a 14-day period was met. If the founders adopted a different rule or unanimously waived a proposed notice period **before** voting, the original decision and exact adopted wording must be recorded; do not retroactively change the rule to fit the result. The applicable notice requirement and the vote threshold need to be reconciled against the original meeting record before describing the constitution as **formally verified and in force**.
 
-**Update, 19 November 2026 (3:44 pm AEDT) — organiser's report:** all five founders voted YES (5–0), the constitution takes effect on 19 November 2026, and the notice rule is to be changed to 1 hour. The original proposal of 14 full days is kept above as history and is not rewritten. Still needed to close the record: the constitution text or version actually voted on, the exact notice-rule wording and whether it was agreed **before** the vote, and reviewed minutes. Until the notice-rule timing is confirmed, procedural validity is **not independently verified**.
+**Update, 19 November 2026 (3:45 pm AEDT) — minutes supplied:** the [minutes](FOUNDING_ASSEMBLY_MINUTES_2026-11-19.md) record that the notice amendment (14 days to 1 hour) was moved and passed 5–0–0 **before** the constitution was put to the vote, and that the constitution was then ratified 5–0–0, effective 19 November 2026. That answers the notice-timing question above: the rule was changed by a recorded vote first. The original proposal of 14 full days is kept above as history and is not rewritten. Still needed to close the record: a named minute-taker, a participant's review and sign-off, and the constitution version identifier. Independent verification is not recorded.
 
 ## Record completion / correction protocol
 

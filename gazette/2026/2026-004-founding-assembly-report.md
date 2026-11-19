@@ -15,6 +15,6 @@ An evidence-based ratification return and official decision-register entry can f
 **Primary event record:** [Founding assembly report](../../docs/FOUNDING_ASSEMBLY_2026-11-19.md)  
 **Further tracking:** [Founding milestone issue #5](https://github.com/Parris-Tech-Services/RepublicOfParristan/issues/5)
 
-## Update — 19 November 2026, 3:44 pm AEDT
+## Update — 19 November 2026, 3:45 pm AEDT
 
-The founding organiser further reports that **all five founders voted YES (5–0)** on the constitution, that it takes effect on **19 November 2026**, and that the draft's notice rule is to be changed to **1 hour**. The original text of this notice is preserved above. The exact text voted on, the wording and timing of the notice rule, and reviewed minutes are still being recorded, so this is an organiser's report and not an independently verified result.
+Minutes supplied by the founding organiser ([minutes](../../docs/FOUNDING_ASSEMBLY_MINUTES_2026-11-19.md)) record that the assembly first changed the notice period from 14 days to **1 hour** (5–0–0), then **ratified the constitution** (5–0–0), effective **19 November 2026**. They also record a unanimous strategic-direction motion on open source systems and the appointment of Glenn as Chief Digital Officer. The original text of this notice is preserved above. The minutes are unsigned and the constitution version identifier is not recorded, so this is not an independently verified result.
