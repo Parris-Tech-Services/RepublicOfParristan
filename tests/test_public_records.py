@@ -7,9 +7,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / "docs/data/decisions.json").read_text(encoding="utf-8"))
 
 class PublicRecordTests(unittest.TestCase):
-    def test_eleven_documented_fa_decisions(self):
+    def test_twelve_documented_fa_decisions(self):
         self.assertEqual([r["id"] for r in DATA["decisions"]],
-                         [f"FA-2026-{i:03d}" for i in range(1, 12)])
+                         [f"FA-2026-{i:03d}" for i in range(1, 13)])
 
     def test_no_fabricated_counts_for_unquantified_unanimity(self):
         for record in DATA["decisions"]:

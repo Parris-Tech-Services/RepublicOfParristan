@@ -1,6 +1,6 @@
 # Membership policy, privacy notice and appeals (DRAFT)
 
-**For:** Glenn Peterson, Registrar (Gazette 2026-008), then a vote of the Assembly. **Status:** draft. Builds on [citizenship operations](../CITIZENSHIP_OPERATIONS.md).
+**For:** Glenn Peterson, Registrar (Gazette 2026-008), then a vote of the Assembly. **Status:** ADOPTED 19 November 2026, Motion 7 ([Gazette 2026-014](../../gazette/2026/2026-014-presidents-first-programme.md)).
 
 ## 1. Policy
 1. **Membership is voluntary** and does not create any legal nationality, passport or rights under Australian law.

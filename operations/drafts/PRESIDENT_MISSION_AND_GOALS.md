@@ -1,6 +1,6 @@
 # President's draft mission and first-year goals (DRAFT)
 
-**For:** President Joshua Parris to edit and bring to the Assembly. **Due:** by 3 December 2026 (Gazette 2026-008: within 14 days of the election). **Status:** President's draft — goes to the Assembly in Motion 7 (see [MOTION_7_PRESIDENTS_PROGRAMME.md](MOTION_7_PRESIDENTS_PROGRAMME.md)). Built from the Constitution (Article I), the draft Founding Declaration and the open items in `NATIONAL_OPERATIONS_TODO.md`.
+**For:** President Joshua Parris to edit and bring to the Assembly. **Due:** by 3 December 2026 (Gazette 2026-008: within 14 days of the election). **Status:** ADOPTED 19 November 2026, Motion 7 ([Gazette 2026-014](../../gazette/2026/2026-014-presidents-first-programme.md)). Built from the Constitution (Article I), the draft Founding Declaration and the open items in `NATIONAL_OPERATIONS_TODO.md`.
 
 ## Mission (one paragraph)
 

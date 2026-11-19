@@ -22,7 +22,7 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 
 10. [x] **Publish a membership and privacy procedure with a minimal-data model.** Evidence: [citizenship operations](operations/CITIZENSHIP_OPERATIONS.md).
 11. [x] **Implement a functioning local-only membership registry program and automated tests.** Evidence: [registry tool](tools/parristan_registry.py) and [tests](tests/test_parristan_registry.py); no real members are added automatically.
-12. [ ] **Registrar designated (Glenn Peterson, Gazette 2026-008); still to approve the membership policy and establish a private protected register on an authorised device.**
+12. [ ] **Registrar designated (Glenn Peterson, Gazette 2026-008); membership policy adopted 19 Nov (Gazette 2026-014); still to establish a private protected register on an authorised device.**
 13. [ ] **Record the five founders' memberships from verified records and consent dates; issue actual member numbers.** Existing GitHub profile names are not citizenship proofs.
 14. [ ] **Open an approved, privacy-respecting membership application and appeals process.** No real applications accepted through public GitHub issues.
 15. [ ] **Operate membership changes, resignations, a reliable one-person-one-vote roll and periodic aggregate reporting.**
@@ -40,7 +40,7 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 21. [x] **Prepare an operations and evidence register for actual decisions, budgets and meetings.** Evidence: [official records](operations/OFFICIAL_RECORDS.md).
 22. [x] **Research the optional NSW incorporated association pathway for five members.** Evidence: [NSW legal entity pathway](operations/NSW_ASSOCIATION_PATHWAY.md).
 23. [ ] **Choose an appropriate legal form, confirm NSW eligibility and lodge any real incorporation application if the founders approve.** Incorporation is not sovereignty.
-24. [ ] **Establish approved financial controls, lawful banking arrangements if applicable, a member budget and conflict-of-interest policy.**
+24. [ ] **Financial controls adopted 19 Nov (Gazette 2026-014); still to establish lawful banking arrangements if applicable, a member budget and conflict-of-interest policy.**
 25. [ ] **Publish meetings, decisions, correction notices and a functioning national website with a responsible contact route.**
 
 ## 5. Territory and external relations
@@ -68,7 +68,7 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 40. [x] **Hold, count and certify the first presidential election** — YES/NO confirmation held 19 Nov 2026, 5 YES / 0 NO, declared 5:51 pm AEDT, including a YES/NO confirmation ballot if there is only one valid candidate.
 41. [x] **Glenn presents permanent email and chat arrangements within 14 days** of Motion 1 — Purelymail email + Matrix adopted, reported unanimous, 19 Nov 2026; [Gazette 2026-010](gazette/2026/2026-010-permanent-email-adopted.md).
 42. [x] **Register the Parristan domain, set up Purelymail mailboxes, test and announce official addresses** — parristan.org live 19 Nov 2026; [Gazette 2026-011](gazette/2026/2026-011-official-email-live.md).
-44. [ ] **President brings draft mission and first-year goals to the Assembly by 3 December 2026** (Gazette 2026-008). Draft ready: [operations/drafts/PRESIDENT_MISSION_AND_GOALS.md](operations/drafts/PRESIDENT_MISSION_AND_GOALS.md).
+44. [x] **President's mission and first-year goals adopted** — Motion 7, reported 5–0, 19 Nov 2026; [Gazette 2026-014](gazette/2026/2026-014-presidents-first-programme.md).
 43. [x] **Every officeholder changes their mailbox password and enables two-step sign-in; Glenn added as Cloudflare admin; Purelymail admin moved to admin@parristan.org** — reported complete by the organiser, 19 Nov 2026.
 
 ## Status meanings

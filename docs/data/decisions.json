@@ -136,6 +136,18 @@
       "abstain": 0,
       "notice": "2026-013",
       "source": "gazette/2026/2026-013-first-president-confirmed.md"
+    },
+    {
+      "id": "FA-2026-012",
+      "date": "2026-11-19",
+      "meeting": "Written session",
+      "title": "President's first programme adopted (Motion 7, en bloc)",
+      "result": "5 YES / 0 NO / 0 ABSTAIN (reported unanimous)",
+      "yes": 5,
+      "no": 0,
+      "abstain": 0,
+      "notice": "2026-014",
+      "source": "gazette/2026/2026-014-presidents-first-programme.md"
     }
   ]
 }
