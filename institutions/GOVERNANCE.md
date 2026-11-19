@@ -1,6 +1,6 @@
 # Governance and Official Records
 
-**Status (19 November 2026):** The founding assembly unanimously ratified the internal constitution and appointed Glenn as Chief Digital Officer, per the supplied minutes. The presidency and other elected offices remain unfilled.
+**Status (19 November 2026):** The founding assembly unanimously ratified the internal constitution and appointed Glenn Peterson as Chief Digital Officer. Subsequent written votes appointed a Returning Officer and interim Secretary, Treasurer and Registrar. **No President has been elected.**
 
 ## Founding phase
 
@@ -30,7 +30,7 @@ GitHub pull requests may document proposals but **merging code is not itself a v
 
 ## Separation of powers
 
-The adopted constitution (consolidated v0.1 text awaiting source-version confirmation) envisions an Assembly, an elected President and an independent internal appeals panel. The panel's power would extend only to lawful association matters.
+The adopted constitution (v0.1 subsequently confirmed by the five founders in Motion 4, with original notice time still unrecorded) envisions an Assembly, an elected President and an independent internal appeals panel. The panel's power would extend only to lawful association matters.
 
 ## Current officeholder record
 
@@ -40,6 +40,9 @@ The adopted constitution (consolidated v0.1 text awaiting source-version confirm
 | Founding Assembly | Constituted for founding session | 5/5 present, 19 November 2026; regular meeting arrangements pending |
 | Interim convenor | Not formally appointed | Procedure pending |
 | Chief Digital Officer | Glenn Peterson | Unanimous 19 November founding-assembly appointment, accepted; [record](../docs/OSPO_CHARTER_2026-11-19.md) |
-| Electoral officer | Vacant | First election pending |
+| Secretary (interim) | Jane Carbunkle | Motion 3, 5–0; [Gazette 2026-008](../gazette/2026/2026-008-interim-roles-en-bloc.md) |
+| Treasurer (interim) | Fred Carbunkle | Motion 3, 5–0; [Gazette 2026-008](../gazette/2026/2026-008-interim-roles-en-bloc.md) |
+| Registrar (interim) | Glenn Peterson | Motion 3, 5–0; [Gazette 2026-008](../gazette/2026/2026-008-interim-roles-en-bloc.md) |
+| Returning Officer | Matthew John Lucas Walker | 5–0 written vote, accepted; [election record](../docs/FIRST_ELECTION_STATUS_2026-11-19.md) |
 
 This record should be updated whenever an election or appointment is actually documented.

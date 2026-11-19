@@ -4,6 +4,8 @@
 **Meeting:** Thursday 19 November 2026, 3:30 pm AEDT  
 **Record:** Organiser-supplied minutes of the five-member founding assembly; civic/association decisions, not Australian public law.
 
+> **Subsequent confirmation:** [Gazette 2026-009](2026-009-standing-procedures.md) records Motion 4, which confirmed the published Constitution v0.1 as the adopted text. The original founding notice time remains unrecorded.
+
 ## Decisions recorded
 
 | Resolution | Reported decision |

@@ -2,7 +2,7 @@
 
 **Status:** First President, Joshua Parris, confirmed 5 YES / 0 NO on 19 November 2026 (term to 19 November 2028) under Motion 6 — see [Gazette 2026-013](../gazette/2026/2026-013-first-president-confirmed.md). Items below describe the original plan, superseded by Motion 6.
 
-## Institutional structure under the proposed constitution
+## Institutional structure under the adopted constitution (with proposed election procedures)
 
 - **Assembly:** all eligible adult citizen-members, one person one vote; sets policy and approves budgets.
 - **President:** elected for a proposed two-year term, implements lawful internal decisions and is accountable to the Assembly.
@@ -13,7 +13,7 @@
 
 With only five founders, people may need to combine roles. Publish conflicts, avoid a candidate independently certifying their own election, and obtain at least two people to check a tally.
 
-## Preparatory electoral timetable (relative, not scheduled)
+## Announced election date ranges (formal notice and voting method pending)
 
 1. Constitution ratified and publicly recorded.
 2. [x] Matthew John Lucas Walker appointed Returning Officer by five unanimous votes on 19 November 2026; he accepted and is not a candidate.
@@ -36,8 +36,9 @@ An officer may only act within the powers established by adopted documents. Refe
 | --- | --- |
 | President | Not elected |
 | Assembly leadership | Not appointed |
-| Registrar / Secretary | Not appointed |
-| Treasurer | Not appointed |
+| Secretary | Jane Carbunkle — interim, appointed 5–0 in Motion 3 |
+| Registrar | Glenn Peterson — interim, appointed 5–0 in Motion 3 |
+| Treasurer | Fred Carbunkle — interim, appointed 5–0 in Motion 3 |
 | Returning Officer | Matthew John Lucas Walker — accepted appointment 19 November 2026 (5–0–0); no presidential candidate |
 
 [Blank election return and decision record](DECISION_AND_ELECTION_TEMPLATES.md).

@@ -13,11 +13,11 @@ Fill in every `[ ]` blank before issuing. Times are AEDT.
 > I, Matthew Walker, Returning Officer, give notice of the election of the first President.
 >
 > - **Office:** President, term [two years] from the declaration of the result.
-> - **Who may vote:** the founding members on the electoral roll as at [20 November 2026, 9:00 am]. One vote per person.
+> - **Who may vote:** the founding members on the electoral roll as at [eligible-roll cut-off to be fixed by Returning Officer]. One vote per person.
 > - **Who may stand:** any member on the roll, except the Returning Officer.
-> - **Nominations open:** Friday 20 November 2026, [9:00 am]. **Close:** Friday 27 November 2026, [5:00 pm].
+> - **Nominations open:** Friday 20 November 2026, [time to be announced by Returning Officer]. **Close:** Friday 27 November 2026, [time to be announced by Returning Officer].
 > - **How to nominate:** send me a private message in Matrix with: your name, the name of one member who seconds you (or [self-nomination allowed]), and a candidate statement of up to [300] words.
-> - **Voting opens:** Saturday 28 November, [9:00 am]. **Closes:** Tuesday 1 December, [5:00 pm].
+> - **Voting opens:** Saturday 28 November, [time to be announced by Returning Officer]. **Closes:** Tuesday 1 December, [time to be announced by Returning Officer].
 > - **Method:** see section 3. **Count:** within [24 hours] of close.
 >
 > Questions go to me privately. — Matthew Walker, Returning Officer, [date]
@@ -45,7 +45,7 @@ With five voters, anonymity is hard. Choose the method members trust most.
 > First Presidential Election, Republic of Parristan. Vote for ONE candidate by marking one box.
 > ☐ [Candidate A] ☐ [Candidate B]
 
-The candidate with the most votes wins. A tie: [re-run between tied candidates within 7 days].
+The candidate must receive **more than half of valid votes cast** under the proposed rules. Otherwise conduct a runoff between the two leading candidates, with dates and tie-handling announced by the Returning Officer under an approved procedure.
 
 **Single valid candidate — confirmation ballot:**
 > Should [Candidate name] be confirmed as the first President of the Republic of Parristan?
@@ -68,4 +68,4 @@ Abstentions and blank or unclear ballots are recorded as informal, not counted a
 > Objections may be lodged with me within [48 hours].
 > — Matthew Walker, Returning Officer, [date, time]; Scrutineer: [name]
 
-Then complete [templates/ELECTION_RETURN.md](../../templates/ELECTION_RETURN.md) and draft Gazette notice 2026-010.
+Then complete [templates/ELECTION_RETURN.md](../../templates/ELECTION_RETURN.md). Do not reserve or publish Gazette notice 2026-010 before checking the current next available number and authenticating the actual outcome.

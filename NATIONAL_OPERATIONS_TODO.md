@@ -2,7 +2,7 @@
 
 **Baseline:** 19 November 2026 · **Owner:** the five founding members acting under their own agreed procedures · **Status:** live checklist, not a claim of sovereign recognition.
 
-**Founders:** Joshua Parris, Glenn Peterson, Matthew John Lucas Walker, Fred Carbunkle and Jane Carbunkle. The organiser confirms all five agreed to found Parristan. The organiser also reports all five attended the first assembly at 3:30 pm AEDT on 19 November. The supplied founding minutes now record **5–0** for the one-hour founding notice rule and **5–0** constitutional ratification, effective 19 November; source text and actual notice-delivery time remain to be corroborated.
+**Founders:** Joshua Parris, Glenn Peterson, Matthew John Lucas Walker, Fred Carbunkle and Jane Carbunkle. The organiser confirms all five agreed to found Parristan. The organiser also reports all five attended the first assembly at 3:30 pm AEDT on 19 November. The supplied founding minutes now record **5–0** for the one-hour founding notice rule and **5–0** constitutional ratification, effective 19 November; Motion 4 confirmed the published Constitution v0.1 and the actual notice-delivery time remains unrecorded.
 
 Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or automated script cannot cast a human vote. There are two separate outcomes: **(A) a working micronational association**, and **(B) sovereign statehood**. Completing A does not establish B.
 
@@ -11,9 +11,9 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 1. [x] **Identify five founding members and record the organiser's confirmation of agreement.** Evidence: [founders register](docs/FOUNDERS.md).
 2. [x] **Publish draft constitutional rules and proposed election rules.** Evidence: [constitution](docs/CONSTITUTION_DRAFT.md) and [assembly/ratification pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md).
 3. [x] **Prepare a practical constitution ratification pack:** motions, notice, quorum, sample ballot and minutes. Evidence: [ratification pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md).
-4. [x] **Adopt and record founding voting rules.** All five approved the founding notice amendment from 14 days to 1 hour, **5–0**, before the constitutional ballot. **Open:** match actual notice-delivery time and circulated version to original records.
+4. [x] **Adopt and record founding voting rules.** All five approved the founding notice amendment from 14 days to 1 hour, **5–0**, before the constitutional ballot. **Open:** verify actual notice-delivery time against original records.
 5. [x] **Convene the founding assembly.** Organiser reports all five attended at 3:30 pm AEDT on 19 November 2026 and voting proceedings took place; [meeting report](docs/FOUNDING_ASSEMBLY_2026-11-19.md). Exact counts were subsequently supplied and entered in the [ratification return](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md).
-6. [x] **Publish constitutional ratification return:** **5 YES / 0 NO / 0 ABSTAIN**, effective **19 November 2026**, per founder-supplied minutes; [return](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md). **Remaining audit:** exact text/version and notice-delivery time.
+6. [x] **Publish constitutional ratification return:** **5 YES / 0 NO / 0 ABSTAIN**, effective **19 November 2026**, per founder-supplied minutes; [return](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md). **Follow-up:** [Motion 4](gazette/2026/2026-009-standing-procedures.md) confirmed the published v0.1 text. The original notice-delivery time remains unrecorded.
 7. [x] **Prepare presidential election rules, election return and government activation pack.** Evidence: [elections](operations/ELECTION_AND_GOVERNMENT.md).
 8. [x] **Hold the first actual election and record results, term dates and officeholders** — Joshua Parris confirmed President, YES 5 / NO 0, 19 Nov 2026, term to 19 Nov 2028; [Gazette 2026-013](gazette/2026/2026-013-first-president-confirmed.md). Result as reported by the organiser; not independently audited.
 9. [ ] **Continue the constituted founding Assembly:** Glenn has accepted the unanimously approved Chief Digital Officer appointment; Secretary (Jane Carbunkle), Treasurer (Fred Carbunkle) and Registrar (Glenn Peterson) appointed 5–0 on 19 Nov (Gazette 2026-008); first President confirmed 19 Nov 2026 (Gazette 2026-013).
@@ -56,7 +56,7 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 31. [x] **Create a public Gazette and private Enterprise drafting repository.**
 32. [x] **Copy the Enterprise founding documents to the public Gazette without deleting its website.**
 33. [x] **Add governance-operation validation tests and a GitHub Actions workflow.**
-34. [ ] **Verify the GitHub Pages site is actually published and publicly reachable**, then link to this checklist.
+34. [ ] **Verify the GitHub Pages site is actually published and publicly reachable**, then link to this checklist. **Alternative publishing evidence:** a [separately published public snapshot](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) and [Vercel production mirror](https://republic-of-parristan.vercel.app/) (READY, with three connected HTTP 200 route checks) exist; these do not verify that GitHub Pages is operational. [Publishing runbook](operations/PAGES_PUBLISHING.md).
 35. [ ] **Back up institutional records outside GitHub and establish a handover procedure before the Enterprise trial expires.**
 
 ## 7. First presidential election and official communications — 19 November votes

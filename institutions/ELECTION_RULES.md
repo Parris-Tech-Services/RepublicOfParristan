@@ -2,7 +2,7 @@
 
 **Status: first-election rules still proposed; constitution ratified at the 19 November 2026 founding assembly (5–0, per minutes). The first President (Joshua Parris) was confirmed 5–0 on 19 November 2026 under the same-day procedure in Motion 6 ([Gazette 2026-012](../gazette/2026/2026-012-election-timetable-brought-forward.md)); these proposed rules were not used and remain proposals for future elections.**
 
-The consolidated adopted constitution calls for a presidential election within **90 days of ratification**: by **17 February 2027** on the recorded 19 November 2026 effective date. An election date and final electoral regulations have not been announced.
+The consolidated adopted constitution calls for a presidential election within **90 days of ratification**: by **17 February 2027** on the recorded 19 November 2026 effective date. The founders announced **20–27 November 2026** for nominations and **28 November–1 December 2026** for voting in Motion 2. Exact local opening/closing times, the nomination method and final electoral regulations remain for Returning Officer Matthew Walker to publish. No ballot or winner has yet been recorded.
 
 1. Announce electorate eligibility and voting method before nominations open.
 2. Allow all eligible adult citizen-members to nominate, subject to uniformly applied rules.

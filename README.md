@@ -4,7 +4,7 @@
 
 [![Gazette](https://img.shields.io/badge/Gazette-Founding%20Edition-123149)](https://github.com/Parris-Tech-Services/RepublicOfParristan/tree/main/gazette)
 
-> **Status — 19 November 2026:** Parristan is a genuine **micronational civic initiative** seeking to organise real members, constitutional government and peaceful external relationships. A five-person founding assembly **was reported held at 3:30 pm AEDT on 19 November 2026**; minutes now record **5 YES, 0 NO and 0 ABSTAIN** for constitutional adoption, effective that day, with the exact voted-on text and original notice timing still to be confirmed. Parristan is **not a recognised sovereign state**. This Gazette records notices by its organisers, not notices having statutory effect under Australian law.
+> **Status — 19 November 2026:** Parristan is a genuine **micronational civic initiative** seeking to organise real members, constitutional government and peaceful external relationships. A five-person founding assembly **was reported held at 3:30 pm AEDT on 19 November 2026**; minutes now record **5 YES, 0 NO and 0 ABSTAIN** for constitutional adoption, effective that day, with the published Constitution v0.1 subsequently confirmed by Motion 4. The original notice timing remains unrecorded. Parristan is **not a recognised sovereign state**. This Gazette records notices by its organisers, not notices having statutory effect under Australian law.
 
 ## Public Gazette
 
@@ -23,16 +23,22 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 
 ## Website
 
-A public-facing, responsive Gazette website is in [`docs/`](docs/), ready for GitHub Pages publishing from the `main` branch and `/docs` folder.
+- [Public administration dashboard](docs/administration.html) — records, officers, election timetable and open actions (read-only)
+- [Decision register (HTML)](docs/decisions.html) and [open-format JSON export](docs/data/decisions.json)
+- [ChatGPT technical execution checklist](CHATGPT_EXECUTION_TODO_2026-11-19.md)
 
-**Site address once Pages is enabled:** https://parris-tech-services.github.io/RepublicOfParristan/
+**Live public website:** [Republic of Parristan Gazette](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/) · [Administration dashboard](https://republic-of-parristan-gazette.joshualparris.chatgpt.site/administration)
+
+The source is in [`docs/`](docs/). The public ChatGPT-hosted deployment is a snapshot of that directory. **Secondary Git-linked mirror:** [Vercel Gazette](https://republic-of-parristan.vercel.app/) deployed from `main/docs` on 19 November 2026 (READY; connected HTTP 200 checks for home, dashboard and JSON). Its production alias has no Vercel sign-in requirement, while previews remain protected. Independent anonymous-client verification of the mirror was not available during this run.
+
+GitHub Pages remains a separately configured, **not-yet-enabled** publishing option at https://parris-tech-services.github.io/RepublicOfParristan/. Its failing automatic push workflow has been made manual-only. [Publishing runbook](operations/PAGES_PUBLISHING.md).
 
 GitHub Pages settings: https://github.com/Parris-Tech-Services/RepublicOfParristan/settings/pages
 
 ## Founding documents and civic institutions
 
 - [Founding declaration — proposal](institutions/FOUNDING_DECLARATION.md)
-- [Constitution — ratified 19 November 2026 (consolidated text pending source-version confirmation)](institutions/CONSTITUTION.md)
+- [Constitution — ratified 19 November 2026 (published v0.1 confirmed by Motion 4)](institutions/CONSTITUTION.md)
 - [Ratification return — 5–0](docs/ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md)
 - [Office of Sovereign Systems and appointed CDO](docs/OSPO_CHARTER_2026-11-19.md)
 - [Historical constitution draft](institutions/CONSTITUTION_DRAFT.md)
@@ -72,7 +78,7 @@ Practical kit for running Parristan day to day, in [`operational-pack/`](operati
 
 ## National operations and next steps
 
-The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) tracks what is implemented and what requires real founder decisions or external legal action. The supplied minutes record **unanimous constitutional ratification** and **Glenn's appointment as CDO**, effective 19 November 2026. The formal ratification return is published, but the exact circulated text and notice time still require matching against original records. **Joshua Parris was confirmed as first President (5 YES / 0 NO) on 19 November 2026** ([Gazette 2026-013](gazette/2026/2026-013-first-president-confirmed.md)). Official symbols, sovereignty and recognition remain unestablished.
+The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) and the [implementation checklist](IMPLEMENTATION_TODO.md) track what is implemented and what requires real founder decisions or external legal action. The supplied minutes record **unanimous constitutional ratification** and **Glenn's appointment as CDO**, effective 19 November 2026. The formal ratification return is published. Motion 4 confirmed the published v0.1 text. The original notice time remains unrecorded. **Joshua Parris was confirmed as first President (5 YES / 0 NO) on 19 November 2026** ([Gazette 2026-013](gazette/2026/2026-013-first-president-confirmed.md)). Official symbols, sovereignty and recognition remain unestablished.
 
 - [Ratification and founding assembly pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md)
 - [Presidential election and government operations](operations/ELECTION_AND_GOVERNMENT.md)
@@ -94,10 +100,10 @@ Never post home addresses, IDs, birth dates, private contact details or sensitiv
 | Founder-led initiative | Established |
 | Constitution | Ratified unanimously 19 November 2026, per founder-supplied minutes; consolidated v0.1 text awaits copy confirmation |
 | Founding assembly | Held 19 November 2026, 3:30 pm AEDT, according to organiser; 5 founders present |
-| Constitutional ratification | 5 YES, 0 NO, 0 ABSTAIN; effective 19 November 2026; exact circulated text and notice timing unverified |
+| Constitutional ratification | 5 YES, 0 NO, 0 ABSTAIN; effective 19 November 2026; published v0.1 confirmed by Motion 4; original notice time unrecorded |
 | Office of Sovereign Systems | Charter activated; Glenn appointed CDO by unanimous consent |
-| First Presidential election | Held 19 Nov 2026 — Joshua Parris confirmed, 5 YES / 0 NO |
-| Elected President | Joshua Parris, term to 19 Nov 2028; no separate legislature beyond the Assembly |
+| First Presidential election | Not held; nominations/timetable not yet published |
+| Elected President or legislature | Not yet established |
 | Citizenship scheme | Proposed; applications not open |
 | Adopted national flag, arms or anthem | None; design proposals only |
 | Sovereign territory | None claimed |

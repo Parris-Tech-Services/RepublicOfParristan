@@ -21,7 +21,7 @@ Matthew John Lucas Walker (named Matthew Walker in the motion) was appointed **R
 
 Joshua Parris **declared his intention to stand** and shared a candidate statement. His declaration is not a certified nomination submitted during the nomination period, and encouraging responses are not election votes. Candidates' eligibility and nomination process are for the Returning Officer to administer.
 
-The published constitutional 90-day deadline, calculated from the recorded 19 November 2026 ratification, is **17 February 2027**, subject to confirming the precise adopted constitution version.
+The published constitutional 90-day deadline, calculated from the recorded 19 November 2026 ratification, is **17 February 2027**. The founders confirmed the published Constitution v0.1 in [Motion 4](../gazette/2026/2026-009-standing-procedures.md).
 
 ## Interim communications (Motion 1)
 
