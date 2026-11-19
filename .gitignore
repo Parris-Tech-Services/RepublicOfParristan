@@ -13,3 +13,6 @@ private-data/
 *.member-backup
 __pycache__/
 *.pyc
+
+# Secrets for national systems
+.env

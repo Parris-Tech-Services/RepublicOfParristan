@@ -50,6 +50,15 @@ The Enterprise repository's founding documents have been copied here alongside t
 
 Personal contact and identification details are not published.
 
+## Operational Pack v1.1
+
+Practical kit for running Parristan day to day, in [`operational-pack/`](operational-pack/README.md):
+
+- National symbols, anthem and Founding Day (proposals for Assembly vote)
+- Citizenship form, printable passport, ministries, assembly agenda and minutes template
+- The Parri currency, traditions and game lore (`lore.json`)
+- Open Source Act and sovereign IT kit modelled on the French Gendarmerie and Schleswig-Holstein: UCS directory, Nextcloud, ParriBuntu desktop, backups and recovery
+
 ## National operations and next steps
 
 The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) tracks what is implemented and what requires real founder decisions or external legal action. Ratification, elected office, official symbols, sovereignty and recognition are **not** recorded as completed.

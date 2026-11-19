@@ -1,0 +1,47 @@
+{
+  "nation": {
+    "name": "Republic of Parristan",
+    "short_name": "Parristan",
+    "founded": "2026-11-19",
+    "capital": "The Shed, Capital District",
+    "motto": "Fortuna Favet Fortibus Fixoribus",
+    "motto_en": "Fortune favours the brave fixers",
+    "currency": { "name": "Parri", "symbol": "₱R", "peg": "1 Parri = 1 sausage sizzle" },
+    "anthem": "Red Dirt, Gold Wheat",
+    "national_day": "11-19",
+    "colours": { "red_dirt": "#B5502A", "wheat_gold": "#E2B13C", "indicator_orange": "#F28C1E", "galah_pink": "#E8A0B4" }
+  },
+  "founders": [
+    { "id": "president", "name": "Joshua Parris", "office": "President for Life (or until bedtime)", "citizen_no": "0001" },
+    { "id": "infrastructure", "name": "Glenn Peterson", "office": "Minister for Infrastructure, Utes & Things That Rattle", "citizen_no": "0002" },
+    { "id": "constabulary", "name": "Matthew Walker", "office": "Chief of the Parristan Constabulary", "citizen_no": "0003" },
+    { "id": "agriculture", "name": "Fred Carbunkle", "office": "Minister for Agriculture & Weather Announcements", "citizen_no": "0004" },
+    { "id": "treasury", "name": "Jane Carbunkle", "office": "Treasurer & Chief Justice", "citizen_no": "0005" }
+  ],
+  "junior_ministries": ["Minister for Snacks", "Minister for Bedtime Appeals", "Minister for Games & Fun", "Minister for Animals"],
+  "locations": [
+    { "id": "the_shed", "name": "The Shed", "type": "capital", "description": "Seat of government and national armoury of power tools." },
+    { "id": "the_gauge", "name": "The National Rain Gauge", "type": "landmark", "description": "Read aloud every morning. Citizens respond: 'May it fill.'" },
+    { "id": "sizzle_plaza", "name": "Sizzle Plaza", "type": "market", "description": "Where Parri change hands for sausages." },
+    { "id": "red_road", "name": "The Long Red Road", "type": "route", "description": "The horizon line on the national flag. Utes must be waved at." }
+  ],
+  "laws": [
+    "Every citizen must wave at passing utes.",
+    "Bad grammar in public is a misdemeanour; the Treasurer is judge, jury and red pen.",
+    "The rain gauge reading is a national broadcast and must be listened to in silence.",
+    "Bedtime may be extended by presidential decree on special occasions.",
+    "Any dispute is settled by a game; junior citizens hold the casting vote.",
+    "No mining company may enter Parristan without the Treasurer knowing first."
+  ],
+  "honours": [
+    { "id": "order_of_the_spanner", "name": "Order of the Spanner", "for": "Fixing something nobody asked you to fix" },
+    { "id": "golden_gauge", "name": "Golden Gauge", "for": "Most accurate rain prediction of the year" },
+    { "id": "red_pen_medal", "name": "Red Pen Medal", "for": "Finest correct use of grammar" }
+  ],
+  "items": [
+    { "id": "parri_1", "name": "One Parri note", "value": 1 },
+    { "id": "sausage", "name": "Sausage in bread", "price": 1, "effect": "Restores morale" },
+    { "id": "spanner", "name": "Official Spanner", "price": 5, "effect": "Repairs one broken thing" },
+    { "id": "passport", "name": "Parristan Passport", "price": 0, "effect": "Grants citizenship status" }
+  ]
+}

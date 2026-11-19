@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<title>Parristan Passport — Printable</title>
+<style>
+  @page { size: A4; margin: 12mm; }
+  body { font-family: Georgia, serif; background: #f3ead6; margin: 0; padding: 20px; }
+  .controls { font-family: system-ui, sans-serif; margin-bottom: 16px; }
+  .controls input { padding: 6px; margin: 4px; }
+  .sheet { display: flex; gap: 0; width: 200mm; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+  .cover, .page { width: 100mm; height: 140mm; box-sizing: border-box; padding: 10mm; }
+  .cover { background: #7a2f17; color: #e2b13c; text-align: center; display: flex; flex-direction: column; justify-content: space-between; }
+  .cover h1 { font-size: 18pt; letter-spacing: 2px; margin: 0; }
+  .cover h2 { font-size: 12pt; letter-spacing: 6px; margin: 0; }
+  .page { background: #fffaf0; border-left: 1px dashed #b5502a; color: #3b2a10; font-size: 10pt; }
+  .photo { width: 30mm; height: 38mm; border: 2px solid #3b2a10; float: right; text-align: center; font-size: 8pt; display: flex; align-items: center; justify-content: center; }
+  .field { margin: 6px 0; }
+  .label { font-size: 7pt; text-transform: uppercase; letter-spacing: 1px; color: #7a5a12; display: block; }
+  .mrz { font-family: "Courier New", monospace; font-size: 8pt; margin-top: 14mm; word-break: break-all; }
+  @media print { .controls { display: none; } body { background: none; padding: 0; } .sheet { box-shadow: none; } }
+</style>
+</head>
+<body>
+<div class="controls">
+  <input id="n" placeholder="Name" oninput="u()">
+  <input id="c" placeholder="Citizen No (e.g. 0006)" oninput="u()">
+  <input id="r" placeholder="Role / Title" oninput="u()">
+  <input id="v" placeholder="Favourite vehicle" oninput="u()">
+  <button onclick="window.print()">Print</button>
+</div>
+<div class="sheet">
+  <div class="cover">
+    <h2>REPUBLIC OF</h2>
+    <svg viewBox="0 0 100 100" width="110" height="110" aria-hidden="true">
+      <circle cx="50" cy="50" r="46" fill="none" stroke="#e2b13c" stroke-width="3"/>
+      <path d="M 25 60 A 25 25 0 0 1 75 60 Z" fill="#e2b13c"/>
+      <rect x="15" y="60" width="70" height="3" fill="#e2b13c"/>
+      <g stroke="#e2b13c" stroke-width="3"><line x1="35" y1="85" x2="35" y2="68"/><line x1="50" y1="85" x2="50" y2="66"/><line x1="65" y1="85" x2="65" y2="68"/></g>
+    </svg>
+    <h1>PARRISTAN</h1>
+    <h2>PASSPORT</h2>
+  </div>
+  <div class="page">
+    <div class="photo">Paste photo<br>or draw self-portrait</div>
+    <div class="field"><span class="label">Name</span><span id="on">________________</span></div>
+    <div class="field"><span class="label">Citizen No</span><span id="oc">____</span></div>
+    <div class="field"><span class="label">Title</span><span id="or">Citizen</span></div>
+    <div class="field"><span class="label">Vehicle of allegiance</span><span id="ov">________</span></div>
+    <div class="field"><span class="label">Issued at</span>The Shed, Capital District</div>
+    <div class="field"><span class="label">Valid until</span>Bedtime, indefinitely</div>
+    <div class="field"><span class="label">Signature</span>____________________</div>
+    <div class="mrz" id="mrz">P&lt;PRS&lt;&lt;CITIZEN&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</div>
+  </div>
+</div>
+<script>
+function u(){
+  const g=id=>document.getElementById(id).value.trim();
+  const n=g('n'),c=g('c'),r=g('r'),v=g('v');
+  document.getElementById('on').textContent=n||'________________';
+  document.getElementById('oc').textContent=c||'____';
+  document.getElementById('or').textContent=r||'Citizen';
+  document.getElementById('ov').textContent=v||'________';
+  const m=('P<PRS<<'+(n||'CITIZEN').toUpperCase().replace(/[^A-Z]+/g,'<')+'<'.repeat(40)).slice(0,44);
+  document.getElementById('mrz').textContent=m+'\n'+((c||'0000')+'PRS'+'<'.repeat(40)).slice(0,44);
+}
+</script>
+</body>
+</html>
