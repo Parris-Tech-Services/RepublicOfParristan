@@ -9,8 +9,8 @@
 - Constitution v0.1 Article IV: eligible adult member, one vote each; ordinary motions by a simple majority of valid votes.
 - Founding Motion 4, Gazette 2026-009: written votes run for 48 hours, or may close once every member votes; quorum minimum **three voters**; majority of valid votes cast.
 - Constitution Article XI: full text of an amendment available at least **14 days** before voting and a two-thirds majority of valid votes.
-- Motion 2, Gazette 2026-007: Matthew Walker is independent Returning Officer. Presidential nominations are announced for **20–27 November 2026**, voting **28 November–1 December 2026**; exact clock times are NOT yet supplied.
-- First-election rules remain a **draft**, rather than falsely being described as enacted law. A sole candidate faces a YES/NO confirmation. Multiple candidates need a majority or a separately approved runoff. The first President is not yet elected.
+- Motion 2, Gazette 2026-007: Matthew Walker is independent Returning Officer. The initial timetable was superseded by [Motion 6](../../gazette/2026/2026-012-election-timetable-brought-forward.md).
+- First-election rules remain a **draft**, rather than falsely being described as enacted law. A sole candidate faces a YES/NO confirmation. Multiple candidates need a majority or a separately approved runoff. Joshua Parris was confirmed as the first President, as recorded in [Gazette 2026-013](../../gazette/2026/2026-013-first-president-confirmed.md).
 - Motion 3, Gazette 2026-008: Jane Carbunkle Secretary, Fred Carbunkle Treasurer and Glenn Peterson Registrar; Glenn is CDO and joint technical administrator with Joshua Parris.
 - Motion 1, Gazette 2026-006: the encrypted Matrix room remains the official notice and voting channel until a replacement is adopted. The voting portal supplements rather than silently changes this procedure.
 
@@ -31,7 +31,7 @@ One organiser activation creates a password for Josh; two technical admins can t
 - Choices have **no voter ID or timestamp** in the application table; audit logs record who performed officer actions, not a member's choice.
 - However, a five-member election can reveal voting preferences through inference, timing or privileged database logs. **This is not cryptographic end-to-end verifiable secret voting.** Avoid official secret elections until independently assessed; use separately authorised paper/envelope voting if necessary.
 - The site does not independently verify a published Matrix notice, voter identity, nomination eligibility, real-world consent, appeal hearing or external certification. Officer attestation is required.
-- The office roles, election timetable and constitutional amendment rules were taken from the actual published founding documents, but the first election's final regulations remain for the returning officer and Assembly to agree.
+- The office roles, election timetable and constitutional amendment rules were taken from the actual published founding documents, but rules for future elections remain for the Returning Officer and Assembly to agree.
 - Existing Gazette decisions are not replayed as ballots and no Presidency is automatically created.
 - Do not enable real voting until the secure live service and all five founders' access have been verified with the responsible officers.
 
