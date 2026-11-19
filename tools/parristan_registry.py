@@ -5,6 +5,8 @@ No network activity, no automatic sign-up, no legal nationality creation.
 SQLite is NOT encrypted. Secure the containing directory/device independently.
 """
 import argparse
+import csv
+import io
 from datetime import date, datetime, timezone
 import os
 from pathlib import Path
@@ -81,6 +83,68 @@ def remove_member(path, member_id):
         changed = con.execute("DELETE FROM members WHERE id = ?", (member_id,)).rowcount
     return changed == 1
 
+def migrate(con):
+    cols = {r[1] for r in con.execute("PRAGMA table_info(members)")}
+    if "member_number" not in cols:
+        con.execute("ALTER TABLE members ADD COLUMN member_number INTEGER")
+    if "withdrawn_date" not in cols:
+        con.execute("ALTER TABLE members ADD COLUMN withdrawn_date TEXT")
+
+def assign_number(path, member_id):
+    """Issue the next sequential member number (P-0001...). Numbers are never reused."""
+    path = require_existing(path)
+    with sqlite3.connect(path) as con:
+        migrate(con)
+        row = con.execute("SELECT member_number FROM members WHERE id = ?", (member_id,)).fetchone()
+        if row is None:
+            raise ValueError("No member with that ID.")
+        if row[0] is not None:
+            return format_number(row[0])
+        nxt = con.execute("SELECT coalesce(max(member_number), 0) + 1 FROM members").fetchone()[0]
+        con.execute("UPDATE members SET member_number = ? WHERE id = ?", (nxt, member_id))
+    return format_number(nxt)
+
+def format_number(n):
+    return f"P-{n:04d}"
+
+def resign_member(path, member_id, on_date):
+    """Record a resignation with its effective date (keeps the record; see remove for erasure)."""
+    path = require_existing(path)
+    when = date.fromisoformat(on_date)
+    with sqlite3.connect(path) as con:
+        migrate(con)
+        changed = con.execute(
+            "UPDATE members SET status='withdrawn', withdrawn_date=? WHERE id=? AND status='active'",
+            (when.isoformat(), member_id)).rowcount
+    return changed == 1
+
+def electoral_roll(path, as_of):
+    """One row per member eligible on as_of: consented on or before, and not withdrawn by then."""
+    path = require_existing(path)
+    cutoff = date.fromisoformat(as_of).isoformat()
+    with sqlite3.connect(path) as con:
+        migrate(con)
+        rows = con.execute(
+            "SELECT member_number, public_name FROM members WHERE consent_date <= ? "
+            "AND (status='active' OR (withdrawn_date IS NOT NULL AND withdrawn_date > ?)) "
+            "ORDER BY coalesce(member_number, 999999), public_name", (cutoff, cutoff)).fetchall()
+    out = io.StringIO()
+    w = csv.writer(out, lineterminator="\n")
+    w.writerow(["member_number", "public_name"])
+    for number, name in rows:
+        w.writerow([format_number(number) if number else "", name])
+    return out.getvalue()
+
+def aggregate_report(path):
+    """Counts only, safe for publication: no names or IDs."""
+    s = summary(path)
+    with sqlite3.connect(require_existing(path)) as con:
+        migrate(con)
+        numbered = con.execute("SELECT count(*) FROM members WHERE member_number IS NOT NULL").fetchone()[0]
+    s["numbered"] = numbered
+    s["generated"] = date.today().isoformat()
+    return s
+
 def summary(path):
     path = require_existing(path)
     with sqlite3.connect(path) as con:
@@ -110,6 +174,14 @@ def main():
     remove.add_argument("--id", required=True)
     sub.add_parser("summary")
     sub.add_parser("list")
+    num = sub.add_parser("number", help="issue a member number")
+    num.add_argument("--id", required=True)
+    res = sub.add_parser("resign")
+    res.add_argument("--id", required=True)
+    res.add_argument("--date", required=True)
+    roll = sub.add_parser("roll", help="CSV electoral roll as of a date")
+    roll.add_argument("--as-of", required=True)
+    sub.add_parser("report", help="aggregate counts, safe to publish")
     args = parser.parse_args()
     try:
         if args.cmd == "init":
@@ -125,6 +197,14 @@ def main():
         elif args.cmd == "list":
             for row in list_members(args.db):
                 print("\t".join(row))
+        elif args.cmd == "number":
+            print("Member number:", assign_number(args.db, args.id))
+        elif args.cmd == "resign":
+            print("Resigned:", resign_member(args.db, args.id, args.date))
+        elif args.cmd == "roll":
+            print(electoral_roll(args.db, args.as_of), end="")
+        elif args.cmd == "report":
+            print(aggregate_report(args.db))
     except (ValueError, sqlite3.DatabaseError) as e:
         parser.error(str(e))
 
