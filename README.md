@@ -100,6 +100,16 @@ Parristan's **proposed digital-government direction** draws on the French Nation
 
 The immediate civic priority is a genuine founding assembly, recorded constitution ratification and democratic elections; the technology work begins with one testable, supportable Linux and LibreOffice pilot.
 
+## Windows developer setup and verified reference stacks
+
+- [PowerShell: Pi + OpenRouter + Qwen coding quickstart](docs/WINDOWS_QWEN_DEVELOPMENT.md)
+- [Windows bootstrap script](scripts/setup-qwen-openrouter.ps1)
+- [Evidenced software matrix: GendBuntu and Schleswig-Holstein](docs/REFERENCE_STACK_MATRIX.md)
+- [Coding-agent project instructions](AGENTS.md)
+- [Review of the supplied creative operational pack](docs/OPERATIONAL_PACK_REVIEW.md)
+
+These are software-development tools and proposed technology choices, **not claims of officially deployed civic infrastructure**.
+
 ## Repository roles
 
 This public repository provides **publication and consultation**. The separately maintained Enterprise Managed Users repository is an internal workspace. Neither repository contains a public register of private citizen records.

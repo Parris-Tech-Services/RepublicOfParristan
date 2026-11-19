@@ -19,6 +19,8 @@ Here, **digital sovereignty** means practical control over data, configuration, 
 7. **Cost and maintainability.** Record total operating cost, volunteer workload, support needs, uptime, accessibility and migration risk before making commitments.
 8. **Evidence over claims.** A selected product is not a deployed service; a demonstration is not a secure production system.
 
+For the exact **publicly evidenced products**, with completed/ongoing distinctions, use the [reference software stack matrix](REFERENCE_STACK_MATRIX.md). For the Windows developer workstation see the [Qwen + Pi quickstart](WINDOWS_QWEN_DEVELOPMENT.md).
+
 ## Reference models
 
 | Reference | Transferable lesson | How Parristan will apply it |
