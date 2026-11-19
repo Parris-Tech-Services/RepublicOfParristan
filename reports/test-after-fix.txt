@@ -1,0 +1,46 @@
+test_json_not_stale (test_build_metadata_stale.MetadataStalenessTests.test_json_not_stale)
+build_metadata.py --check must exit 0 when JSON is current. ... ok
+test_constitution_ratified_flag (test_dashboard_metadata.DashboardMetadataTests.test_constitution_ratified_flag)
+Constitution was unanimously ratified; this must not show zero. ... ok
+test_decisions_dates_are_iso (test_dashboard_metadata.DashboardMetadataTests.test_decisions_dates_are_iso) ... ok
+test_decisions_match_decision_register (test_dashboard_metadata.DashboardMetadataTests.test_decisions_match_decision_register)
+Decision Register lists 8 resolutions (FA-2026-001 through FA-2026-008). ... ok
+test_election_nomination_before_voting (test_dashboard_metadata.DashboardMetadataTests.test_election_nomination_before_voting) ... ok
+test_election_timetable_fields (test_dashboard_metadata.DashboardMetadataTests.test_election_timetable_fields) ... ok
+test_file_is_parseable_json (test_dashboard_metadata.DashboardMetadataTests.test_file_is_parseable_json) ... ok
+test_file_under_docs_directory (test_dashboard_metadata.DashboardMetadataTests.test_file_under_docs_directory) ... ok
+test_health_contains_ratified_constitution (test_dashboard_metadata.DashboardMetadataTests.test_health_contains_ratified_constitution) ... ok
+test_health_entries_reference_real_files (test_dashboard_metadata.DashboardMetadataTests.test_health_entries_reference_real_files) ... ok
+test_kpi_has_all_counters (test_dashboard_metadata.DashboardMetadataTests.test_kpi_has_all_counters) ... ok
+test_kpi_values_are_non_negative_ints (test_dashboard_metadata.DashboardMetadataTests.test_kpi_values_are_non_negative_ints) ... ok
+test_meta_has_required_keys (test_dashboard_metadata.DashboardMetadataTests.test_meta_has_required_keys) ... ok
+test_no_false_election_claim (test_dashboard_metadata.DashboardMetadataTests.test_no_false_election_claim)
+No President has been elected yet. ... ok
+test_no_sensitive_data_exposed (test_dashboard_metadata.DashboardMetadataTests.test_no_sensitive_data_exposed)
+Dashboard must never expose personal/member data patterns. ... ok
+test_notice_count_matches_index (test_dashboard_metadata.DashboardMetadataTests.test_notice_count_matches_index)
+Real index lists 9 Gazette notices (2026-001 through 2026-009). ... ok
+test_officeholders_list (test_dashboard_metadata.DashboardMetadataTests.test_officeholders_list) ... ok
+test_operations_counts_consistent (test_dashboard_metadata.DashboardMetadataTests.test_operations_counts_consistent) ... ok
+test_returning_officer_identified (test_dashboard_metadata.DashboardMetadataTests.test_returning_officer_identified) ... ok
+test_roadmap_step3_reflects_ratification (test_dashboard_metadata.DashboardMetadataTests.test_roadmap_step3_reflects_ratification)
+Step 3 (ratify constitution) must be complete after FA adoption. ... ok
+test_roadmap_steps_ordered (test_dashboard_metadata.DashboardMetadataTests.test_roadmap_steps_ordered) ... ok
+test_roadmap_valid_statuses (test_dashboard_metadata.DashboardMetadataTests.test_roadmap_valid_statuses) ... ok
+test_source_is_github_url (test_dashboard_metadata.DashboardMetadataTests.test_source_is_github_url) ... ok
+test_symbols_have_names_and_images (test_dashboard_metadata.DashboardMetadataTests.test_symbols_have_names_and_images) ... ok
+test_tech_items_have_progress (test_dashboard_metadata.DashboardMetadataTests.test_tech_items_have_progress) ... ok
+test_tech_stack_has_both_reference_models (test_dashboard_metadata.DashboardMetadataTests.test_tech_stack_has_both_reference_models) ... ok
+test_init_and_membership_lifecycle (test_parristan_registry.RegistryTests.test_init_and_membership_lifecycle) ... ok
+test_must_init_before_adding (test_parristan_registry.RegistryTests.test_must_init_before_adding) ... ok
+test_refuses_relative_database (test_parristan_registry.RegistryTests.test_refuses_relative_database) ... ok
+test_refuses_repository_database (test_parristan_registry.RegistryTests.test_refuses_repository_database) ... ok
+test_rejects_invalid_inputs (test_parristan_registry.RegistryTests.test_rejects_invalid_inputs) ... ok
+test_numbers_sequential_and_stable (test_parristan_registry.RollTests.test_numbers_sequential_and_stable) ... ok
+test_report_has_no_names (test_parristan_registry.RollTests.test_report_has_no_names) ... ok
+test_roll_respects_dates_and_resignation (test_parristan_registry.RollTests.test_roll_respects_dates_and_resignation) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.554s
+
+OK
