@@ -26,3 +26,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Compile tooling
         run: python -m py_compile tools/parristan_registry.py
+      - name: Validate dashboard metadata freshness
+        run: python scripts/build_metadata.py --check
