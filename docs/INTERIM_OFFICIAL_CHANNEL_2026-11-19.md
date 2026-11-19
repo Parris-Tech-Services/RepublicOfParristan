@@ -1,7 +1,7 @@
 # Interim Official Channel — Matrix/Element (proposed)
 
 **Date:** 19 November 2026 (Australia/Sydney)
-**Status:** Room created; **Motion 1 not yet voted**. Nothing here is adopted until the vote result is recorded below.
+**Status:** **Motion 1 adopted 5–0** at 4:34 pm AEDT, 19 November 2026 ([Gazette 2026-006](../gazette/2026/2026-006-interim-official-channel.md)).
 
 ## Why
 
@@ -19,7 +19,7 @@ The founders need a written place to give notice, discuss and vote before perman
 - [x] All five founders joined (by 4:31 pm AEDT, 19 Nov 2026)
 - [ ] Each founder has saved their Element recovery key (prevents losing message history on new devices)
 - [x] Glenn (CDO) granted admin power level, so the room does not depend on one person
-- [ ] Motion 1 voted and result recorded below
+- [x] Motion 1 voted and result recorded below
 
 ## Motion 1 — text to post once all five have joined
 
@@ -29,10 +29,10 @@ The founders need a written place to give notice, discuss and vote before perman
 
 ## Result
 
-- Posted: _not yet_
-- YES / NO / ABSTAIN: _not yet_
+- Posted and closed: 19 November 2026, closed 4:34 pm AEDT
+- YES / NO / ABSTAIN: **5 / 0 / 0** (each founder replied YES)
 - Evidence: _screenshot retained privately by organiser_
-- CDO proposal due: _14 days after adoption_
+- CDO proposal due: **3 December 2026**
 
 ## Next steps after adoption
 
