@@ -12,6 +12,7 @@ A public register of published notices by the Republic of Parristan founding ini
 
 | [2026-005](2026/2026-005-ratification-and-digital-appointments.md) | 19 November 2026 | Unanimous constitutional ratification and CDO/OSPO appointment | Published — 5–0 ratification, effective 19 November; exact circulated text unconfirmed |
 | [2026-006](2026/2026-006-interim-official-channel.md) | 19 November 2026 | Interim official channel adopted (founders' Matrix room) | Published — 5–0 written vote, closed 4:34 pm AEDT |
+| [2026-007](2026/2026-007-returning-officer-and-election-timetable.md) | 19 November 2026 | Returning Officer appointed; first election timetable | Published — 4–0, mover/candidate did not vote |
 
 ## Preservation policy
 

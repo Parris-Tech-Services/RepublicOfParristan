@@ -16,6 +16,7 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 - [Gazette No. 2026-004 — First founding assembly held (organiser's report)](gazette/2026/2026-004-founding-assembly-report.md)
 - [Gazette No. 2026-005 — Unanimous ratification and CDO appointment](gazette/2026/2026-005-ratification-and-digital-appointments.md)
 - [Gazette No. 2026-006 — Interim official channel adopted](gazette/2026/2026-006-interim-official-channel.md)
+- [Gazette No. 2026-007 — Returning Officer appointed; election timetable](gazette/2026/2026-007-returning-officer-and-election-timetable.md)
 - [Browse the Gazette index](gazette/INDEX.md)
 
 ## Website

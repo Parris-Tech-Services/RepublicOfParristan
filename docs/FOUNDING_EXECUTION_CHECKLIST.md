@@ -33,7 +33,7 @@ This checklist translates the existing [roadmap](ROADMAP.md) into tasks that the
 - [x] **Transcribe the organiser-supplied minutes**, including **5 YES / 0 NO / 0 ABSTAIN** on both the notice amendment and constitution, with an effective date of **19 November 2026**.
 - [ ] Match the published consolidated constitution to the copy actually circulated and record the actual notice-delivery time and signed approval.
 - [x] Publish the **founder-reported ratification**, a consolidated v0.1 text and an official decision entry, transparently noting the outstanding text and notice corroboration.
-- [ ] Publish the election arrangements the organiser reports were made: election officer, nominations, timetable and constitutional authority.
+- [x] Publish the election arrangements: Returning Officer Matthew Walker, nominations 20–27 Nov, voting 28 Nov – 1 Dec 2026 ([Gazette 2026-007](../gazette/2026/2026-007-returning-officer-and-election-timetable.md)). Voting method still to be set.
 
 **Evidence gate:** the supplied minutes support 5–0 internal ratification. Exact meeting text and notification time still need verification; repository commits do not themselves cast votes.
 
