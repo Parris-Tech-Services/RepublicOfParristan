@@ -23,11 +23,16 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 
 ## Phase 2 — Functioning institutions
 
-- [ ] Run the first democratic election
+- [x] Appoint Matthew John Lucas Walker Returning Officer by unanimous Matrix-room vote (19 November 2026).
+- [x] Record nominations 20–27 November and voting 28 November – 1 December 2026.
+- [ ] Run the first democratic election and publish actual results
 - [ ] Implement a private membership application and record system
 - [ ] Publish an internal decision register and meeting minutes
 - [ ] Approve financial controls and independent record reviews
 - [ ] Establish internal complaints and appeals procedures
+
+- [x] Designate the encrypted founders' Matrix room as interim official channel, unanimous 5–0–0.
+- [ ] Glenn to propose permanent government email/chat arrangements by 3 December 2026.
 
 ## Phase 3 — Civic and cultural identity
 

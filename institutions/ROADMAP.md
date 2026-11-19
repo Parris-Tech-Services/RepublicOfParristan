@@ -22,11 +22,16 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 
 ## Phase 2 — Functioning institutions
 
+- [x] Matthew Walker appointed Returning Officer 5–0–0.
+- [x] Nominations scheduled 20–27 Nov; voting scheduled 28 Nov – 1 Dec 2026.
 - [ ] Run the first democratic election
 - [ ] Implement a private membership application and record system
 - [ ] Publish an internal decision register and meeting minutes
 - [ ] Approve financial controls and independent record reviews
 - [ ] Establish internal complaints and appeals procedures
+
+- [x] Encrypted Matrix room adopted as interim official communication and voting channel 5–0–0.
+- [ ] Glenn's permanent email/chat proposal due 3 December 2026.
 
 ## Phase 3 — Civic and cultural identity
 
