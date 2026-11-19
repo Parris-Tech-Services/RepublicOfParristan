@@ -16,9 +16,9 @@ The founders need a written place to give notice, discuss and vote before perman
 
 - [x] Room created, encryption enabled
 - [ ] Join rule set to invite-only (Room settings → Security & Privacy)
-- [ ] All five founders joined
+- [x] All five founders joined (by 4:31 pm AEDT, 19 Nov 2026)
 - [ ] Each founder has saved their Element recovery key (prevents losing message history on new devices)
-- [ ] Glenn (CDO) granted admin power level, so the room does not depend on one person
+- [x] Glenn (CDO) granted admin power level, so the room does not depend on one person
 - [ ] Motion 1 voted and result recorded below
 
 ## Motion 1 — text to post once all five have joined
