@@ -11,32 +11,22 @@ This checklist translates the existing [roadmap](ROADMAP.md) into tasks that the
 - [x] Five founding members identified and, according to the organiser, agreed to participate. Five attended the 19 November assembly according to organiser; original signatures and motion counts are not stored here.
 - [x] Draft constitution, founding declaration, assembly procedures, member policy and roadmaps published.
 - [x] Public Gazette website source prepared. **Live hosting is not verified by this checklist.**
-- [x] Open-source digital-government strategy **proposed**, modelled on GendBuntu and Schleswig-Holstein; **not ratified or implemented**.
+- [x] Open-source direction unanimously adopted by founders; technical deployment is not yet verified.
 
-## Priority 1 — move from intention to a functioning association
+## Priority 1 — Founding assembly completed; reconcile primary records
 
-### Before the first founding assembly
+- [x] Five founders attended the 3:30 pm AEDT meeting on 19 November 2026.
+- [x] Adopt proposed one-hour founding assembly notice period: **5 YES / 0 NO / 0 ABSTAIN**.
+- [x] Ratify the Constitution: **5 YES / 0 NO / 0 ABSTAIN**, recorded in force **19 November 2026**.
+- [x] Unanimously adopt the open-source strategic direction modelled on GendBuntu and Schleswig-Holstein.
+- [x] Appoint Glenn Chief Digital Officer; he accepted, and the OSPO charter was activated.
+- [ ] Confirm the exact constitutional document/version voted upon and the actual timing and authority of the one-hour notice amendment.
+- [ ] Preserve reviewed or signed founding minutes if required by the founders' procedures.
+- [ ] Agree a documented first-year public-service mission and goals.
 
-- [x] **Confirm and record the five founders' participation** (organiser-reported); their permission for public naming and a secure contact route (do not store private contact details in public GitHub).
-- [ ] Agree a one-paragraph mission, public-service purpose and first-year goals.
-- [x] Agree founding assembly eligibility, notice, quorum and voting procedure before voting — organiser-reported; exact approved text and notice exception still to be transcribed. Use the existing ratification proposal as a starting point.
-- [x] Agree meeting date/format, accessibility, agenda and distribution of the draft — organiser-reported. The 14-day notice rule or pre-vote waiver is **not documented**.
-- [ ] Prepare agenda, chair/secretary for the meeting, attendance verification and private voting method. Temporary roles are not elected government offices.
-- [ ] Collect constitutional amendments and settle the text members will vote on.
+[Actual organiser-supplied assembly minutes](FOUNDING_ASSEMBLY_2026-11-19.md), [ratification return](ASSEMBLY_RATIFICATION_RETURN_2026-11-19.md) and [first election status](FIRST_ELECTION_STATUS_2026-11-19.md).
 
-**Evidence gate:** notice, agenda, approved procedure and eligible voter count exist; no invented signatures or votes.
-
-### At the founding assembly
-
-- [x] Confirm attendance and quorum — organiser reports all five present. Conflict/teller record pending transcription.
-- [x] Debate and conduct constitutional vote — organiser reports completed. The vote outcome and validity remain to be documented.
-- [ ] **Transcribe and verify** the exact text, motion counts and outcome from the 19 November meeting's original minutes.
-- [ ] If the 19 November vote was valid and passed, publish the adopted text and decision entry only after the verified tally and notice record are entered.
-- [ ] Publish the election arrangements the organiser reports were made: election officer, nominations, timetable and constitutional authority.
-
-**Evidence gate:** ratification status can be checked against genuine minutes; a repository merge alone is not a vote.
-
-## Priority 2 — first 30 days after valid ratification
+## Priority 2 — first 30 days of constitutional operations
 
 - [ ] Schedule and conduct the first democratic election under adopted rules; record results, terms and the transfer of responsibilities.
 - [ ] Set up a private, opt-in membership process, privacy notice, retention/deletion rules and an appeal route.
