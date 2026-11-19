@@ -11,6 +11,7 @@ const random=()=>randomBytes(32).toString("base64url");
 const sha=x=>createHash("sha256").update(x).digest("hex");
 const hashPassword=(p,s)=>scryptSync(p,s,64).toString("hex");
 const secureEq=(a,b)=>{if(typeof a!=="string"||typeof b!=="string")return false;let x=Buffer.from(a),y=Buffer.from(b);return x.length===y.length&&timingSafeEqual(x,y)};
+const canonical=v=>Array.isArray(v)?v.map(canonical):v&&typeof v==="object"?Object.fromEntries(Object.keys(v).sort().map(k=>[k,canonical(v[k])])):v;
 const err=(code,message)=>Object.assign(new Error(message),{code});
 const cookieName="__Host-parristan_session";
 const headers={"Content-Type":"application/json; charset=utf-8","Cache-Control":"no-store","X-Content-Type-Options":"nosniff","X-Frame-Options":"DENY","Referrer-Policy":"no-referrer","Strict-Transport-Security":"max-age=31536000"};
@@ -140,10 +141,10 @@ async function actionPOST(req,res,action,d,u){
      }
      if(action==="check"){
        if(p.status!=="tallied"||p.tallied_by===u.id)throw err(403,"Different checker required after tally");
-       if(p.kind==="election"&&(u.admin||isRO(u)))throw err(403,"Election checker must not be a technical admin or Returning Officer");
+       if(p.kind==="election"&&(u.admin||isRO(u)||p.options.includes(u.full_name)))throw err(403,"Election checker cannot be a candidate, technical admin or Returning Officer");
        const q=await c.query("SELECT choice,count(*)::int n FROM ballots WHERE poll_id=$1 GROUP BY choice",[id]);
        const verified=evaluate(p.kind,p.options,Object.fromEntries(q.rows.map(x=>[x.choice,x.n])),voted);
-       if(JSON.stringify(verified)!==JSON.stringify(p.result))throw err(409,"Independent count differs");
+       if(JSON.stringify(canonical(verified))!==JSON.stringify(canonical(p.result)))throw err(409,"Independent count differs");
        await c.query("UPDATE polls SET status='checked',checked_by=$2 WHERE id=$1",[id,u.id]);
      }
      if(action==="certify"){
