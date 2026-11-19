@@ -6,19 +6,35 @@
 
 ## A. Executable by ChatGPT from the connected repository — this work session
 
-- [ ] **A01 — Audit repo and open PRs.** Inventory the Gazette, election, operations, workflows and pending pull requests; preserve the original records.
-- [ ] **A02 — Publish this execution list.** Commit an actionable public scope and distinguish autonomous technical work from founder-controlled decisions.
-- [ ] **A03 — Reconcile current officeholders and election dates.** Correct stale documents that still say the Returning Officer, Secretary, Treasurer or Registrar are unappointed, while keeping the Presidency vacant.
-- [ ] **A04 — Correct Gazette homepage counts.** Align displayed notices with the nine published, unique Gazette IDs and prevent discovery/index drift.
-- [ ] **A05 — Add a read-only public administration dashboard.** Show accurate institutions, the presidential-election schedule, decisions, action owners and evidence links; no simulated actions represented as real.
-- [ ] **A06 — Publish open-format public decision data.** A machine-readable JSON export of eight existing FA-2026-001…008 decisions, without room IDs, account details or ballots.
-- [ ] **A07 — Prepare election notices and records, not run an election.** Offer an editable Returning Officer checklist and notice template with unknown times and voting method left blank.
-- [ ] **A08 — Add automated integrity tests.** Verify decision IDs, vote count handling (including exact versus reported unanimity), paths, dates, Gazette numbering and dashboard source-data consistency.
-- [ ] **A09 — Keep Actions focused.** Wire validation into existing GitHub checks with narrow path filters and no secrets, deployments or extra recurring runs.
-- [ ] **A10 — Update navigation and publishing notes.** Make the new dashboard, export and task register discoverable from the website and README.
-- [ ] **A11 — Perform privacy and content-safety review.** Keep private member register, contact data, Matrix room identifiers and secret ballots out of the repository; no unsupported sovereignty or enactment claims.
-- [ ] **A12 — Run CI, review diff, merge and verify `main`.** Confirm the exact changed files, GitHub validation result, PR state and committed source.
-- [ ] **A13 — Check live GitHub Pages publication.** Verify actual public access if possible; otherwise report as unverified and leave hosting configuration to an authorised administrator.
+**Execution record:** 19 November 2026 — A01–A12 were implemented and checked; A13's live-publishing check was performed and identified an outstanding administrator-controlled Pages setting. **No live website deployment is claimed.** [Engineering PR #23](https://github.com/Parris-Tech-Services/RepublicOfParristan/pull/23) · [Gazette CI](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470637435) · [national operations CI](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470559516).
+
+
+- [x] **A01 — Audit repo and open PRs.** Inventory the Gazette, election, operations, workflows and pending pull requests; preserve the original records.  
+  **Outcome:** Audit completed: baseline had nine Gazette notices and eight FA decisions; open-PR query was empty before this work, and new changes were tracked in PRs #22 and #23.
+- [x] **A02 — Publish this execution list.** Commit an actionable public scope and distinguish autonomous technical work from founder-controlled decisions.  
+  **Outcome:** Published via [PR #22](https://github.com/Parris-Tech-Services/RepublicOfParristan/pull/22), merged as `150ffca`.
+- [x] **A03 — Reconcile current officeholders and election dates.** Correct stale documents that still say the Returning Officer, Secretary, Treasurer or Registrar are unappointed, while keeping the Presidency vacant.  
+  **Outcome:** Reconciled both governance docs and the election-operations roster in [PR #23](https://github.com/Parris-Tech-Services/RepublicOfParristan/pull/23), merged as `4927ad5`.
+- [x] **A04 — Correct Gazette homepage counts.** Align displayed notices with the nine published, unique Gazette IDs and prevent discovery/index drift.  
+  **Outcome:** Homepage now correctly lists nine notices; new Gazette index/list/count checks passed in [CI](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470559549).
+- [x] **A05 — Add a read-only public administration dashboard.** Show accurate institutions, the presidential-election schedule, decisions, action owners and evidence links; no simulated actions represented as real.  
+  **Outcome:** [Public administration dashboard](docs/administration.html) verified on `main` with all eight FA entries; a published source page is not proof of live hosting.
+- [x] **A06 — Publish open-format public decision data.** A machine-readable JSON export of eight existing FA-2026-001…008 decisions, without room IDs, account details or ballots.  
+  **Outcome:** [JSON export](docs/data/decisions.json) verified on `main` with eight entries and no private roll or ballots.
+- [x] **A07 — Prepare election notices and records, not run an election.** Offer an editable Returning Officer checklist and notice template with unknown times and voting method left blank.  
+  **Outcome:** Reviewed and corrected the existing [draft election kit](operations/drafts/ELECTION_KIT.md), removing assumed clock times and aligning the contested-vote threshold; only Matthew may issue the real notice.
+- [x] **A08 — Add automated integrity tests.** Verify decision IDs, vote count handling (including exact versus reported unanimity), paths, dates, Gazette numbering and dashboard source-data consistency.  
+  **Outcome:** Public-data validator and standard-library tests passed [national operations CI](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470559516).
+- [x] **A09 — Keep Actions focused.** Wire validation into existing GitHub checks with narrow path filters and no secrets, deployments or extra recurring runs.  
+  **Outcome:** Path-filtered validation passed; GitHub Actions was not given any secrets, new deployment destination or recurring schedule.
+- [x] **A10 — Update navigation and publishing notes.** Make the new dashboard, export and task register discoverable from the website and README.  
+  **Outcome:** Verified links from homepage, public decisions page, status page, governance docs and README; Gazette link validation passed.
+- [x] **A11 — Perform privacy and content-safety review.** Keep private member register, contact data, Matrix room identifiers and secret ballots out of the repository; no unsupported sovereignty or enactment claims.  
+  **Outcome:** Reviewed changed public files and eight-record JSON for privacy and civic-status claims; no private membership data, email addresses or ballots were introduced.
+- [x] **A12 — Run CI, review diff, merge and verify `main`.** Confirm the exact changed files, GitHub validation result, PR state and committed source.  
+  **Outcome:** [PR #23](https://github.com/Parris-Tech-Services/RepublicOfParristan/pull/23) merged as `4927ad5`; [post-merge Gazette check](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470637435) passed.
+- [x] **A13 — Check live GitHub Pages publication.** Verify actual public access if possible; otherwise report as unverified and leave hosting configuration to an authorised administrator.  
+  **Outcome:** **CHECK COMPLETED; DEPLOYMENT BLOCKED.** [Pages workflow](https://github.com/Parris-Tech-Services/RepublicOfParristan/actions/runs/44470637527) failed in `actions/configure-pages` with `Get Pages site failed: Not Found`; public URLs could not be verified. An authorised admin must enable **Settings → Pages → Source: GitHub Actions**. The token supplied to `configure-pages` cannot silently enable this via its `enablement` option.
 
 ## B. Other repository work ChatGPT can prepare in later changes
 
