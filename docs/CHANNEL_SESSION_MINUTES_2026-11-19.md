@@ -5,7 +5,7 @@
 **Chair:** Joshua Parris
 **Secretary:** Jane Carbunkle (from Motion 3)
 **Present:** Joshua Parris, Glenn Peterson, Matthew Walker, Fred Carbunkle, Jane Carbunkle (5 of 5)
-**Status:** DRAFT prepared from the room transcript, for the Secretary to check and members to approve at the next meeting.
+**Status:** Secretary-approved, as reported by the founding organiser on 19 November 2026. Confirmation by the members at a subsequent meeting has not yet been recorded.
 
 This session followed the founding assembly held earlier the same day (3:30 pm AEDT), which adopted the Constitution.
 
@@ -60,7 +60,11 @@ The chair closed the session at **4:50 pm AEDT**.
 | Glenn Peterson | Permanent email/chat proposal | 3 Dec |
 | Glenn Peterson | Private member list; issue numbers 1–5 | — |
 | Josh & Glenn | Set up joint admin on GitHub and any domain | — |
-| Jane Carbunkle | Approve these minutes; arrange first monthly meeting | — |
+| Jane Carbunkle | Arrange first monthly meeting; Secretary approval of these minutes reported complete on 19 Nov | — |
 | Fred Carbunkle | Start a $0 ledger | — |
 
-**Approved by Secretary:** ____________ **Date:** ________
+**Secretary approval (organiser-reported):** Jane Carbunkle — 19 November 2026.
+
+**Approval evidence:** Reported by the founding organiser; no signed copy or exact approval time was supplied. This entry records Secretary approval only, not an independently verified signature or a vote approving the minutes by all members.
+
+**Assembly confirmation:** Pending record of approval at a subsequent meeting.
