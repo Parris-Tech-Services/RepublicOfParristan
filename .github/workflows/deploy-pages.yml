@@ -1,7 +1,10 @@
 name: Deploy Gazette to GitHub Pages
-# Optional GitHub Pages host; automatic push deployment is disabled while Pages is unconfigured.
-# Main pushes already deploy the Vercel mirror through Git integration.
+# Primary host for https://parristan.org since 19 November 2026 (DNS points to GitHub Pages).
+# Every push to main that changes the site redeploys it; Vercel remains a mirror.
 on:
+  push:
+    branches: [main]
+    paths: ['docs/**', '.github/workflows/deploy-pages.yml']
   workflow_dispatch:
 permissions:
   contents: read

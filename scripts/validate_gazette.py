@@ -80,8 +80,9 @@ for path in notices:
     notice_id = path.name[:8]
     if not re.fullmatch(r"\d{4}-\d{3}", notice_id):
         errors.append("Unexpected Gazette notice filename: " + path.name)
-    if "19 November 2026" not in path.read_text(encoding="utf-8"):
-        errors.append("Missing publication date in " + path.name)
+    head = "\n".join(path.read_text(encoding="utf-8").splitlines()[:15])
+    if not re.search(r"\b\d{1,2} (January|February|March|April|May|June|July|August|September|October|November|December) 20\d{2}\b", head):
+        errors.append("Missing publication date near the top of " + path.name)
     if notice_id not in (ROOT / "gazette/INDEX.md").read_text(encoding="utf-8"):
         errors.append("Gazette index missing " + notice_id)
     if not (ROOT / ("docs/notices/" + notice_id + ".html")).is_file():
