@@ -10,6 +10,7 @@ import io
 from datetime import date, datetime, timezone
 import os
 from pathlib import Path
+from contextlib import closing
 import sqlite3
 import uuid
 
@@ -29,7 +30,7 @@ def safe_db_path(raw):
 def init_db(path):
     path = safe_db_path(str(path))
     path.parent.mkdir(parents=True, exist_ok=True)
-    with sqlite3.connect(path) as con:
+    with closing(sqlite3.connect(path)) as con:
         con.execute("""CREATE TABLE IF NOT EXISTS members (
             id TEXT PRIMARY KEY,
             public_name TEXT NOT NULL,
@@ -61,7 +62,7 @@ def add_member(path, name, consent_date):
     if when > date.today():
         raise ValueError("Consent cannot be recorded as occurring in the future.")
     member_id = str(uuid.uuid4())
-    with sqlite3.connect(path) as con:
+    with closing(sqlite3.connect(path)) as con:
         con.execute("INSERT INTO members VALUES (?, ?, ?, ?, ?)", (
             member_id, name, when.isoformat(), datetime.now(timezone.utc).isoformat(), "active"
         ))
@@ -69,7 +70,7 @@ def add_member(path, name, consent_date):
 
 def withdraw_member(path, member_id):
     path = require_existing(path)
-    with sqlite3.connect(path) as con:
+    with closing(sqlite3.connect(path)) as con:
         changed = con.execute(
             "UPDATE members SET status = 'withdrawn' WHERE id = ? AND status = 'active'",
             (member_id,)
@@ -79,7 +80,7 @@ def withdraw_member(path, member_id):
 def remove_member(path, member_id):
     """Delete identifiable record; coordinate backup deletion under actual policy."""
     path = require_existing(path)
-    with sqlite3.connect(path) as con:
+    with closing(sqlite3.connect(path)) as con:
         changed = con.execute("DELETE FROM members WHERE id = ?", (member_id,)).rowcount
     return changed == 1
 
@@ -93,7 +94,7 @@ def migrate(con):
 def assign_number(path, member_id):
     """Issue the next sequential member number (P-0001...). Numbers are never reused."""
     path = require_existing(path)
-    with sqlite3.connect(path) as con:
+    with closing(sqlite3.connect(path)) as con:
         migrate(con)
         row = con.execute("SELECT member_number FROM members WHERE id = ?", (member_id,)).fetchone()
         if row is None:
@@ -111,7 +112,7 @@ def resign_member(path, member_id, on_date):
     """Record a resignation with its effective date (keeps the record; see remove for erasure)."""
     path = require_existing(path)
     when = date.fromisoformat(on_date)
-    with sqlite3.connect(path) as con:
+    with closing(sqlite3.connect(path)) as con:
         migrate(con)
         changed = con.execute(
             "UPDATE members SET status='withdrawn', withdrawn_date=? WHERE id=? AND status='active'",
@@ -122,7 +123,7 @@ def electoral_roll(path, as_of):
     """One row per member eligible on as_of: consented on or before, and not withdrawn by then."""
     path = require_existing(path)
     cutoff = date.fromisoformat(as_of).isoformat()
-    with sqlite3.connect(path) as con:
+    with closing(sqlite3.connect(path)) as con:
         migrate(con)
         rows = con.execute(
             "SELECT member_number, public_name FROM members WHERE consent_date <= ? "
@@ -138,7 +139,7 @@ def electoral_roll(path, as_of):
 def aggregate_report(path):
     """Counts only, safe for publication: no names or IDs."""
     s = summary(path)
-    with sqlite3.connect(require_existing(path)) as con:
+    with closing(sqlite3.connect(require_existing(path))) as con:
         migrate(con)
         numbered = con.execute("SELECT count(*) FROM members WHERE member_number IS NOT NULL").fetchone()[0]
     s["numbered"] = numbered
@@ -147,7 +148,7 @@ def aggregate_report(path):
 
 def summary(path):
     path = require_existing(path)
-    with sqlite3.connect(path) as con:
+    with closing(sqlite3.connect(path)) as con:
         total, active = con.execute(
             "SELECT count(*), sum(CASE WHEN status='active' THEN 1 ELSE 0 END) FROM members"
         ).fetchone()
@@ -155,7 +156,7 @@ def summary(path):
 
 def list_members(path):
     path = require_existing(path)
-    with sqlite3.connect(path) as con:
+    with closing(sqlite3.connect(path)) as con:
         return con.execute(
             "SELECT id, public_name, consent_date, status FROM members ORDER BY recorded_utc, id"
         ).fetchall()
