@@ -50,6 +50,17 @@ The Enterprise repository's founding documents have been copied here alongside t
 
 Personal contact and identification details are not published.
 
+## National operations and next steps
+
+The founding organiser reports that all **five founding members have agreed** to establish Parristan. The republic's [numbered national operations to-do list](NATIONAL_OPERATIONS_TODO.md) tracks what is implemented and what requires real founder decisions or external legal action. Ratification, elected office, official symbols, sovereignty and recognition are **not** recorded as completed.
+
+- [Ratification and founding assembly pack](operations/FOUNDING_ASSEMBLY_AND_RATIFICATION.md)
+- [Presidential election and government operations](operations/ELECTION_AND_GOVERNMENT.md)
+- [Offline membership register instructions](operations/CITIZENSHIP_OPERATIONS.md)
+- [National symbols adoption pack](operations/SYMBOLS_ADOPTION.md)
+- [Territory and recognition research](operations/TERRITORY_AND_RECOGNITION.md)
+- [NSW legal organisation pathway](operations/NSW_ASSOCIATION_PATHWAY.md)
+
 ## Public consultation
 
 Members of the public may suggest improvements using [repository issues](https://github.com/Parris-Tech-Services/RepublicOfParristan/issues), including the tracked constitutional consultation. **An issue comment is not a vote, and a GitHub account is not citizenship.**
@@ -70,6 +81,15 @@ Never post home addresses, IDs, birth dates, private contact details or sensitiv
 | Recognition by any state | None claimed |
 
 The [Montevideo Convention](https://history.state.gov/historicaldocuments/frus1933v04/d134) lists permanent population, defined territory, government and capacity to enter relations with other states as commonly discussed statehood criteria. An internal declaration, association, repository or domain does not on its own create legal statehood.
+
+## Open-source administration and next steps
+
+Parristan's **proposed digital-government direction** draws on the French National Gendarmerie's GendBuntu approach and Schleswig-Holstein's coordinated move to open-source office, messaging, collaboration and Linux systems. This is an **organiser-led proposal, not enacted law or a claim that any services are already deployed**.
+
+- [Open-source digital-government strategy](docs/OPEN_SOURCE_DIGITAL_GOVERNMENT.md)
+- [Founding execution checklist — what happens next](docs/FOUNDING_EXECUTION_CHECKLIST.md)
+
+The immediate civic priority is a genuine founding assembly, recorded constitution ratification and democratic elections; the technology work begins with one testable, supportable Linux and LibreOffice pilot.
 
 ## Repository roles
 

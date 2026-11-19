@@ -11,7 +11,8 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 
 ## Phase 1 — Constituent process
 
-- [ ] Recruit an initial group of genuinely consenting participants
+- [x] Five founding members identified and agreement confirmed by organiser
+- [ ] Record individual founders' constitutional decisions and first meeting
 - [ ] Publish rules for the founding assembly and voting eligibility
 - [ ] Hold a founding assembly with recorded proceedings
 - [ ] Amend and ratify the constitution through a fair vote
@@ -54,5 +55,9 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 - [ ] Test repository rules and permission boundaries
 - [ ] Review logging and audit evidence
 - [ ] Export and back up governance records before Enterprise trial expiry
+
+## Immediate founding and open-source delivery checklist
+
+The detailed, evidence-based next steps are in the [Founding Execution Checklist](../docs/FOUNDING_EXECUTION_CHECKLIST.md). The proposed [Open-Source Digital Government Strategy](../docs/OPEN_SOURCE_DIGITAL_GOVERNMENT.md) is inspired by the French National Gendarmerie and Schleswig-Holstein; its product choices are **not yet approved or operational**.
 
 **No guaranteed path to sovereign recognition is implied.**

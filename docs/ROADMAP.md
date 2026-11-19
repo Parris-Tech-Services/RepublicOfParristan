@@ -12,7 +12,8 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 ## Phase 1 — Constituent process
 
 - [x] Identify five proposed founding members (organiser-reported, 19 November 2026)
-- [ ] Obtain direct consent and confirmation from each proposed founding member
+- [x] Organiser reports all five founders have agreed to establish Parristan (19 November 2026)
+- [ ] Record formal participation/ratification votes with dated primary evidence
 - [ ] Publish rules for the founding assembly and voting eligibility
 - [ ] Hold a founding assembly with recorded proceedings
 - [ ] Amend and ratify the constitution through a fair vote
@@ -55,5 +56,9 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 - [ ] Test repository rules and permission boundaries
 - [ ] Review logging and audit evidence
 - [ ] Export and back up governance records before Enterprise trial expiry
+
+## Immediate founding and open-source delivery checklist
+
+The detailed, evidence-based next steps are in the [Founding Execution Checklist](FOUNDING_EXECUTION_CHECKLIST.md). The proposed [Open-Source Digital Government Strategy](OPEN_SOURCE_DIGITAL_GOVERNMENT.md) is inspired by the French National Gendarmerie and Schleswig-Holstein; its product choices are **not yet approved or operational**.
 
 **No guaranteed path to sovereign recognition is implied.**
