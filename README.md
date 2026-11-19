@@ -15,6 +15,7 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 - [Gazette No. 2026-003 — National symbol designs released for consultation](gazette/2026/2026-003-symbols-consultation.md)
 - [Gazette No. 2026-004 — First founding assembly held (organiser's report)](gazette/2026/2026-004-founding-assembly-report.md)
 - [Gazette No. 2026-005 — Unanimous ratification and CDO appointment](gazette/2026/2026-005-ratification-and-digital-appointments.md)
+- [Gazette No. 2026-006 — Interim official channel adopted](gazette/2026/2026-006-interim-official-channel.md)
 - [Browse the Gazette index](gazette/INDEX.md)
 
 ## Website

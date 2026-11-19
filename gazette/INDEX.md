@@ -11,6 +11,7 @@ A public register of published notices by the Republic of Parristan founding ini
 | [2026-004](2026/2026-004-founding-assembly-report.md) | 19 November 2026 | First founding assembly reported held (3:30 pm AEDT, 5 present) | Superseded by No. 2026-005 (tally subsequently supplied) |
 
 | [2026-005](2026/2026-005-ratification-and-digital-appointments.md) | 19 November 2026 | Unanimous constitutional ratification and CDO/OSPO appointment | Published — 5–0 ratification, effective 19 November; exact circulated text unconfirmed |
+| [2026-006](2026/2026-006-interim-official-channel.md) | 19 November 2026 | Interim official channel adopted (founders' Matrix room) | Published — 5–0 written vote, closed 4:34 pm AEDT |
 
 ## Preservation policy
 
