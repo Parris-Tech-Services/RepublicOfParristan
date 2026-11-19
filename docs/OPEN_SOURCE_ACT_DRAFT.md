@@ -6,8 +6,8 @@ This is the Phase 0 (governance, week 1) package of the [Open-Source Digital Gov
 
 ## Phase 0 checklist
 
-- [ ] Assembly adopts the Open Source Act (draft below). *Needs a ratified constitution and a constituted Assembly first; see the [national operations checklist](../NATIONAL_OPERATIONS_TODO.md), items 4–9.*
-- [ ] Appoint the head of the Office of Sovereign Systems (Chief Digital Officer). *Proposed: Glenn Peterson, subject to his acceptance and lawful appointment.*
+- [ ] Assembly adopts the Open Source Act (draft below). *The constitution is reported adopted 5–0 on 19 November 2026; the Assembly still needs to be constituted (see the [national operations checklist](../NATIONAL_OPERATIONS_TODO.md), items 6–9).*
+- [ ] Appoint the head of the Office of Sovereign Systems (Chief Digital Officer). *Proposed: Glenn Peterson, who has agreed (organiser-reported, 19 November 2026); formal appointment still to be recorded.*
 - [ ] Confirm the hosting site (The Shed, with ForgeGrid as build/test coordinator). *Needs a hardware and connectivity check; see the decision record below.*
 
 ## Part 1 — Open Source Act (draft)
@@ -44,7 +44,7 @@ This is the Phase 0 (governance, week 1) package of the [Open-Source Digital Gov
 
 **Role.** The Office runs the Republic's open source strategy, keeps the service inventory, grants and tracks exemptions, and reports on digital operations.
 
-**Head.** Chief Digital Officer (CDO). **Proposed holder: Glenn Peterson**, who would need to accept and be appointed under whatever process the adopted constitution sets. Until then this is a proposal only, and an interim role would not be an elected office (see the [founding execution checklist](FOUNDING_EXECUTION_CHECKLIST.md)).
+**Head.** Chief Digital Officer (CDO). **Proposed holder: Glenn Peterson**, who has agreed to the role (organiser-reported, 19 November 2026). His formal appointment still needs to be made and recorded under the adopted constitution. Until then this is a proposal only, and an interim role would not be an elected office (see the [founding execution checklist](FOUNDING_EXECUTION_CHECKLIST.md)).
 
 **Alternate administrator.** A second named person holds recovery access and can run every critical service, so no service depends on one administrator.
 

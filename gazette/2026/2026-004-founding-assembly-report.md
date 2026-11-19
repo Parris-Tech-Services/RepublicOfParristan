@@ -14,3 +14,7 @@ An evidence-based ratification return and official decision-register entry can f
 
 **Primary event record:** [Founding assembly report](../../docs/FOUNDING_ASSEMBLY_2026-11-19.md)  
 **Further tracking:** [Founding milestone issue #5](https://github.com/Parris-Tech-Services/RepublicOfParristan/issues/5)
+
+## Update — 19 November 2026, 3:44 pm AEDT
+
+The founding organiser further reports that **all five founders voted YES (5–0)** on the constitution, that it takes effect on **19 November 2026**, and that the draft's notice rule is to be changed to **1 hour**. The original text of this notice is preserved above. The exact text voted on, the wording and timing of the notice rule, and reviewed minutes are still being recorded, so this is an organiser's report and not an independently verified result.
