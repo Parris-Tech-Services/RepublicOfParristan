@@ -18,6 +18,7 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 - [Gazette No. 2026-006 — Interim official channel adopted](gazette/2026/2026-006-interim-official-channel.md)
 - [Gazette No. 2026-007 — Returning Officer appointed; election timetable](gazette/2026/2026-007-returning-officer-and-election-timetable.md)
 - [Gazette No. 2026-008 — Interim office-holders appointed](gazette/2026/2026-008-interim-roles-en-bloc.md)
+- [Gazette No. 2026-009 — Standing procedures; constitution text confirmed](gazette/2026/2026-009-standing-procedures.md)
 - [Browse the Gazette index](gazette/INDEX.md)
 
 ## Website

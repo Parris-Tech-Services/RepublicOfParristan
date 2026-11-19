@@ -31,7 +31,7 @@ This checklist translates the existing [roadmap](ROADMAP.md) into tasks that the
 - [x] Confirm attendance and quorum — organiser reports all five present. Conflict/teller record pending transcription.
 - [x] Debate and conduct constitutional vote — organiser reports completed. Minutes now record **5–0** adoption and an effective date.
 - [x] **Transcribe the organiser-supplied minutes**, including **5 YES / 0 NO / 0 ABSTAIN** on both the notice amendment and constitution, with an effective date of **19 November 2026**.
-- [ ] Match the published consolidated constitution to the copy actually circulated and record the actual notice-delivery time and signed approval.
+- [x] Match the published consolidated constitution to the copy adopted — **confirmed 5–0 by members (FA-2026-008, Gazette 2026-009)**. Notice-delivery time still unrecorded.
 - [x] Publish the **founder-reported ratification**, a consolidated v0.1 text and an official decision entry, transparently noting the outstanding text and notice corroboration.
 - [x] Publish the election arrangements: Returning Officer Matthew Walker, nominations 20–27 Nov, voting 28 Nov – 1 Dec 2026 ([Gazette 2026-007](../gazette/2026/2026-007-returning-officer-and-election-timetable.md)). Voting method still to be set.
 
@@ -42,11 +42,11 @@ This checklist translates the existing [roadmap](ROADMAP.md) into tasks that the
 - [ ] Schedule and conduct the first democratic election under adopted rules; record results, terms and the transfer of responsibilities.
 - [ ] Set up a private, opt-in membership process, privacy notice, retention/deletion rules and an appeal route.
 - [x] Publish initial founding [decision register](../institutions/DECISION_REGISTER.md) and founding minutes.
-- [ ] Establish a routine for subsequent meetings, redaction and review. **Started:** interim Matrix/Element room created 19 Nov 2026; Motion 1 (interim official channel) **adopted 5–0** — see [interim channel record](INTERIM_OFFICIAL_CHANNEL_2026-11-19.md).
+- [x] Establish a routine for subsequent meetings, redaction and review — monthly meetings and written-vote rules adopted (Gazette 2026-009). **Started:** interim Matrix/Element room created 19 Nov 2026; Motion 1 (interim official channel) **adopted 5–0** — see [interim channel record](INTERIM_OFFICIAL_CHANNEL_2026-11-19.md).
 - [ ] Adopt a small annual budget, spending approval limits, a financial ledger and dual review of expenditure.
 - [ ] Evaluate an appropriate Australian legal structure. A **NSW incorporated association** is one possible route, not sovereignty; check the constitution, 5-member minimum, committee/public-officer rules and registration requirements before applying.
 - [x] Appoint Chief Digital Officer: Glenn, by unanimous founding-assembly consent.
-- [ ] Confirm who owns the domain, public site, account recovery and administrative access, with a second authorised backup administrator.
+- [ ] Confirm who owns the domain, public site, account recovery and administrative access — **decided:** Josh and Glenn joint admins (Gazette 2026-009); actual GitHub/domain access still to be set up and verified.
 
 **Evidence gate:** members know how decisions are made; money, access and membership are handled with real controls.
 
