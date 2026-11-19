@@ -59,6 +59,15 @@ Use `[x]` only after the evidence linked below exists. A draft, GitHub merge or 
 34. [ ] **Verify the GitHub Pages site is actually published and publicly reachable**, then link to this checklist.
 35. [ ] **Back up institutional records outside GitHub and establish a handover procedure before the Enterprise trial expires.**
 
+## 7. First presidential election and official communications — 19 November votes
+
+36. [x] **Adopt the founders' encrypted Matrix room as the interim official channel** for notices, debate and votes — Motion 1 passed 5 YES / 0 NO / 0 ABSTAIN; [Gazette 2026-006](gazette/2026/2026-006-interim-official-channel.md).
+37. [x] **Appoint Matthew Walker Returning Officer**, not a presidential candidate — Motion 2 passed 5 YES / 0 NO / 0 ABSTAIN; Matthew accepted; [Gazette 2026-007](gazette/2026/2026-007-returning-officer-and-election-timetable.md).
+38. [x] **Announce first-election date ranges:** nominations 20–27 November; ballot 28 November – 1 December 2026, AEDT. Joshua Parris's intention to stand and candidate statement were shared; **no elected President**.
+39. [ ] **Returning Officer publishes nomination details and confidential ballot method**, verifies the eligible electoral roll and ensures candidates have fair access. Exact daily opening/closing times not in supplied transcript.
+40. [ ] **Hold, count and certify the first presidential election**, including a YES/NO confirmation ballot if there is only one valid candidate.
+41. [ ] **Glenn presents permanent email and chat arrangements within 14 days** of Motion 1, due 3 December 2026; only mark complete when an actual proposal is provided and considered.
+
 ## Status meanings
 
 - **Done:** the named concrete deliverable exists and has been verified; not necessarily adopted as policy.

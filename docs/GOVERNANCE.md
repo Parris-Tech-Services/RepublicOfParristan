@@ -40,6 +40,6 @@ The adopted constitution (consolidated v0.1 text awaiting source-version confirm
 | Founding Assembly | Constituted for founding session | 5/5 present, 19 November 2026; regular meeting arrangements pending |
 | Interim convenor | Not formally appointed | Procedure pending |
 | Chief Digital Officer | Glenn Peterson | Unanimous 19 November founding-assembly appointment, accepted; [record](../docs/OSPO_CHARTER_2026-11-19.md) |
-| Electoral officer | Vacant | First election pending |
+| Returning Officer (first presidential election) | Matthew John Lucas Walker | Founders' unanimous 5–0–0 written vote and Matthew's acceptance, 19 November 2026 |
 
 This record should be updated whenever an election or appointment is actually documented.

@@ -16,10 +16,10 @@ With only five founders, people may need to combine roles. Publish conflicts, av
 ## Preparatory electoral timetable (relative, not scheduled)
 
 1. Constitution ratified and publicly recorded.
-2. Election officer appointed under valid rules.
-3. Electoral roll cut-off and notice issued.
-4. Nominations open for **at least seven days** under the existing election proposal.
-5. Candidates can publish equal-length statements; ballots delivered privately to eligible adults.
+2. [x] Matthew John Lucas Walker appointed Returning Officer by five unanimous votes on 19 November 2026; he accepted and is not a candidate.
+3. [ ] Returning Officer to publish exact nomination times and method, electoral roll cut-off, secure voting arrangements and notice.
+4. Presidential nominations announced **20–27 November 2026**; formal submissions and exact start/end times still pending.
+5. Presidential voting scheduled **28 November – 1 December 2026**; Joshua Parris has expressed his intention to stand, but nobody is yet elected. Eligible voters must get a private ballot and equal candidate information.
 6. One eligible natural person receives one ballot. The teller verifies eligibility without making votes publicly linkable to individuals.
 7. Under proposed rules, a candidate with **more than 50%** wins. Otherwise hold a runoff between the top two. A sole candidate faces a YES/NO confirmation.
 8. Resolve any formally recorded objections; release aggregate result and real inauguration/term dates.
@@ -38,7 +38,7 @@ An officer may only act within the powers established by adopted documents. Refe
 | Assembly leadership | Not appointed |
 | Registrar / Secretary | Not appointed |
 | Treasurer | Not appointed |
-| Independent teller | Not appointed |
+| Returning Officer | Matthew John Lucas Walker — accepted appointment 19 November 2026 (5–0–0); no presidential candidate |
 
 [Blank election return and decision record](DECISION_AND_ELECTION_TEMPLATES.md).
 
