@@ -2,7 +2,7 @@
 
 Read README.md, docs/REFERENCE_STACK_MATRIX.md, docs/FOUNDING_EXECUTION_CHECKLIST.md and docs/OPEN_SOURCE_DIGITAL_GOVERNMENT.md first.
 
-Parristan is a developing micronation and civic initiative, not a recognised sovereign state. Its 19 November 2026 five-person founding assembly has a reported 5–0 internal constitutional ratification return (Gazette 2026-005), and a Chief Digital Officer appointment is recorded. The exact circulated constitutional text still needs confirmation. There are no verified presidential/legislative election results, formally adopted symbols, live citizenship service or sovereign recognition. Never convert proposals or an AI-generated sample into a claim of legal authority or a completed government service. Publishing a commit is not ratification.
+Parristan is a developing micronation and civic initiative, not a recognised sovereign state. Its 19 November 2026 five-person founding assembly has a reported 5–0 internal constitutional ratification return (Gazette 2026-005), and a Chief Digital Officer appointment is recorded. Motion 4 confirmed the published Constitution v0.1. The original founding notice delivery time remains unrecorded. There are no verified presidential/legislative election results, formally adopted symbols, live citizenship service or sovereign recognition. Never convert proposals or an AI-generated sample into a claim of legal authority or a completed government service. Publishing a commit is not ratification.
 
 The French National Gendarmerie and Schleswig-Holstein are technology reference examples, not endorsers. Cite official evidence, distinguish completed deployment from ongoing migration, and never claim access to their undisclosed internal configuration.
 
