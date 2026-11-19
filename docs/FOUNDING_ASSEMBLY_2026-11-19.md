@@ -6,6 +6,8 @@
 **Format:** Hybrid — four founders in person (including the organiser); Glenn joined remotely by Zoom from Perth (organiser-reported, supplement added 19 November 2026)  
 **Source:** Minutes supplied by the founding organiser on 19 November 2026; published as a transcription of those minutes. Not independently signed or witnessed through this repository.
 
+> **Subsequent confirmation:** The founders confirmed the published Constitution v0.1 as the adopted text in [Motion 4](../gazette/2026/2026-009-standing-procedures.md). The original founding notice time remains unrecorded.
+
 ## Attendees
 
 The supplied minutes identify **Joshua Parris, Glenn, and three additional founding members**. The separate [founders register](FOUNDERS.md) names the full group; these minutes do not independently name the other three individuals. All five are reported present and consenting to proceed.
