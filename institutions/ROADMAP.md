@@ -55,4 +55,8 @@ This roadmap distinguishes **administrative progress**, **civic legitimacy** and
 - [ ] Review logging and audit evidence
 - [ ] Export and back up governance records before Enterprise trial expiry
 
+## Immediate founding and open-source delivery checklist
+
+The detailed, evidence-based next steps are in the [Founding Execution Checklist](../docs/FOUNDING_EXECUTION_CHECKLIST.md). The proposed [Open-Source Digital Government Strategy](../docs/OPEN_SOURCE_DIGITAL_GOVERNMENT.md) is inspired by the French National Gendarmerie and Schleswig-Holstein; its product choices are **not yet approved or operational**.
+
 **No guaranteed path to sovereign recognition is implied.**

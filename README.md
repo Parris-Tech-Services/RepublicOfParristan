@@ -71,6 +71,15 @@ Never post home addresses, IDs, birth dates, private contact details or sensitiv
 
 The [Montevideo Convention](https://history.state.gov/historicaldocuments/frus1933v04/d134) lists permanent population, defined territory, government and capacity to enter relations with other states as commonly discussed statehood criteria. An internal declaration, association, repository or domain does not on its own create legal statehood.
 
+## Open-source administration and next steps
+
+Parristan's **proposed digital-government direction** draws on the French National Gendarmerie's GendBuntu approach and Schleswig-Holstein's coordinated move to open-source office, messaging, collaboration and Linux systems. This is an **organiser-led proposal, not enacted law or a claim that any services are already deployed**.
+
+- [Open-source digital-government strategy](docs/OPEN_SOURCE_DIGITAL_GOVERNMENT.md)
+- [Founding execution checklist — what happens next](docs/FOUNDING_EXECUTION_CHECKLIST.md)
+
+The immediate civic priority is a genuine founding assembly, recorded constitution ratification and democratic elections; the technology work begins with one testable, supportable Linux and LibreOffice pilot.
+
 ## Repository roles
 
 This public repository provides **publication and consultation**. The separately maintained Enterprise Managed Users repository is an internal workspace. Neither repository contains a public register of private citizen records.
