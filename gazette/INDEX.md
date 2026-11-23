@@ -22,6 +22,9 @@ A public register of published notices by the Republic of Parristan founding ini
 | [2026-014](2026/2026-014-presidents-first-programme.md) | 19 November 2026 | The President's first programme (Motion 7, en bloc) | Published — reported unanimous |
 | [2026-015](2026/2026-015-official-website-parristan-org.md) | 19 November 2026 | Official website: parristan.org | Published — live, HTTP 200 |
 
+| [2026-016](2026/2026-016-civic-governance-repository-town-integration.md) | 23 November 2026 | Civic governance and Repository Town integration: PA-2026-001 | Ordinary motion: President-reported 5–0; Secretary confirmation pending; no constitutional amendment |
+| [2026-017](2026/2026-017-article-xiii-amendment-notice.md) | 23 November 2026 | Proposed Article XIII: full constitutional notice and consultation | Proposal only — not adopted; separate Article XI notice and vote required |
+
 ## Preservation policy
 
 Notices carry unique, stable IDs. Corrections should be documented with dated errata rather than silently replacing historical meaning. A published proposal is **not** a ratified law or voted resolution.
