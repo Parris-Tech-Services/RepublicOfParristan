@@ -1,6 +1,6 @@
 # Governance and Official Records
 
-**Status (19 November 2026):** The founding assembly unanimously ratified the internal constitution and appointed Glenn Peterson as Chief Digital Officer. Subsequent written votes appointed a Returning Officer and interim Secretary, Treasurer and Registrar. **No President has been elected.**
+**Status (23 November 2026):** The founding Assembly reported unanimous ratification of the internal constitution and appointment of Glenn Peterson as Chief Digital Officer. Subsequent documented ballots appointed officers and **confirmed Joshua Parris as President on 19 November 2026 (5 YES / 0 NO)**. On 23 November the President reported a 5–0 ordinary civic-governance resolution (PA-2026-001); Secretary verification of that vote is pending. [Decision register](DECISION_REGISTER.md) · [Gazette 2026-016](../gazette/2026/2026-016-civic-governance-repository-town-integration.md). No constitutional amendment was adopted on 23 November.
 
 ## Founding phase
 
