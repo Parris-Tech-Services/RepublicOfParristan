@@ -3,7 +3,7 @@
  * Safe fallback while Vercel free-tier deployment quota blocks public domain.
  * The official domain remains parristan.org; this mirror has NO write API.
  */
-const COMMIT='51d9042e9a1b6c0570876305e61edfceeea253db';
+const COMMIT='debff8e02e2853b5c750852b7a895e66a4467852';
 const BASE='https://raw.githubusercontent.com/Parris-Tech-Services/RepublicOfParristan/'+COMMIT+'/docs';
 const types={html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8',json:'application/json; charset=utf-8',svg:'image/svg+xml',png:'image/png',ico:'image/x-icon',webp:'image/webp',jpg:'image/jpeg',jpeg:'image/jpeg',txt:'text/plain; charset=utf-8',xml:'application/xml'};
 export default {
