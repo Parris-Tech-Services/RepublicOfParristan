@@ -15,6 +15,10 @@
 9. [x] Verify CI unit tests, shared D1 state, the first 15-minute scheduled D1 update (revision 0 → 1, tick 0 → 1 on 23 Nov 2026 at 06:30 UTC), and the rendered production Vercel website.
 10. [x] Merge the feature into main and verify the public Vercel-hosted page is HTTP 200 and renders 500 residents. Custom parristan.org URL was not independently reachable from the test browser.
 
+## Civic governance — 23 November 2026
+
+The Assembly's President reported a unanimous **ordinary** 5–0 vote on civic/simulation policy (PA-2026-001). [Full policy](../institutions/CIVIC_AND_SIMULATION_POLICY_2026-11-23.md) is effective within existing constitutional authority, pending Secretary verification of the original vote. [Gazette 2026-016](../gazette/2026/2026-016-civic-governance-repository-town-integration.md) records the motion. [Proposed Article XIII](../institutions/PROPOSED_AMENDMENT_2026_01_ARTICLE_XIII.md) is for consultation **only**; it has not been ratified. Fictional Tealford's Civic Association is chartered in policy but is **not yet an independently functioning simulation agent, tax collector, physical building or Australian authority**. The D1 runtime remains read-only and is not changed by this governance publication. [Public explanation](../docs/civic-governance.html).
+
 ## What's built
 
 - **Simulation engine:** [worker.js](worker.js). Every 15 minutes a scheduled Cloudflare Worker advances one shared world. It reconstructs elapsed time in 15-minute ticks, capped at 96 per invocation; state is saved to D1. On a concurrency conflict it declines the duplicate write and retries next schedule.
