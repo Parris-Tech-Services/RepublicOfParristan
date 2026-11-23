@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1726">
+<meta name="description" content="Watch 500 fictional autonomous residents travel, work, form friendships and create stories across a living simulation of Parristan.">
+<title>Living Nation · Republic of Parristan</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="living-nation.css">
+<script type="module" defer src="living-nation.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the Living Nation</a>
+<header class="topbar">
+  <div class="top-inner">
+    <a class="logo" href="index.html"><span class="logo-icon" aria-hidden="true">✦</span><span><strong>REPUBLIC OF PARRISTAN</strong><small>THE LIVING NATION · EXPERIMENTAL</small></span></a>
+    <nav aria-label="Primary"><a href="index.html">Gazette</a><a href="administration.html">Administration</a><a class="active" aria-current="page" href="living-nation.html">Living Nation</a></nav>
+  </div>
+</header>
+<div class="notice"><strong>Fictional simulation.</strong> These computer-generated residents, settlements and events are not real citizens, elections, government decisions or records of actual people. <a href="about.html">About the real civic initiative</a>.</div>
+<main id="main" class="shell">
+  <section class="intro">
+    <div class="eyebrow"><span class="star" aria-hidden="true">✧</span> A WORLD THAT CARRIES ON WITHOUT YOU</div>
+    <div class="intro-row"><div><h1>Life keeps moving<br><em>in Parristan.</em></h1><p>Peek into a little nation of self-directed fictional residents. They work, wander, make friends, change careers and leave stories behind — even when nobody's watching.</p></div><div class="status-tile"><span id="connection-dot" class="dot amber"></span><div><strong id="connection-label">Connecting…</strong><small id="last-update">Loading the latest snapshot</small></div><button id="refresh" type="button">Refresh ↻</button></div></div>
+  </section>
+  <section class="metrics" aria-label="Simulation overview">
+    <article><span class="metric-icon">◉</span><span class="metric-value" id="population">—</span><span class="metric-label">Fictional residents</span></article>
+    <article><span class="metric-icon">⌖</span><span class="metric-value" id="settlement-count">—</span><span class="metric-label">Settlements</span></article>
+    <article><span class="metric-icon">◷</span><span class="metric-value" id="world-time">—</span><span class="metric-label">Parristan local time</span></article>
+    <article><span class="metric-icon">↻</span><span class="metric-value" id="tick-count">—</span><span class="metric-label">Completed world ticks</span></article>
+  </section>
+  <div class="content-grid">
+    <section class="panel atlas" aria-labelledby="atlas-title">
+      <div class="panel-heading"><div><div class="section-overline">THE FICTIONAL ATLAS</div><h2 id="atlas-title">Explore the country</h2><p>Tap a resident to see where their story is going.</p></div><span class="pill">Live world snapshot</span></div>
+      <div class="map-controls"><label for="town-select">Settlement <select id="town-select"><option value="all">All settlements</option></select></label><label for="activity-select">Activity <select id="activity-select"><option value="all">All activities</option><option value="working">Working</option><option value="travelling">Travelling</option><option value="socialising">Socialising</option><option value="sleeping">Sleeping</option></select></label></div>
+      <div class="map-frame"><canvas id="world-map" width="1000" height="620" role="img" aria-label="Illustrated fictional map showing 12 settlements, roads, and resident locations. Select a resident from the accessible list beside the map."></canvas></div>
+      <div class="map-key"><span><i class="key-dot resident"></i> Resident</span><span><i class="key-dot work"></i> Working</span><span><i class="key-dot travel"></i> Travelling</span><span><i class="key-dot selected"></i> Selected</span><span class="map-caption">Illustrative geography · Not a real-world map</span></div>
+    </section>
+    <aside class="panel people" aria-labelledby="people-title">
+      <div class="panel-heading"><div><div class="section-overline">THE PEOPLE</div><h2 id="people-title">Meet a resident</h2></div></div>
+      <label class="search-label" for="citizen-search">Find a resident</label>
+      <input id="citizen-search" type="search" placeholder="Search by name or profession…" autocomplete="off">
+      <div id="citizen-list" class="citizen-list" aria-label="Select a resident"></div>
+      <section id="citizen-profile" class="profile" aria-live="polite"><p>Select a citizen on the map or from the list.</p></section>
+    </aside>
+  </div>
+  <section class="panel news" aria-labelledby="news-title">
+    <div class="panel-heading"><div><div class="section-overline">THE NATIONAL DIARY</div><h2 id="news-title">While you were away</h2><p>Small fictional stories from the autonomous simulation, newest first.</p></div><span class="pill" id="events-count">— stories</span></div>
+    <div class="event-filters" role="group" aria-label="Filter events"><button class="chosen" data-event="all" type="button">All stories</button><button data-event="friendship" type="button">Friendships</button><button data-event="business" type="button">Businesses</button><button data-event="travel" type="button">Travel</button><button data-event="work" type="button">Careers</button></div>
+    <div id="event-feed" class="event-feed" aria-live="polite"><p class="muted">Loading the national diary…</p></div>
+  </section>
+  <section class="explain"><div><span class="section-overline">HOW IT WORKS</span><h2>Real persistence. Fictional lives.</h2></div><p>The 500 citizens follow individual goals, routines and social rules. A Cloudflare scheduled Worker runs a world update every 15 minutes, and D1 stores the shared state and event history. This version uses <strong>autonomous simulation logic, not paid language-model calls</strong>, making it inexpensive to keep running.</p></section>
+</main>
+<footer><div><span>© 2026 Republic of Parristan · Living Nation experiment</span><span>Simulated agents are never counted as actual citizens. <a href="index.html">Back to the Gazette</a></span></div></footer>
+</body></html>
