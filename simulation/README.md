@@ -12,8 +12,8 @@
 6. [x] Create a mobile-responsive map, citizen search/profile and recent-event diary.
 7. [x] Persist state with version-checked D1 updates and limit events to the latest 800 and memories to five per citizen.
 8. [x] Separate simulated data from the real civic Gazette and membership register; expose read-only API.
-9. [ ] Verify CI unit tests, scheduled D1 writes and production website end to end.
-10. [ ] Merge into main and verify deployment of the public page.
+9. [x] Verify CI unit tests, shared D1 initial state and rendered Vercel production website. Scheduled D1 writes remain unverified until a cron execution is observed.
+10. [x] Merge the feature into main and verify the public Vercel-hosted page is HTTP 200 and renders 500 residents. Custom parristan.org URL was not independently reachable from the test browser.
 
 ## What's built
 
@@ -54,7 +54,7 @@ The GitHub Actions workflow living-nation-tests.yml runs these checks on feature
 2. Deploy simulation/worker.js as a Cloudflare ES module Worker, with a D1 binding named DB.
 3. Enable a cron trigger at */15 * * * * and a workers.dev subdomain.
 4. Verify GET /api/health reports 500 residents and GET /api/world has fictional:true.
-5. Recheck after a later quarter-hour that ticks and revision advance; inspect invocation logs otherwise.
+5. Recheck after a later quarter-hour that ticks and revision advance; inspect invocation logs otherwise. **Status:** cron trigger was configured and confirmed by API, but background execution is not counted as verified until a later revision/tick is observed.
 
 **Rollback:** Stop background execution by disabling the cron trigger. Revert the website feature commit if required. Preserve/export the D1 database before a reset; never delete the Gazette or membership records.
 
