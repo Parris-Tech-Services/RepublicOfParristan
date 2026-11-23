@@ -1,6 +1,6 @@
 # Public Decision Register — Founder-Supplied Assembly Minutes
 
-**Updated:** 19 November 2026  
+**Updated:** 23 November 2026  
 **Source:** [First Assembly minutes](../docs/FOUNDING_ASSEMBLY_2026-11-19.md), supplied by the founding organiser; this is a transcription and not a separately witnessed signature audit.
 
 All five founders reportedly attended the assembly commencing **3:30 pm AEDT, 19 November 2026**. The following internal civic resolutions were adopted by the participating founders:
@@ -19,6 +19,10 @@ All five founders reportedly attended the assembly commencing **3:30 pm AEDT, 19
 | FA-2026-010 | 19 Nov 2026 | Motion 6: bring forward first presidential election to the same day; confidential email ballot to the Returning Officer | **5 YES / 0 NO / 0 ABSTAIN** (closed 5:51 pm AEDT) | Replaces Motion 2 timetable; [Gazette 2026-012](../gazette/2026/2026-012-election-timetable-brought-forward.md) |
 | FA-2026-011 | 19 Nov 2026 | First presidential election: confirmation ballot, sole candidate Joshua Parris | **5 YES / 0 NO** (declared 5:51 pm AEDT by Returning Officer) | Joshua Parris President, 19 Nov 2026 – 19 Nov 2028; [Gazette 2026-013](../gazette/2026/2026-013-first-president-confirmed.md) |
 | FA-2026-012 | 19 Nov 2026 | Motion 7 (en bloc): President's mission and five goals; chair and minutes; Matrix for votes, email for notices; first meeting week of 7 Dec; US$18.50 founding costs as donation; financial controls; membership policy incl. junior members; website to parristan.org; symbols vote Jan 2027; invited applications from Mar 2027 | **Reported unanimous: 5 YES / 0 NO / 0 ABSTAIN** (closing time not supplied); no item split | [Gazette 2026-014](../gazette/2026/2026-014-presidents-first-programme.md) |
+| PA-2026-001 | 23 Nov 2026 | Civic Governance and Repository Town Integration motion: lawful fictional integration; voluntary local associations; AI/human separation; Civic Service simulation; virtual-only rates; technical realism, transparency and development stages. Clause 9 **publishes and consults on Article XIII only**; no constitutional ratification occurred. | **President-reported 5 YES / 0 NO / 0 ABSTAIN**; all five members voted in favour (channel verification and Secretary certification pending). | Ordinary internal policy and project authority within existing Constitution; no sovereign or compulsory powers. [Gazette 2026-016](../gazette/2026/2026-016-civic-governance-repository-town-integration.md) |
+
+
+**23 November 2026 follow-up:** PA-2026-001 records a President-reported unanimous written/Assembly vote. The association's authorized Secretary/Registrar should confirm voter eligibility, exact text, voting channel and meeting notice in its private source records. Gazette 2026-016 is not the adoption record of proposed Article XIII; Constitution v0.1 and Article XI's notice requirement remain unchanged.
 
 **Update (FA-2026-008):** members confirmed the published Constitution v0.1 as the adopted text. The founding-assembly notice time remains unrecorded.
 
