@@ -11,18 +11,21 @@ data_path = ROOT / "docs/data/decisions.json"
 payload = json.loads(data_path.read_text(encoding="utf-8"))
 records = payload["decisions"]
 ids = [d["id"] for d in records]
-expected = [f"FA-2026-{i:03d}" for i in range(1, len(records) + 1)]
+expected = [f"FA-2026-{i:03d}" for i in range(1, 13)] + ["PA-2026-001"]
 if payload.get("schema_version") != 1 or ids != expected or len(ids) != len(set(ids)):
     errors.append("Decision IDs must be ordered, unique and match the export schema")
 register = (ROOT / "institutions/DECISION_REGISTER.md").read_text(encoding="utf-8")
 gazette_index = (ROOT / "gazette/INDEX.md").read_text(encoding="utf-8")
-registered = re.findall(r"^\| (FA-\d{4}-\d{3}) \|", register, flags=re.MULTILINE)
+registered = re.findall(r"^\| ((?:FA|PA)-\d{4}-\d{3}) \|", register, flags=re.MULTILINE)
 if registered != ids:
     errors.append("Machine-readable decisions differ from the authoritative Markdown register")
 
 for record in records:
-    if record["date"] != "2026-11-19":
+    expected_date = "2026-11-23" if record["id"] == "PA-2026-001" else "2026-11-19"
+    if record["date"] != expected_date:
         errors.append(f"Unexpected date for {record['id']}; review provenance before changing")
+    if record["id"] == "PA-2026-001" and (record.get("constitutional_amendment") is not False or "Secretary" not in record.get("certification", "")):
+        errors.append("New ordinary motion cannot masquerade as an adopted Article XIII amendment or a certified ballot")
     votes = [record[k] for k in ("yes", "no", "abstain")]
     if not all(v is None for v in votes):
         if not all(isinstance(v, int) and not isinstance(v, bool) and v >= 0 for v in votes):
@@ -43,7 +46,7 @@ for record in records:
 
 for page in ("docs/administration.html", "docs/decisions.html"):
     content = (ROOT / page).read_text(encoding="utf-8")
-    listed = re.findall(r'data-decision-id="(FA-\d{4}-\d{3})"', content)
+    listed = re.findall(r'data-decision-id="((?:FA|PA)-\d{4}-\d{3})"', content)
     if listed != ids:
         errors.append(f"{page} must list every decision exactly once, in ID order")
     if "data/decisions.json" not in content:
