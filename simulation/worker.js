@@ -3,6 +3,7 @@
  * Cloudflare Worker + D1. No paid LLM, personal data or public mutation API.
  * Data never represents real citizenship, elections or government actions.
  */
+import {ensureCivicState,applyCivicTick,publicCivicSnapshot,FIRST_CHARTERED_TOWN} from './civic.js';
 export const TICK_MS = 15 * 60 * 1000;
 export const SETTLEMENTS = [
   { id: 0, name: 'Founders Square', x: 49, y: 49, kind: 'capital' },
@@ -55,9 +56,11 @@ export function seedWorld(now=Date.now(),count=500) {
       activity:'at home',business:null,friends:[],memories:[],lastAction:'Settled into '+settle(homeTown).name
     });
   }
-  return {schema:1,simulation:'fictional',startedAt:now,updatedAt:now,tick:0,settlements:SETTLEMENTS,
+  const world={schema:1,simulation:'fictional',startedAt:now,updatedAt:now,tick:0,settlements:SETTLEMENTS,
     citizens,events:[{id:0,at:now,type:'community',town:0,actor:0,
       text:'The fictional Living Nation simulation began with '+count+' residents across 12 settlements.'}]};
+  ensureCivicState(world);
+  return world;
 }
 function remember(person,text) {
   person.memories.unshift(text);
@@ -114,6 +117,8 @@ export function runTick(world,time) {
   world.tick+=1;
   const rng=rand((world.tick*2654435761+0xC0FFEE)>>>0);
   const {hour,weekend}=dayInfo(time);
+  ensureCivicState(world); // migrate existing D1 saves without changing citizen IDs or restarting time
+  const workersByTown=new Map();
   for(const p of world.citizens) {
     if(p.visitTown!==null&&world.tick>=p.visitUntil)p.visitTown=null;
     let destX=p.homeX,destY=p.homeY,activity='at home';
@@ -130,12 +135,20 @@ export function runTick(world,time) {
     p.x=Math.round((p.x+(destX-p.x)*.24)*100)/100;
     p.y=Math.round((p.y+(destY-p.y)*.24)*100)/100;
     p.activity=activity;
-    if(activity==='working'){p.credits=clamp(p.credits+.8,0,10000);p.energy=clamp(p.energy-.6,0,100);}
+    if(activity==='working'){
+      const chartered=p.workTown===FIRST_CHARTERED_TOWN;
+      // Each fictional worker receives 0.80 Parri; in chartered Tealford
+      // 0.08 is credited to the simulated civic fund (no real payment).
+      p.credits=clamp(p.credits+(chartered?.72:.8),0,10000);
+      p.energy=clamp(p.energy-.6,0,100);
+      if(chartered){const workers=workersByTown.get(p.workTown)||[];workers.push(p.id);workersByTown.set(p.workTown,workers);}
+    }
     else if(activity==='sleeping')p.energy=clamp(p.energy+2,0,100);
     else if(activity==='shopping')p.credits=clamp(p.credits-1.4,0,10000);
     else if(activity==='socialising')p.mood=clamp(p.mood+.6,0,100);
     if(rng()<.0016)story(world,p,rng,time);
   }
+  applyCivicTick(world,time,workersByTown);
   world.updatedAt=time;
 }
 export function advanceWorld(world,now=Date.now(),maxTicks=96) {
@@ -175,7 +188,7 @@ export default {
       'access-control-allow-origin':'*','access-control-allow-methods':'GET, HEAD, OPTIONS','access-control-allow-headers':'content-type'}});
     if(request.method!=='GET'&&request.method!=='HEAD')return json({error:'Read-only API'},405);
     const path=new URL(request.url).pathname;
-    if(!['/','/api/world','/api/health'].includes(path))return json({error:'Not found'},404);
+    if(!['/','/api/world','/api/health','/api/civic'].includes(path))return json({error:'Not found'},404);
     try {
       const {world,revision}=await loadWorld(env.DB);
       const health={status:'ok',name:'Parristan Living Nation',fictional:true,
@@ -184,8 +197,9 @@ export default {
         minutesSinceUpdate:Math.max(0,Math.floor((Date.now()-world.updatedAt)/60000)),
         scheduledIntervalMinutes:15};
       if(path==='/api/health')return json(health);
+      if(path==='/api/civic')return json(publicCivicSnapshot(world));
       if(path==='/')return json({name:health.name,api:'/api/world',health:'/api/health',
-        website:'https://parristan.org/living-nation.html',fictional:true});
+        website:'https://parristan.org/living-nation.html',civic:'/api/civic',fictional:true});
       return json({schema:world.schema,fictional:true,startedAt:world.startedAt,updatedAt:world.updatedAt,
         tick:world.tick,settlements:world.settlements,citizens:world.citizens,
         events:world.events.slice().reverse(),population:world.citizens.length});
