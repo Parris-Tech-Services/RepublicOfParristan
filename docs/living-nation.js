@@ -8,7 +8,7 @@ const fmt = value => Number(value||0).toLocaleString('en-AU');
 const townName = (world,id) => world.settlements.find(t=>t.id===id)?.name||'Unknown town';
 const initial = name => name.split(/\s+/).slice(0,2).map(p=>p[0]).join('').toUpperCase();
 const map = $('#world-map'),ctx = map.getContext('2d');
-let world=null,selectedId=1,eventFilter='all',loading=false;
+let world=null,selectedId=1,eventFilter='all',loading=false,cachedSnapshot=false;
 let townFilter='all',activityFilter='all',clockFrame=0,staticMap=null;
 const eventIcons={community:'✦',friendship:'♡',business:'▣',travel:'➜',work:'⚒',housing:'⌂',culture:'♫'};
 function localClock(date) {
@@ -26,12 +26,12 @@ function connection(label,detail,mode) {
   $('#last-update').textContent=detail;
   $('#connection-dot').className='dot '+(mode||'');
 }
-function statusFromWorld(cached=false) {
+function statusFromWorld(cached=cachedSnapshot) {
   if(!world)return;
   const age=Math.max(0,Math.floor((Date.now()-world.updatedAt)/60000));
   if(cached)connection('Cached snapshot','Backend unavailable · '+ago(world.updatedAt),'amber');
-  else if(world.tick===0)connection('World initialised','First 15-minute update pending','amber');
   else if(age>45)connection('Updates delayed','Last world tick '+ago(world.updatedAt),'amber');
+  else if(world.tick===0)connection('World initialised','First 15-minute update pending','amber');
   else connection('World is running','Last world tick '+ago(world.updatedAt),'');
 }
 function renderMetrics() {
@@ -192,11 +192,11 @@ async function loadWorld() {
     if(!response.ok)throw new Error('HTTP '+response.status);
     const next=await response.json();
     if(next.fictional!==true||next.population!==500||!Array.isArray(next.citizens)||next.citizens.length!==500)throw new Error('Unexpected world format');
-    world=next;try{localStorage.setItem(CACHE_KEY,JSON.stringify(next));}catch{}
+    world=next;cachedSnapshot=false;try{localStorage.setItem(CACHE_KEY,JSON.stringify(next));}catch{}
     renderAll();statusFromWorld(false);
   }catch(error){
     if(!world){try{const cached=JSON.parse(localStorage.getItem(CACHE_KEY)||'null');if(cached?.fictional&&Array.isArray(cached.citizens)){world=cached;renderAll();}}catch{}}
-    if(world)statusFromWorld(true);
+    if(world){cachedSnapshot=true;statusFromWorld(true);}
     else {connection('Connection unavailable','No saved snapshot on this device','error');$('#event-feed').textContent='Could not load the world: '+String(error.message||error)+'. Try Refresh.';}
   }finally{clearTimeout(timer);loading=false;$('#refresh').disabled=false;}
 }
@@ -218,7 +218,7 @@ document.querySelectorAll('[data-event]').forEach(button=>button.addEventListene
   renderEvents();
 }));
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)loadWorld();});
-setInterval(()=>{if(world){renderMetrics();statusFromWorld(false);renderEvents();}},60000);
+setInterval(()=>{if(world){renderMetrics();statusFromWorld();renderEvents();}},60000);
 setInterval(loadWorld,90000);
 requestAnimationFrame(animate);
 loadWorld();
