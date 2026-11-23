@@ -1,0 +1,32 @@
+name: Living Nation simulation checks
+on:
+  push:
+    branches: [main, feat/living-nation-2026-11-23]
+    paths:
+      - "simulation/**"
+      - "docs/living-nation.*"
+      - ".github/workflows/living-nation-tests.yml"
+  pull_request:
+    paths:
+      - "simulation/**"
+      - "docs/living-nation.*"
+      - ".github/workflows/living-nation-tests.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate JavaScript syntax
+        run: |
+          node --check simulation/worker.js
+          node --check docs/living-nation.js
+      - name: Test simulated world engine
+        run: node --test simulation/test.mjs
+      - name: Ensure Gazette is still valid
+        run: python3 scripts/validate_gazette.py
