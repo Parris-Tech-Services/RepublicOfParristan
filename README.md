@@ -19,6 +19,10 @@ The Gazette is a permanent, version-controlled record of **real announcements**,
 - [Gazette No. 2026-007 — Returning Officer appointed; election timetable](gazette/2026/2026-007-returning-officer-and-election-timetable.md)
 - [Gazette No. 2026-008 — Interim office-holders appointed](gazette/2026/2026-008-interim-roles-en-bloc.md)
 - [Gazette No. 2026-009 — Standing procedures; constitution text confirmed](gazette/2026/2026-009-standing-procedures.md)
+- [Gazette No. 2026-016 — Civic governance and Repository Town integration (reported 5–0 ordinary vote)](gazette/2026/2026-016-civic-governance-repository-town-integration.md)
+- [Gazette No. 2026-017 — Proposed Article XIII, NOT ratified](gazette/2026/2026-017-article-xiii-amendment-notice.md)
+- [Effective ordinary civic and simulation policy](institutions/CIVIC_AND_SIMULATION_POLICY_2026-11-23.md)
+- [Proposed full-text Article XIII — separate constitutional vote required](institutions/PROPOSED_AMENDMENT_2026_01_ARTICLE_XIII.md)
 - [Browse the Gazette index](gazette/INDEX.md)
 
 ## Website
