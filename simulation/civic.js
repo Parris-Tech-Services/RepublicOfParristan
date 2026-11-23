@@ -20,7 +20,7 @@ export function ensureCivicState(world) {
       id:'civic:'+t.id,town:t.id,name:t.name+' Civic Association (Simulation)',
       charter:t.id===FIRST_CHARTERED_TOWN?'chartered':'proposed',
       budgetCents:0,receivedCents:0,spentCents:0,
-      contributions:0,serviceEvents:0,services:services.slice(),
+      contributions:0,serviceEvents:0,assistedCases:0,services:services.slice(),
       lastFundedService:null
     })),
     ledger:[] // last 160 simulated transactions; aggregate per tick, never identity-bearing
@@ -57,6 +57,28 @@ export function applyCivicTick(world,time,workersByTown) {
     });
     if(world.events.length>800)world.events.splice(0,world.events.length-800);
   }
+  // Only on-duty fictional workers can provide assistance. Pay them with
+  // virtual funds, record the transaction, and preserve their own memory.
+  const onDuty=paying.map(id=>world.citizens.find(p=>p.id===id)).filter(p=>p &&
+    ['Ranger','Postal worker','Librarian','Gardener'].includes(p.occupation));
+  if(world.tick%16===0 && onDuty.length && t.budgetCents>=75){
+    const officer=onDuty[(world.tick/16)%onDuty.length];
+    const tasks=['lost property help','visitor directions','community safety information','pedestrian crossing assistance'];
+    const task=tasks[(t.assistedCases||0)%tasks.length];
+    const note='Helped with fictional '+task+' in Tealford Civic Service.';
+    const cents=75;
+    t.budgetCents-=cents;t.spentCents+=cents;t.assistedCases=(t.assistedCases||0)+1;
+    officer.credits=Math.round(Math.min(10000,officer.credits+cents/100)*100)/100;
+    officer.memories.unshift(note);
+    if(officer.memories.length>5)officer.memories.length=5;
+    officer.lastAction=note;
+    boundedLedger(state,{tick:world.tick,at:time,town:2,kind:'simulated-assistance',
+      recipientCitizenId:officer.id,amountCents:-cents,
+      description:'Paid fictional '+officer.occupation.toLowerCase()+' '+officer.name+' for '+task});
+    world.events.push({id:world.tick*1000+901,at:time,type:'community',town:2,actor:officer.id,
+      text:officer.name+' provided fictional '+task+' for Tealford Civic Service and received 0.75 virtual Parri.'});
+    if(world.events.length>800)world.events.splice(0,world.events.length-800);
+  }
 }
 export function publicCivicSnapshot(world) {
   const state=world.civic?.schema===CIVIC_SCHEMA?world.civic:null;
@@ -64,7 +86,7 @@ export function publicCivicSnapshot(world) {
     id:'civic:'+t.id,town:t.id,name:t.name+' Civic Association (Simulation)',
     charter:t.id===FIRST_CHARTERED_TOWN?'chartered':'proposed',
     budgetCents:0,receivedCents:0,spentCents:0,contributions:0,
-    serviceEvents:0,services:services.slice(),lastFundedService:null
+    serviceEvents:0,assistedCases:0,services:services.slice(),lastFundedService:null
   }))).map(a=>{
     const residents=world.citizens.filter(c=>c.homeTown===a.town);
     const relevant=world.citizens.filter(c=>c.workTown===a.town&&
@@ -77,7 +99,7 @@ export function publicCivicSnapshot(world) {
       services:a.services.map(name=>({name,status:a.serviceEvents&&name===a.lastFundedService?'last-funded-in-ledger':'planned'})),
       budgetParri:money(a.budgetCents),receivedParri:money(a.receivedCents),
       spentParri:money(a.spentCents),contributions:a.contributions,
-      fundedProgrammes:a.serviceEvents,lastFundedService:a.lastFundedService};
+      fundedProgrammes:a.serviceEvents,assistedCases:a.assistedCases||0,lastFundedService:a.lastFundedService};
   });
   return {schema:CIVIC_SCHEMA,fictional:true,legalAuthority:false,
     votesFromAIResidents:false,realWorldFees:false,realPolicePowers:false,
