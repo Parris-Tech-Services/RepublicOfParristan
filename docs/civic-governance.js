@@ -12,7 +12,7 @@ function card(a){
   el.append(text('p',a.settlement+' · '+a.residents+' fictional residents','civic-quiet'));
   const group=text('div','', 'civic-metrics');
   for(const [name,value] of [['Balance',format(a.budgetParri)+' Parri'],['Receipts',format(a.receivedParri)+' Parri'],
-    ['Spent',format(a.spentParri)+' Parri'],['Programmes funded',a.fundedProgrammes]]){
+    ['Spent',format(a.spentParri)+' Parri'],['Programmes funded',a.fundedProgrammes],['Assistance cases',a.assistedCases||0]]){
     const item=text('div','', 'civic-metric');item.append(text('small',name),text('strong',value));group.append(item);
   }
   el.append(group);
