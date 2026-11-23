@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "recorded_as_of": "2026-11-19",
-  "record_basis": "Founder-supplied minutes and existing FA decision register; this file does not certify any separate vote.",
+  "recorded_as_of": "2026-11-23",
+  "record_basis": "Founder-supplied founding minutes and PA-2026-001 President-reported 5–0 ordinary resolution (Secretary certification pending). This public export does not independently certify ballots or constitutional amendments.",
   "source_register": "institutions/DECISION_REGISTER.md",
   "legal_status": "Voluntary civic/micronational association; no recognition as a sovereign state.",
   "decisions": [
@@ -148,6 +148,20 @@
       "abstain": 0,
       "notice": "2026-014",
       "source": "gazette/2026/2026-014-presidents-first-programme.md"
+    },
+    {
+      "id": "PA-2026-001",
+      "date": "2026-11-23",
+      "meeting": "President-reported authorised Assembly/written vote",
+      "title": "Civic Governance and Repository Town Integration ordinary policy; proposed Article XIII published for consultation only",
+      "result": "5 YES / 0 NO / 0 ABSTAIN (President-reported; Secretary verification pending)",
+      "yes": 5,
+      "no": 0,
+      "abstain": 0,
+      "notice": "2026-016",
+      "source": "gazette/2026/2026-016-civic-governance-repository-town-integration.md",
+      "certification": "Secretary verification pending",
+      "constitutional_amendment": false
     }
   ]
 }
