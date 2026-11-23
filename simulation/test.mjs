@@ -111,6 +111,24 @@ test('old persisted D1 world migrates in place on next tick without reset',()=>{
   assert.equal(world.citizens.length,500);
   assert.equal(ensureCivicState(world),world.civic,'idempotent migration');
 });
+test('fictional Civic Service recruits on-duty residents and pays for actual assistance',()=>{
+  const world=seedWorld(Date.UTC(2026,10,23));
+  for(let i=0;i<96;i++)runTick(world,world.updatedAt+TICK_MS);
+  const c=publicCivicSnapshot(world),tealford=c.associations.find(a=>a.town===2);
+  assert.ok(tealford.assistedCases>0,'non-coercive help should have happened during a workday');
+  const payouts=c.ledger.filter(e=>e.kind==='simulated-assistance');
+  assert.ok(payouts.length>0,'virtual assistance transactions in civic ledger');
+  for(const p of payouts){
+    assert.equal(p.town,2);
+    assert.equal(p.amountCents,-75);
+    const worker=world.citizens.find(w=>w.id===p.recipientCitizenId);
+    assert.ok(worker&&['Ranger','Postal worker','Librarian','Gardener'].includes(worker.occupation));
+    assert.ok(worker.memories.some(m=>m.includes('fictional')));
+  }
+  assert.ok(world.events.some(e=>e.text.includes('Tealford Civic Service')&&e.type==='community'));
+  assert.ok(world.citizens.every(c=>c.credits>=0),'no negative citizen money');
+  assert.equal(Math.round((tealford.receivedParri-tealford.spentParri)*100),Math.round(tealford.budgetParri*100));
+});
 test('public snapshot never exposes real member records or voter eligibility',()=>{
   const world=seedWorld(Date.UTC(2026,10,23));
   const out=JSON.stringify(publicCivicSnapshot(world));
